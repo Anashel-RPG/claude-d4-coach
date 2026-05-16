@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "d4-calc": {
+      "type": "http",
+      "url": "https://mcp-d4.anashel.com/"
+    }
+  }
+}
