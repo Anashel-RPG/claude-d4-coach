@@ -1,92 +1,69 @@
 # Barbarian
 
-> Season: 10 · Patch: 2.4.x · Last refreshed: 2026-05-16 · Source: https://maxroll.gg/d4/resources/barbarian-class-overview https://www.icy-veins.com/d4/barbarian-class-overview
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-16 · Source: https://maxroll.gg/d4/resources/barbarian-class-overview
 
 ## Core identity
-Fury-based melee class that equips four weapons simultaneously, swapping between them per skill via the Arsenal System. Deals Physical damage by default; excels at close-range burst and sustained DPS through Berserking uptime.
+Barbarian is a melee brawler who equips four weapons simultaneously and cycles through them via the Arsenal System. It excels at high burst damage, sustained Berserking uptime, and tanking while moving.
 
 ## Damage scaling buckets
-- **Multiplicative sources:** Berserking bonus (25%[x] base, 60%[x] with Unconstrained, doubles to 120%[x] with Supreme Wrath of the Berserker + Unconstrained), Weapon Expertise bonuses (e.g., 2H Axe x10% vs Vulnerable, 1H Mace x10% vs Stunned), Unbridled Rage core skill bonus, Walking Arsenal bonus
-- **Additive sources:** Strength (11% skill damage per 100), Dexterity (2% Crit Chance per 100), War Cry damage bonus, weapon DPS of Arsenal-assigned weapon
-- **Critical / Vulnerable / Overpower hooks:** Gushing Wounds (Crit + Bleed synergy, requires high Crit Chance/Damage + The Grandfather), 2H Axe Expertise (x10% vs Vulnerable + 10% Crit Chance vs Vulnerable), Willpower (25% Overpower Damage per 100), Bash (can guarantee Overpower), Pressure Point passive
+- **Multiplicative sources:** Berserking damage bonus (base 25%[x], up to 60%[x] with Unconstrained; 120%[x] via Supreme Wrath of the Berserker + Unconstrained), Two-Handed Axe Expertise (Vulnerable damage), Unbridled Rage (Core Skill damage)
+- **Additive sources:** Rolled affixes on all equipped weapons (always apply to damage), skill ranks (+10% base value per rank), passive skill ranks (3 ranks, linear scaling), Two-Handed Sword Expertise Rank 10 (+30% Bleeding damage)
+- **Critical / Vulnerable / Overpower hooks:** Gushing Wounds (requires maxed Crit Chance + Crit Damage + The Grandfather), Two-Handed Axe Expertise (Vulnerable damage bonus via Technique Slot), 1H Axe Expertise Rank 10 (Lucky Hit — Crits up to 55% chance to grant +6% Attack Speed for 2s; doubled when dual-wielding axes)
 
 ## Skill tree priorities
-| Skill | Role | Notes |
-|---|---|---|
-| Lunging Strike | Basic / Fury gen | Most popular basic; mobility, heal, Berserking trigger or Bleed |
-| Flay | Basic / Fury gen | Best for Bleed builds; grants Damage Reduction |
-| Frenzy | Basic / Fury gen | Taken for Damage Reduction; enabled by Battle Trance unique |
-| Bash | Basic / Fury gen | Stunlock potential, Fortify gen, Overpower guarantee |
-| Hammer of the Ancients | Core / primary damage | Top endgame core skill; Furious upgrade scales best; pairs with Ancestral Force |
-| Whirlwind | Core / primary damage | Fury-efficient, unique playstyle, poor single-target |
-| Double Swing | Core / primary damage | Best Fury efficiency and single-target DPS; small AOE |
-| Rend | Core / damage | Highest damage-per-hit core; Fury-efficient; DoT dependent |
-| Rallying Cry | Defensive shout | Movement speed, Fury gen, Unstoppable; near-mandatory |
-| Challenging Shout | Defensive shout | Extra Life and Damage Reduction for endgame survivability |
-| War Cry | Brawling shout | 4s Berserking grant; long cooldown |
-| Ground Stomp | Defensive / utility | Fury gen, cooldown reduction, survivability; synergy with Double Swing |
-| Steel Grasp | Weapon Mastery | Groups enemies, grants Berserking + Vulnerable |
-| Death Blow | Weapon Mastery | Highest boss damage potential with Encroaching Wrath + Earthstriker |
-| Wrath of the Berserker | Ultimate | Most popular endgame ultimate; Fury gen, Movement Speed, Unstoppable, Berserking doubling |
-| Unconstrained | Key Passive | Raises Berserking cap to 10s, boosts bonus to 60%[x]; best for Berserking-centric builds |
-| Unbridled Rage | Key Passive | Extra Fury cost for massive damage bonus; best for core-skill endgame builds |
-| Walking Arsenal | Key Passive | Requires using all 3 weapon types; significant damage + attack speed bonus |
-| Gushing Wounds | Key Passive | Bleed + Crit synergy; requires The Grandfather and optimized gear |
+| Skill | Role | Applies | Generates / Consumes | Notes |
+|---|---|---|---|---|
+| Lunging Strike | Basic (most popular) | Physical | Generates Fury | Primary Fury builder; most-run basic skill |
+| Frenzy | Basic | Physical | Generates Fury | Only basic skill with a dedicated Unique (Battle Trance) |
+| Hammer of the Ancients | Core (most popular) | Physical | Consumes Fury | Furious upgrade scales better into endgame; pairs with Unbridled Rage |
+| Rend | Core | Physical (Bleed) | Consumes Fury | Highest damage per hit of all core skills |
+| Double Swing | Core | Physical | Generates / Consumes Fury | Best Fury-efficiency and single-target DPS among core skills |
+| Whirlwind | Core | Physical | Consumes Fury | Extremely Fury-efficient; poor single-target damage |
+| Death Blow | Weapon Mastery | Physical | Consumes Fury | Highest boss damage potential with Encroaching Wrath + Earthstriker on 2H weapons |
+| Rallying Cry | Shout | — | Generates Fury | Grants Unstoppable; can be used without interrupting attacks |
+| War Cry | Shout | Berserking (4s) | — | Core Berserking uptime tool |
+| Wrath of the Berserker | Ultimate (most popular) | Berserking, Unstoppable | Generates Fury | Boosts Berserking bonus from 25% to 50%; synergizes with Unconstrained for 120%[x] |
 
 ## Key passives / class mechanic
-**Arsenal System:** Barbarian equips 4 weapons (2H Mace + 2H Sword/Axe/Polearm + two 1H weapons). Each weapon type has a Weapon Expertise bonus that activates when that weapon is used for an attack. Expertise levels from 1–10 via on-hit XP; Rank 10 unlocks an additional bonus per weapon type.
+| Key Passive | Buffs (state/skill) | Effect | Best for |
+|---|---|---|---|
+| Unbridled Rage | Core Skills | Considered best Key Passive for endgame Core Skill damage builds | Any Core Skill build, including Bleed |
+| Unconstrained | Berserking, Wrath of the Berserker | Increases Berserking duration cap 5s → 10s; raises bonus from 25%[x] to 60%[x]; combined with Supreme WotB = 120%[x] | Wrath of the Berserker builds |
+| Walking Arsenal | All weapon skills | Requires using 3 different weapons at least once every 15s to maintain bonus | Arsenal-cycling builds |
+| Gushing Wounds | Crit-based Bleed | Requires maximized Crit Chance, Crit Damage, and The Grandfather weapon | The Grandfather / Crit Bleed builds |
+| Barbed Carapace | Thorns | Pulses Thorns damage to nearby enemies every second | Thorns builds |
 
-**Technique Slot:** Unlocked at Level 15 via quest in Dry Steppes. Grants one chosen Weapon Expertise bonus permanently regardless of which weapon is actively used. Most common picks: 2H Sword (apply Bleed to all attacks) or 2H Axe (bonus Vulnerable damage).
-
-**Weapon Expertise bonuses (Rank 10):**
-- 1H Axe: +10% Crit Chance vs injured (double with two Axes); Lucky Hit: Crits grant +6% Attack Speed
-- 1H Mace: x10% damage to Stunned (double with two Maces); Lucky Hit: Berserking on hitting Stunned
-- 1H Sword: Lucky Hit: Fury on hitting CC'd enemy; killing CC'd enemy grants Attack Speed
-- 2H Axe: x10% vs Vulnerable; +10% Crit Chance vs Vulnerable
-- Polearm: +15% Lucky Hit Chance; x15% damage while Healthy
-- 2H Sword: x20% base damage as Bleed over 5s; x30% Bleeding damage
-- 2H Mace: Lucky Hit: Fury on hit (doubled while Berserking); x15% Crit Damage while Berserking
-
-**Key Passives (choose one):** Unconstrained, Walking Arsenal, Unbridled Rage, Gushing Wounds, Barbed Carapace (Thorns-pulsing playstyle).
+> Only one Key Passive can be active per build.
 
 ## Aspects (legendary)
-| Aspect | Slot | Effect bucket | When to drop it |
-|---|---|---|---|
-| Ancestral Force | Weapon | AOE expansion for Hammer of the Ancients | Drop when not running HotA |
-| Encroaching Wrath | Weapon | Death Blow damage scaling | Only in Death Blow builds |
-| Earthstriker | Weapon | 2H weapon bonus for Death Blow | Only in Death Blow builds |
-| Battle Trance | Unique item | Enables Frenzy-based builds | Drop if no Frenzy |
+| Aspect | Slot | Buffs (skill/state) | Effect | When to drop it |
+|---|---|---|---|---|
+| Encroaching Wrath | Weapon | Death Blow | Synergizes with Death Blow + Earthstriker on two-handed weapons for highest boss damage | When not running a Death Blow build |
 
-*(Full aspect list not covered in source — see Legendary Aspects overview)*
+*(Additional aspects not covered in source.)*
 
 ## Uniques worth chasing
-| Unique | Slot | Why | GA priority |
-|---|---|---|---|
-| Battle Trance | (1H weapon) | Sole unique enabling Frenzy endgame builds | High for Frenzy builds |
-| The Grandfather | 2H Sword | Required to make Gushing Wounds key passive viable | High for Bleed/Crit builds |
-
-*(Full unique list not covered in source)*
-
-## Mythic uniques
-(not covered in source)
+| Unique | Slot | Buffs | Why | GA priority |
+|---|---|---|---|---|
+| The Grandfather | Two-Handed Sword | Gushing Wounds | Required for Gushing Wounds Key Passive to reach full effectiveness; one of the rarest weapons | High — mandatory for Gushing Wounds builds |
+| Battle Trance | (Unique for Frenzy) | Frenzy | Only Unique item dedicated to a Barbarian basic skill | Situational — Frenzy builds only |
 
 ## Tempering manuals
-(not covered in source)
+- Weapon: (not covered in source)
+- Armor: (not covered in source)
 
 ## Masterworking crit picks
-(not covered in source)
+1. (not covered in source)
 
 ## Paragon priority
-(not covered in source)
-
-## Mercenary pairing
-(not covered in source)
+- Starting board: (not covered in source)
+- Glyph order to L15: (not covered in source)
 
 ## Common mistakes
-- Ignoring Arsenal System weapon assignment; leaving all skills on Auto-Select can cause suboptimal weapon usage
-- Not completing the Level 15 Technique Slot quest early — forfeits a permanent free Weapon Expertise bonus
-- Equipping Gushing Wounds without The Grandfather and maxed Crit stats — underperforms all other key passives without full investment
-- Treating stat-stick weapons by their DPS — only the Arsenal-assigned weapon's DPS matters for skill damage
-- Running Iron Skin — Barrier from it is too fragile in endgame; slot is better used elsewhere
-- Neglecting Fury generation on gear — Unbridled Rage and core skills punish low Resource Generation hard
-- Taking Call of the Ancients into endgame — does not scale; replace with Wrath of the Berserker
+- Ignoring Arsenal System weapon assignment — raw skill DPS is determined only by the weapon assigned to that skill, not all equipped weapons.
+- Treating Technique Slot as optional early — unlock it via the level 15 quest chain in Dry Steppes; the passive Weapon Expertise bonus (e.g., Two-Handed Sword for +30% Bleed, Two-Handed Axe for Vulnerable damage) applies regardless of which weapon is currently swinging.
+- Weapon Expertise levels are gained on hit, not on kill — don't skip combat to level them up. Note: no XP is gained for Expertise in PvP.
+- Slotting two Key Passives — only one can be active; choose based on your Core Skill, not survivability preference.
+- Leaving Fury dry outside combat — Fury depletes slowly when not fighting; plan cooldown windows and Shout rotations accordingly.
+- Running Gushing Wounds without The Grandfather or near-maxed Crit stats — it is the hardest Key Passive to execute and underperforms without full prerequisites.
+- Neglecting War Cry / Rallying Cry — both are critical for Berserking uptime and Fury management, not optional utility.

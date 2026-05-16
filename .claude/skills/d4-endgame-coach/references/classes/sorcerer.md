@@ -1,63 +1,34 @@
 # Sorcerer
 
-> Season: 10 · Patch: 2.4.x · Last refreshed: 2026-05-16 · Source: https://maxroll.gg/d4/resources/sorcerer-class-overview https://www.icy-veins.com/d4/sorcerer-class-overview
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-16 · Source: https://maxroll.gg/d4/resources/sorcerer-class-overview
 
 ## Core identity
-Sorcerer channels Cold, Lightning, and Fire elemental magic to deliver ranged AoE damage and crowd control. Resource is Mana; Enchantment Slots passively extend skill effects without occupying action bar slots.
+Sorcerer is a ranged caster dealing Cold, Lightning, and Fire damage with strong crowd control, screen-wide AoE, and high mobility via Teleport. The class is Mana-dependent and struggles in melee, trading survivability and party utility for overwhelming elemental output.
 
 ## Damage scaling buckets
-- **Multiplicative sources:** Intelligence (12.5% Skill Damage per 100), Key Passives (Avalanche, Shatter, Combustion, Esu's Ferocity, Overflowing Energy, Vyr's Mastery, Enlightenment)
-- **Additive sources:** Elemental Damage bonuses (note: Enlightenment's bonus additive damage does not factor multiplicative bonuses that boost sheet value); Attack Speed (Enlightenment bonus subject to Cap 1)
-- **Critical / Vulnerable / Overpower hooks:** Dexterity (2% Crit Chance per 100), Willpower (25% Overpower Damage per 100); Frost Nova applies Vulnerable via Mystical upgrade; Destructive Ice Shards and Greater Ice Shards interact with Frozen/Vulnerable states
+- **Multiplicative sources:** Intelligence (12.5% Skill Damage per 100 points, multiplicative as primary stat)
+- **Additive sources:** Skill ranks (each of 5 ranks adds ~+10% of base value); Willpower (25% Overpower Damage per 100 points)
+- **Critical / Vulnerable / Overpower hooks:** Dexterity (2% Critical Strike Chance per 100 points); Willpower (25% Overpower Damage per 100 points); Lucky Hit procs (Fire Bolt ~20% on initial hit / ~1.5% per DoT tick; Incinerate ~8% per tick)
 
 ## Skill tree priorities
-| Skill | Role | Notes |
-|---|---|---|
-| Arc Lash (Glinting) | Basic / CDR reset | Reduces cooldowns 0.25s per hit on Stunned enemies |
-| Frost Bolt (Flickering) | Basic / Mana | Restores 4 Mana per enemy hit |
-| Ice Shards | Core DPS | 16% Lucky Hit per shard; Enchantment fires at Frozen enemies |
-| Chain Lightning | Core DPS | 6 hits total; 25% Lucky Hit per bounce |
-| Frozen Orb | Core DPS | Destructive restores 5 Mana per Frozen enemy hit |
-| Fireball | Core AoE | Enchantment explosion triggered by nearby player kills too |
-| Ball Lightning | Mastery DPS | 3.33 hits/sec; Enhanced Attack Speed bonus is Temporary Category 2 |
-| Blizzard | Mastery AoE | 2 ticks/sec; 9% Chill per tick |
-| Firewall | Mastery DoT | 2 ticks/sec; Enhanced does not affect first cast (DoT snapshot) |
-| Teleport (Shimmering/Enhanced) | Mobility / Defense | Passes through walls and cliffs; Enchantment interacts with Evade implicits |
-| Frost Nova (Mystical) | CC / Vulnerable | — |
-| Flame Shield (Enhanced/Shimmering) | Defense | Usable mid-action |
-| Ice Armor (Shimmering) | Defense / Barrier | Usable mid-action; Barrier capped at Base Life |
-| Hydra (Summoned) | Conjuration DPS | Benefits from 30% of Attack Speed Bonus; DoTs stack |
-| Ice Blades (Invoked) | Conjuration DPS | 7–8 attacks per summon regardless of Attack Speed |
-| Lightning Spear | Conjuration DPS | 10% Lucky Hit per hit |
-| Unstable Currents | Ultimate | Usable mid-action; cast skills benefit from ranks/upgrades |
-| Deep Freeze | Ultimate | — |
-| Inferno (Prime) | Ultimate | Pulls enemies 3× over duration |
+| Skill | Role | Applies | Generates / Consumes | Notes |
+|---|---|---|---|---|
+| Fire Bolt | Basic / DoT | Burning | Generates Mana | DoT ticks 2×/sec, 16 total ticks; ~20% Lucky Hit on hit, ~1.5% per tick |
+| Chain Lightning | Core / Damage | — | Consumes Mana | Hits up to 6 times (initial + 5 bounces) |
+| Incinerate | Core / Channel | Burning (AoE DoT) | Consumes Mana | Base + Enhanced AoE DoT each tick 2×/sec; ~8% Lucky Hit per tick |
+| Blizzard | Core / Utility | Chill (9% per tick) | Consumes Mana | Damages 2×/sec; each tick applies 9% Chill |
+| Meteor | Core / Burst | — | Consumes Mana | Hits after 1.25-second delay |
+| Ice Blades | Conjuration / Utility | — | Consumes Mana | Attacks 7–8 times over base 6-sec duration regardless of Attack Speed |
+| Teleport | Defensive / Mobility | — | Consumes Mana | Can traverse cliffs and through walls |
+| Unstable Currents | Ultimate / Damage | — | Consumes Mana | Castable mid-action; triggered skills benefit from their ranks and upgrades |
 
 ## Key passives / class mechanic
-**Key Passives (choose one):**
-- **Avalanche** — Cold
-- **Shatter** — Frozen enemies explode on death
-- **Combustion** — Fire
-- **Esu's Ferocity** — Fire/Cold hybrid
-- **Overflowing Energy** — Lightning/Mana
-- **Vyr's Mastery** — Lightning melee
-- **Enlightenment** — Attack Speed; additive damage (see damage bucket note)
+| Key Passive | Buffs (state/skill) | Effect | Best for |
+|---|---|---|---|
+| Enlightenment | Attack Speed | Grants Attack Speed bonus; capped by Cap 1 (gear, paragon, elixir sources) | Attack-speed–scaling builds |
+| Align the Elements | Damage Reduction | Provides damage mitigation buff; removed upon taking any Elite damage, even if mitigated by a Barrier | Defensive uptime builds (note: unreliable vs Elites) |
 
-**Notable passives:**
-- Shocking Impact — AoE damage on Stun; synergizes with Arc Lash Enchantment
-- Devouring Blaze / Inner Flames / Crippling Flames — Fire damage amplification
-- Coursing Currents / Conduction / Convulsions / Electrocution — Lightning charge and Crit stacking
-- Align the Elements / Mana Shield / Protection — Damage mitigation (Barriers do not stack; multiple CD uses refresh duration)
-- Conjuration Mastery / Precision Magic — Conjuration scaling
-- Glass Cannon — Damage vs. survivability trade-off
-- Elemental Attunement / Energy Focus / Dampen Layer — Defensive utility
-
-**Enchantment Slots (class mechanic):**
-- Slot 1 unlocks at level 15 (quest: "Legacy of the Magi"), slot 2 at level 30
-- Any skill with ≥1 point can be enchanted; skill can occupy both action bar and Enchantment Slot simultaneously
-- Enhancement and Upgrade choices apply in Enchantment Slot
-- Ultimate Skills cannot be enchanted
-- Can be swapped freely at any time
+*Only one Key Passive can be active at a time.*
 
 ## Aspects (legendary)
 (not covered in source)
@@ -65,25 +36,22 @@ Sorcerer channels Cold, Lightning, and Fire elemental magic to deliver ranged Ao
 ## Uniques worth chasing
 (not covered in source)
 
-## Mythic uniques
-(not covered in source)
-
 ## Tempering manuals
-(not covered in source)
+- Weapon: (not covered in source)
+- Armor: (not covered in source)
 
 ## Masterworking crit picks
-(not covered in source)
+1. (not covered in source)
 
 ## Paragon priority
-(not covered in source)
-
-## Mercenary pairing
-(not covered in source)
+- Starting board: (not covered in source)
+- Glyph order to L15: (not covered in source)
 
 ## Common mistakes
-- Depleting Mana by spamming Core Skills without Basic Skill or Mana-restore mechanics in place
-- Ignoring Enchantment Slot Enhancement/Upgrade choices — they carry through and significantly alter passive effects
-- Choosing a Staff for implicit/stats without accounting for the loss of a second Legendary Aspect slot and Cooldown Reduction from a Focus
-- Selecting an Ultimate or Key Passive without building the rest of the tree to support it — both are single-choice slots that define playstyle
-- Assuming Barriers stack — multiple Cooldown uses only refresh duration, not stack magnitude
-- Overlooking that Enhanced Firewall does not affect the first Firewall cast due to DoT snapshotting
+- **Using a Staff over 1H + Focus:** Loses an additional Legendary Aspect slot and the Focus's Cooldown Reduction — only use a Staff if no other option exists.
+- **Ignoring Enchantment Slots:** First slot unlocks at level 15 (after completing "Legacy of the Magi"), second at level 30. Leaving slots empty is a major power loss.
+- **Placing Ultimate Skills in Enchantment Slots:** Not permitted — only non-Ultimate skills can be enchanted.
+- **Swapping Enchantments carelessly:** Slots can be swapped at any time, but skill Ranks, Enhancements, and Upgrade choices carry over — plan accordingly.
+- **Stacking Strength/Dexterity/Willpower over Intelligence:** Intelligence is the primary damage stat (12.5% Skill Damage per 100 pts); Strength only gives +200 Armor per 100 pts, Dexterity gives 0.6% Dodge / 2% Crit per 100 pts.
+- **Relying on Align the Elements vs Elites:** The buff drops even when incoming Elite damage is fully absorbed by a Barrier, making it unreliable in high-tier content.
+- **Ignoring Mana management:** Mana is the only resource and generates in combat — over-spending without generation results in dead-skill windows.

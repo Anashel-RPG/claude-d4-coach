@@ -1,174 +1,103 @@
 # Horadric Cube
 
-> Season: 10 · Patch: 2.4.x · Last refreshed: 2026-05-16 · Source: https://maxroll.gg/d4/resources/horadric-cube https://www.wowhead.com/diablo-4/guide/systems/horadric-cube
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-16 · Source: https://maxroll.gg/d4/resources/horadric-cube
 
 ## What it is
-A crafting station introduced in the Lord of Hatred expansion, located in Temis after completing the Lord of Hatred campaign. Used to modify, transmute, and upgrade items using Primordial Dust, Tuning Prisms, Horadric Resin, and Boss Trophies.
+
+The **Horadric Cube** is a crafting station returning in Diablo IV with the **Lord of Hatred** expansion. It offers item transmutation, affix manipulation, gem/rune upgrading, and unique crafting recipes unavailable elsewhere.
+
+- Unlocked by completing the Lord of Hatred campaign
+- Permanently located in **Temis** after unlock
+- Primary materials: **Primordial Dust** (Raw, Refined, Attuned, Enhanced, Volatile variants) and **Tuning Prisms**
+
+---
 
 ## Mechanics
-1. **Add Affix** — Adds a random affix to a Common/Magic/Rare/Legendary item. Optional Tuning Prism narrows affix category.
-2. **Chaotic Reroll** — Changes a random affix to one of a different category. Optional Tuning Prism targets the incoming category.
-3. **Focused Reroll** — Changes an affix to another within the same category. Tuning Prism required to set category.
-4. **Remove Affix** — Removes a random affix. Optional Tuning Prism narrows which category is removed from.
-5. **Transfigure Item** — Grants a powerful random modification to a Legendary/Unique/Mythic Unique; item becomes Unmodifiable (~15/16 chance). ~1/16 chance item stays modifiable. Apply sockets, masterworking, and aspect before use.
-6. **Unique Power Reroll** — Randomizes the value of the Unique Power on an Ancestral Unique item.
-7. **3 to 1 Transmutation** — Transmutes 3 of the same equipment, Talisman, or Rune into a random new item of that type. Ancestral inputs guarantee ancestral output. Can roll Greater Affixes.
-8. **Recycle Uniques** — Transmutes 3 of the same Unique equipment or Charm into a new version of that Unique.
-9. **Upgrade to Unique** — Transmutes a Common item into a random Unique of the same slot type. Ancestral input → Ancestral Unique output. Can use Remove Affix to reduce Rare/Magic to Common first.
-10. **Upgrade to Legendary** — Transmutes a Rare item into a Legendary with a random Legendary power. Optional Tuning Prism influences aspect category.
-11. **Reroll Set Charm** — Transmutes a Set Charm into a different Charm from the same set. Repeatable; ~4% chance per affix of Greater Affix result.
-12. **Craft Unique Charm** — Transmutes an Ancestral Unique + 3 any Unique Charms into the Unique Charm matching the input gear. Not all Uniques eligible; Mythic Uniques excluded.
-13. **Amalgamation** — Combines 5 of certain items to upgrade them (see table below).
-14. **Rune Crafting** — Specific legendary rune recipes using 5x Rare + 5x Legendary runes as inputs.
+1. Place inputs into the Cube and select a recipe to transmute them into an output item or material
+2. **Amalgamation** — converts five identical/same-category items into a single upgraded item (see Recipes)
+3. **3 to 1 Transmutation** — converts three identical equipment, talisman, or rune items into a random new item of that type; using Ancestral inputs guarantees an Ancestral output
+4. **Affix manipulation** — Add, Remove, Chaotic Reroll, or Focused Reroll affixes on Magic/Rare/Legendary items using Primordial Dust; a **Tuning Prism** narrows the affix category for Focused Reroll and Add Affix recipes
+5. **Transfiguration** — changes the item type of a Legendary/Unique/Mythic Unique item; optionally guided by a Tuning Prism
+6. **Legendary Rune crafting** — each recipe targets a specific Legendary Rune output and costs Rare + Legendary Rune inputs
+7. **Gem upgrading** — the Amalgamation recipe is the **only** way to upgrade GrandGems → Horadric Gems → Flawless Horadric Gems
+
+---
 
 ## Costs / requirements
 
-### Affix Modification Costs
+| Recipe | Inputs |
+|---|---|
+| **Add Affix** | 1× Magic/Rare/Legendary Item, 1× Refined Primordial Dust, 15× Raw Primordial Dust, (opt.) Tuning Prism |
+| **Remove Affix** | 1× Magic/Rare Item, 1× Refined Primordial Dust, 15× Raw Primordial Dust, (opt.) Tuning Prism |
+| **Chaotic Reroll** | 1× Magic/Rare/Legendary Item, 1× Refined Primordial Dust, 15× Raw Primordial Dust, (opt.) Tuning Prism |
+| **Focused Reroll** | 1× Magic/Rare/Legendary Item, 1× Refined Primordial Dust, 15× Raw Primordial Dust, 1× Tuning Prism (required) |
+| **Transfiguration** | 1× Legendary/Unique/Mythic Unique Item, 1× Volatile Primordial Dust, (opt.) Tuning Prism |
+| **Unique Power Reroll** | 1× Ancestral Unique Item, 1× Attuned Primordial Dust, 100× Raw Primordial Dust |
+| **Upgrade to Unique** | 1× Common Item, 1× Enhanced Primordial Dust, 10× Raw Primordial Dust |
+| **Craft Unique Charm** | 1× Ancestral Unique, 3× any Unique Charms, 1× Enhanced Primordial Dust, 50× Raw Primordial Dust, 100× Infused Horadric Resin |
+| **Reroll Set Charm** | 1× Set Charm, 25× Raw Primordial Dust, 50× Infused Horadric Resin |
+| **Legendary Rune craft** | 5× any Rare Runes, 5× any Legendary Runes |
 
-| Recipe | Key Material | Raw Dust | Tuning Prism |
-|---|---|---|---|
-| Add Affix | 1x Coarse Primordial Dust | 5x Raw | Optional |
-| Chaotic Reroll | 1x Refined Primordial Dust | 15x Raw | Optional |
-| Focused Reroll | 1x Refined Primordial Dust | 15x Raw | Optional |
-| Remove Affix | 1x Refined Primordial Dust | 15x Raw | Optional |
-| Transfigure Item | 1x Volatile Primordial Dust | — | Optional |
-| Unique Power Reroll | 1x Attuned Primordial Dust | 100x Raw | — |
-| 3 to 1 Transmutation | 3x same item | — | — |
-| Recycle Uniques | 3x same Unique/Charm | — | — |
-| Upgrade to Unique | 1x Enhanced Primordial Dust | 10x Raw | — |
-| Upgrade to Legendary | 1x Pure Primordial Dust | 10x Raw | Optional |
-| Reroll Set Charm | — | 25x Raw | — |
-| Reroll Set Charm | 50x Infused Horadric Resin | — | — |
-| Craft Unique Charm | 1x Enhanced Primordial Dust + 3x any Unique Charms | 50x Raw | — |
-| Craft Unique Charm | 100x Infused Horadric Resin | — | — |
+**Tuning Prism types (6 total):** Aggressive, Pragmatic, Protector's, Resourceful, Adept's, Chromatic
 
-### Material Sources
+> **Pragmatic Tuning Prism** targets: Barrier Generation, Cooldown Reduction, Fortify Generation, Healing Received, Impairment Reduction, Life Regeneration, Lucky Hit Chance, Movement Speed, Potion Capacity, Thorns, Maximum Evade Charges, Attacks reduce Evade Cooldown, Evade grants Movement Speed.
 
-| Material | Rarity | Primary Source |
-|---|---|---|
-| Raw Primordial Dust | Common | Elite monsters; Cube Spoils (War Plans); Tree of Whispers caches |
-| Coarse Primordial Dust | Magic | Cube Spoils; Tree of Whispers; Elite monsters |
-| Refined Primordial Dust | Rare | Cube Spoils; Tree of Whispers; Elite monsters |
-| Pure Primordial Dust | Legendary | Cube Spoils; Tree of Whispers; Elite monsters |
-| Volatile Primordial Dust | Legendary | Cube Spoils; Tree of Whispers; Elite monsters |
-| Enhanced Primordial Dust | Unique | Cube Spoils; Tree of Whispers; Elite monsters |
-| Attuned Primordial Dust | Unique | Cube Spoils; Tree of Whispers; Elite monsters |
-| Resonant Primordial Dust | Mythic Unique | Cube Spoils; Tree of Whispers; Elite monsters |
-| Infused Horadric Resin | — | (not covered in source) |
-
-All Primordial Dust requires Level 73 (Coarse/Refined/Raw) or Level 78 (Pure/Volatile/Enhanced/Attuned/Resonant).
+---
 
 ## Recipes / breakpoints / interactions
 
-### Amalgamation Table
+### Amalgamation (5× → 1×)
 
-| Input | Output |
+| Input (×5) | Output |
 |---|---|
-| 5x any Nightmare Sigils | 1x Escalation Sigil |
-| 5x any Magic Runes | 1x random Rare Rune |
-| 5x any Rare Runes | 1x random Legendary Rune |
-| 5x same Magic Tributes | 1x Rare Tribute of same type |
-| 5x same Rare Tributes | 1x Legendary Tribute of same type |
-| 5x Greater Tribute of Armaments | 1x Mythic Tribute of Armaments |
-| 5x same Boss Trophy | 1x random Unique from that boss |
-| 5x same GrandGem | 1x Horadric Gem of same type |
-| 5x same Horadric Gem | 1x Flawless Horadric Gem of same type |
+| Magic Runes | 1× random Rare Rune |
+| Rare Runes | 1× random Legendary Rune |
+| Magic Tributes (identical) | 1× Rare Tribute (same type) |
+| Greater Tribute of Armaments | 1× Mythic Tribute of Armaments |
+| GrandGems (identical) | 1× Horadric Gem (same type) |
+| Horadric Gems (identical) | 1× Flawless Horadric Gem (same type) |
+| Nightmare Sigils | 1× Escalation Sigil |
+| Boss Trophy items (identical) | 1× random Unique from that Boss |
 
-### Rune Crafting Table
+> Amalgamation is the **only** path to upgrade GrandGems into Horadric Gems and Flawless Horadric Gems.
 
-| Output Rune | Also Produces | Input Cost |
-|---|---|---|
-| Bac | 1x Prid | 5x any Rare Runes + 5x any Legendary Runes |
-| Igni | 1x Teb | 5x any Rare Runes + 5x any Legendary Runes |
-| Tam | 1x Ner | 5x any Rare Runes + 5x any Legendary Runes |
-| Yul | 1x Ur | 5x any Rare Runes + 5x any Legendary Runes |
-| Eom | 1x Tzic | 5x any Rare Runes + 5x any Legendary Runes |
-| Jah | 1x Cem | 5x any Rare Runes + 5x any Legendary Runes |
-| Ohm | 1x Qua | 5x any Rare Runes + 5x any Legendary Runes |
-| Vex | 1x Gar | 5x any Rare Runes + 5x any Legendary Runes |
-| Yom | 1x Kry | 5x any Rare Runes + 5x any Legendary Runes |
+### Legendary Rune Crafting (5× Rare Runes + 5× Legendary Runes → target Rune)
 
-### Tuning Prism Affix Coverage
-
-| Prism | Targeted Affixes |
+| Output Rune | Yields |
 |---|---|
-| Aggressive | Mainstat, Weapon Damage, Attack Speed, Crit Chance, Crit Damage [x], Vulnerable Damage [x], DoT Damage [x], All Damage [x], Elemental Damage [x], Thorns |
-| Pragmatic | Barrier Generation, Cooldown Reduction, Fortify Generation, Healing Received, Impairment Reduction, Life Regeneration, Lucky Hit Chance, Movement Speed, Potion Capacity, Thorns, Max Evade Charges, Attacks reduce Evade CD, Evade grants Move Speed |
-| Protector's | Armor, Damage Reduction, Dodge Chance, Fortify Generation, Life on Hit, Life on Kill, Life Regeneration, Maximum Life, All Resistance, Specific Resistances |
-| Resourceful | Lucky Hit restores Resource, Max Resource, Resource Cost Reduction, Resource on Kill, Resource Regeneration |
-| Adept's | Mainstat, Skill Ranks |
-| Chromatic | Specific Resistances |
-| Entropic | Transfiguration outcomes — removes riskiest and most powerful possibilities; 100% chance of making item Unmodifiable |
-| Kullean | Transfiguration on Amulets only — adds random Legendary Aspect; item stays Modifiable; repeatable |
+| Rune Ohm | 1× Rune Qua |
+| Rune Jah | 1× Rune Cem |
+| Rune Yom | 1× Rune Kry |
+| Rune Tam | 1× Rune Ner |
+| Rune Eom | 1× Rune Tzic |
+| Rune Igni | 1× Rune Teb |
+| Rune Vex | 1× Rune Gar |
 
-### Transfiguration Outcome Distribution (411 sample Barbarian)
+### Key interactions
 
-| Category | Effect | Approx. Likelihood |
-|---|---|---|
-| Indestructible | Item no longer loses durability | ~20% |
-| Upgrade to Greater Affix | Upgrades one non-GA stat to Greater Affix | ~15% |
-| Bonus Transfiguration Affix | Gains extra affix from Transfiguration affix pool | ~35% |
-| Replace Affix with Transfiguration Affix | Existing affix replaced (not GA/Enchanted/Tempers/Mythic Unique) | ~10% |
-| Bonus Item Quality | +1–15 Quality (2H: +2–30), stacks with Masterworking Quality | ~20% |
+- **Upgrade to Unique** with an Ancestral Common item → produces an **Ancestral Unique**
+- **3 to 1 Transmutation** with Ancestral items → output is guaranteed **Ancestral**
+- **Life on Hit** can only be transfigured on **Offensive** and **Jewelry** slots
+- **Total Resistance% [+]** Transfiguration affix range: **8–10%**
+- **Focused Reroll** changes an affix to another within the **same category** (category set by Tuning Prism)
+- **Chaotic Reroll** changes a random affix to one from a **different** category
 
-### Transfiguration Affix Pool (non-2H; 2H doubles ranges)
+---
 
-| Affix | Range |
-|---|---|
-| All Stats [+] | 75–100 |
-| Attack Speed [+] | 8–10% |
-| Cooldown Reduction | 10–12% |
-| Critical Strike Chance [+] | 3.5–5% |
-| Elemental-specific Damage [x] | 8–10% |
-| Gem Strength [x] | 75–100% |
-| Life on Hit | 263–316 |
-| Lucky Hit Chance | 6–8% |
-| Max Life% [+] | 6–8% |
-| Max Resource [+] | 15–20 |
-| Movement Speed [+] | 20–30 |
-| Primary Stat [+] | 150–180 |
-| Primary Stat% [+] | 3.5–5% |
-| Resource Cost Reduction | 6–8% |
-| Total Armor% [+] | 8–10% |
-| Total Resistance% [+] | 8–10% |
+## Strategy
+1. **Gem progression priority** — use Amalgamation exclusively to push GrandGems → Horadric → Flawless Horadric; hoard GrandGems from early content
+2. **Target specific Legendary Runes** — if you need a specific rune, check the craft table above and stockpile Rare + Legendary Rune fodder rather than gambling Amalgamation rolls
+3. **Use Tuning Prisms on Focused Reroll** to guarantee affix category; don't waste them on Chaotic Reroll unless you intentionally want cross-category results
+4. **Ancestral crafting loop** — feed Ancestral Commons into Upgrade to Unique for targeted Ancestral Unique farming; feed 3× Ancestral duplicates into 3 to 1 Transmutation to reroll Ancestral quality
+5. **Unique Power Reroll** is your last-resort tool for min-maxing an otherwise perfect Ancestral Unique — costs 100× Raw Primordial Dust, so reserve for near-perfect bases
+6. **Craft Unique Charm** requires sacrificing an Ancestral Unique — plan this intentionally; don't consume chase items you may need equipped
 
-### Transfiguration Skill Ranks by Slot and Class
+---
 
-| Gear Slot | Barbarian | Druid | Necromancer | Paladin | Rogue | Sorcerer | Spiritborn | Warlock |
-|---|---|---|---|---|---|---|---|---|
-| Head | Defensive, Wpn Mastery | Companion, Defensive | Curse, Macabre | Aura, Valor | Imbuement, Subterfuge | Conjuration, Defensive | Defensive, Potency | Sigil |
-| Chest | Brawling, Defensive | Defensive, Wrath | Corpse, Macabre | Aura, Justice | Agility, Subterfuge | Defensive, Mastery | Defensive, Focus | Archfiend |
-| Gloves | Core, Ultimate | Core, Ultimate | Core | Core | Core | Core, Ultimate | Core, Ultimate | Core |
-| Pants | Basic, Defensive | Basic, Defensive | Basic, Macabre | Basic, Aura | Basic, Subterfuge | Basic, Defensive | Basic, Defensive | Basic |
-| Boots | Brawling, Defensive | Defensive, Wrath | Corpse, Macabre | Aura, Justice | Agility, Subterfuge | Defensive, Mastery | Defensive, Focus | Archfiend |
-| Amulet | All Skills, Core | All Skills, Core | All Skills, Core | All Skills, Core | All Skills, Core | All Skills, Core | All Skills, Core | All Skills, Core |
-| Rings | All Skills, Wpn Mastery | All Skills, Companion | All Skills, Curse | All Skills, Valor | All Skills, Imbuement | All Skills, Conjuration | All Skills, Potency | All Skills, Sigil |
-| 2H Weapon | Ultimate | Ultimate | — | — | — | Ultimate | Ultimate | — |
-| 1H Weapon | Basic | Basic | Basic | Basic | Basic | Basic | — | Basic |
-| Offhand | — | Basic | Basic | — | — | Basic | — | Basic |
-| Shield | — | — | Basic, Macabre | Basic, Aura | — | — | — | — |
-
-Skill rank affixes default to +2–3 ranks. Ultimate skills on 2H Weapons: +4–6 ranks.
-
-### Boss Trophies
-
-| Trophy | Source Boss | Hoard |
-|---|---|---|
-| Abhorrent Heart | Harbinger of Hatred | Harbinger of Hatred's Hoard |
-| Distilled Fear | The Beast in Ice | Beast in Ice's Hoard |
-| Exquisite Blood | Lord Zir | Lord Zir's Hoard |
-| Fresh Meat | The Butcher | The Butcher's Hoard |
-| Judicator's Mask | Urivar | Urivar's Hoard |
-| Living Steel | Grigoire | Grigoire's Hoard |
-| Malignant Heart | Varshan | Varshan's Hoard |
-| Pincushioned Doll | Andariel | Andariel's Hoard |
-| Shard of Agony | Duriel | Duriel's Hoard |
-| Horadric Coin | — | Mythic Unique Boss Trophy |
-
-All Boss Trophies require Torment difficulty. All can be Amalgamated (5x same trophy → 1x random Unique from that boss).
-
-### Craftable Unique Charms (partial list by class)
-
-**Shared:** Azurewrath, Banished Lord's Talisman, Blood-Mad Idol, Crown of Lucion, Endurant Faith, Fists of Fate, Flickerstep, Frostburn, Godslayer Crown, Locran's Talisman, Mother's Embrace, Paingorger's Gauntlets, Penitent Greaves, Rakanoth's Wake, Razorplate, Rustbitten Dirk, Soulbrand, Tassets of the Dawning Sky, Temerity, Tibault's Will, The Butcher's Cleaver, Thousand-Eye Reaver, Wendigo Brand, Wyrdskin, X'Fal's Corroded Signet, Yen's Blessing
-
-**Barbarian:** Arreat's Bearing, Chainscourged Mail, Dark Stalker's Medallion, Emblem of Staalbreak, Hooves of the Mountain God, Nomad's Longing Heart, Rage of Harrogath, Ramaladni's Magnum Opus, Ring of Red Furor,
+## Pitfalls
+- **Chaotic Reroll is uncontrolled** — it changes a random affix to a random different-category affix; without a Tuning Prism you have no influence over the result
+- **Amalgamation Rune output is random** — 5× Rare Runes yield *a* random Legendary Rune, not a chosen one; use the explicit Legendary Rune craft recipes if you need a specific rune
+- **GrandGem upgrades are Amalgamation-exclusive** — there is no other method; losing GrandGems to other uses slows Flawless Horadric Gem progression significantly
+- **Upgrade to Unique uses Common items** — submitting a non-Ancestral Common yields a non-Ancestral Unique; verify item quality before transmuting
+- **Craft Unique Charm is destructive** — the Ancestral Unique input is consumed; this cannot be undone
+- **Tuning Prism is consumed on use** — optional slots in Add Affix / Chaotic Reroll / Transfiguration still burn the Prism if included; only add it when you want category restriction

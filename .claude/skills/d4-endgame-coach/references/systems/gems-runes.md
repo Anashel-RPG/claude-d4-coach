@@ -1,100 +1,109 @@
 # Gems Runes
 
-> Season: 10 · Patch: 2.4.x · Last refreshed: 2026-05-16 · Source: https://maxroll.gg/d4/resources/runewords-overview
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-16 · Source: https://maxroll.gg/d4/resources/runewords-overview
 
 ## What it is
-Runewords are created by socketing one Rune of Ritual and one Rune of Invocation into the same 2-socket item. The Ritual rune generates Offering when its condition is met; once Offering reaches the Invocation rune's threshold, the invocation fires. Excess Offering beyond the threshold triggers Overflow bonuses.
+
+Gems and Runes are socketable items placed into gear to provide bonuses. **Runes** (introduced in the Vessel of Hatred expansion, Season 13 / Patch 2.4.1) are the primary focus here. They come in two functional types:
+
+- **Rune of Ritual** — generates a resource called **Offering** when a specific condition is met
+- **Rune of Invocation** — consumes a set amount of Offering to trigger a cross-class skill effect
+
+A paired Ritual + Invocation rune slotted into the same item forms a **Runeword**.
+
+Gems and Runes **cannot occupy the same item** — a socket holds one or the other.
+
+---
 
 ## Mechanics
-1. A Runeword = one Rune of Ritual + one Rune of Invocation in the same item.
-2. Maximum two Runewords per character.
-3. No duplicate Runes allowed anywhere on the character.
-4. No mixing Gems and Runes in the same item.
-5. Valid sockets: Helm, Chest, Legs, 2H Weapon (all require exactly 2 sockets).
-6. Rune of Ritual generates Offering each time its condition is satisfied.
-7. When accumulated Offering ≥ Invocation threshold, the invocation effect fires and Offering resets.
-8. Overflow = surplus Offering above threshold; bonus scales proportionally to surplus amount.
-9. Runes drop in Magic, Rare, and Legendary rarity; higher rarity = stronger effect.
-10. Runes are tradeable and stored in the Socketables tab.
-11. Requires Vessel of Hatred expansion to obtain runes from drops.
+
+1. **Socket requirement:** Runewords require an item with exactly **two sockets** — one for the Ritual rune, one for the Invocation rune.
+2. **Eligible slots:** Helm, Chest, Legs, and two-handed Weapons only.
+3. **Equip cap:** A character can have at most **two Runewords** active at one time.
+4. **No duplicate runes:** You cannot use the same rune in more than one Runeword on a single character.
+5. **Rune rarities:** Runes drop as Magic, Rare, or Legendary. Higher rarity = stronger effect.
+6. **Offering flow:** The Ritual rune fills an Offering counter; when the counter meets the Invocation rune's threshold, the cross-class skill fires automatically.
+7. **Overflow:** If Offering generated exceeds the Invocation threshold, the surplus is called **Overflow**. Each Invocation rune has a distinct Overflow bonus proportional to the surplus amount.
+8. **Storage & trade:** Runes are tradeable and stored in the **Socketables** tab.
+
+---
 
 ## Costs / requirements
 
-### Runes of Ritual
+- Requires the **Vessel of Hatred** expansion.
+- Items must have **two sockets** to form a Runeword.
+- Crafting via Jeweler: combine **3 runes of the same name** → 1 random rune (same or higher rarity).
+- Crafting non-Legendary runes has a chance to produce a rune of the next higher rarity.
+- Crafting **Mythic Uniques** via Runecrafting costs: **2 Resplendent Spark + 6 Legendary Runes + 6 Rare Runes + 6 Magic Runes** of specific names.
 
-| Rune | Offering Generated | Condition |
-|---|---|---|
-| Bac | 50 | Travel 5 meters |
-| Igni | 25 | Stores offering every 0.3s; cast a non-Basic Skill to gain stored offering |
-| Tam | 25 | Cast a non-Channeled Core Skill |
-| Yul | 50 | Cast a Skill with a Cooldown |
-| Nagu | 100 | Maintain ≥1 active summon for 5s (up to 5 summons) |
-| Neo | 200 | Deal damage after 2s of not taking damage (resets if Invulnerable) |
-| Noc | 5 | Inflict a Crowd Control (double if not Slow/Chill) |
-| Poc | 5 | Spend 5% of max Resource |
-| Zan | 200 | Cast an Ultimate Skill |
-| Cem | 75 | Cast Evade |
-| Cir | 300 | Cast 5 skills, then exhausted for 3s |
-| Moni | 100 | Cast 2 Mobility or Macabre skills |
-| Yax | 200 | Drink a Healing Potion |
+**Invocation rune Offering costs:**
 
-### Runes of Invocation
+| Rune | Offering Required | Cooldown | Triggered Effect | Overflow Bonus |
+|------|------------------|----------|-----------------|----------------|
+| Wat | 100 | 1s | Necromancer's Horrid Decrepify (weakens/slows) | Increases duration |
+| Vex | 100 | 5s | +1 to all Skills for 10s (up to +3 via Overflow) | Additional Skill ranks (max 3) |
+| Mot | 150 | 1s | Rogue's Dark Shroud (1 shadow, reduces damage taken) | Grants multiple shadows |
+| Tzic | 200 | 1s | Spiritborn's Concussive Stomp (damage + knockdown) | +1% damage per Offering |
+| Prid | 250 | 3s | Warlock's Dark Prison (tethers enemies for 3s) | Increases duration |
+| Thul | 250 | 2s | Sorcerer's Frost Nova (freeze enemies) | Increases effect size |
+| Kry | 300 | 3s | Spiritborn's Vortex (damage + pull) | Increases vortex size |
+| Jah | 350 | 3.5s | Sorcerer's Teleport (replaces next Evade) | Stores excess Offering |
+| Lac | 400 | 1s | Barbarian's Challenging Shout (taunt + 3s damage reduction) | Increases duration |
+| Kel | 500 | 3s | Paladin's Rally (Resource + Movement Speed for 8s) | Increases resource |
+| Yom | 500 | 5s | Druid's Petrify (stun enemies + restore 100 Resource) | Increases Stun duration |
+| Ner | 600 | 6s | Rogue's Concealment (5s: Movement Speed + Unstoppable + Stealth) | Increases duration |
 
-| Rune | Offering Required | Cooldown | Effect | Overflow |
-|---|---|---|---|---|
-| Eom | 100 | 1s | Reduce active Cooldowns by 0.1s | Further reduced cooldowns |
-| Jah | 350 | 3.5s | Replace next Evade with Teleport (Unstoppable, deals damage) | Store excess Offering |
-| Ohm | 600 | 2s | War Cry: +7.5% damage dealt for 6s | Increased duration |
-| Vex | 100 | 5s | +1 to all Skills for 10s | More Skill ranks, up to 3 |
-| Yom | 500 | 5s | Petrify: Stun enemies + restore 100 Resource | Increased Stun duration |
-| Kel | 500 | 3s | Rally: gain Resource + Movement Speed for 8s | Increased resource |
-| Lac | 400 | 1s | Challenging Shout: taunt + reduce damage taken for 3s | Increased duration |
-| Mot | 150 | 1s | Gain 1 Dark Shroud shadow (reduces damage per shadow) | Gain multiple shadows |
-| Que | 300 | 1s | Earthen Bulwark: Barrier for 3s | Increased duration |
-| Thul | 250 | 2s | Frost Nova: freeze enemies | Increased size |
-| Wat | 100 | 1s | Horrid Decrepify: Weaken + Slow enemies | Increased duration |
-| Ceh | 100 | 1s | Summon Spirit Wolf for 8s (benefits from Summon/Companion bonuses) | Summon multiple wolves |
-| Gar | 25 | 1s | +2% Crit Strike Chance for 5s, up to 10% | Gain multiple stacks |
-| Kry | 300 | 3s | Vortex: deal damage + Pull In enemies | Increased size |
-| Ner | 600 | 6s | Concealment for 5s: Movement Speed, Unstoppable, Stealth | Increased duration |
-| Prid | 250 | 3s | Dark Prison: tether enemies for 3s | Increased duration |
-| Qua | 50 | 1s | +10% Movement Speed for 5s, up to 50% | Increased duration |
-| Teb | 100 | 1s | Abhorrent Iron Maiden: DoT + counterattack | +1% damage per Offering |
-| Tzic | 200 | 1s | Concussive Stomp: deal damage + Knock Down enemies | +1% damage per Offering |
+---
 
 ## Recipes / breakpoints / interactions
 
-### Rune Crafting (at Jeweler)
-| Input | Output |
-|---|---|
-| 3× same-named Runes (non-Legendary) | 1× random Rune of potentially higher rarity (guaranteed different name) |
-| 3× same-named Legendary Runes | 1× random Rune (guaranteed different name) |
+**Ritual rune Offering generation:**
 
-### Mythic Unique Crafting (at Jeweler)
-Requires: 2× Resplendent Spark + 6× Legendary Rune (specific) + 6× Rare Rune (specific) + 6× Magic Rune (specific).
+| Rune | Offering Generated | Condition |
+|------|--------------------|-----------|
+| Poc | 5 | 5% of max Resource spent |
+| Noc | 5 (×2 if non-Slow/Chill CC) | Inflicting a Crowd Control |
+| Igni | 25 (stored every 0.3s) | Granted when a non-Basic Skill is cast |
+| Tam | 25 | Non-Channeled Core Skill cast |
+| Cem | 75 | Evade cast |
+| Bac | 50 | Player travels 5 meters |
+| Moni | 100 | Two Mobility or Macabre skills cast |
+| Nagu | 100 | 1 active summon maintained for 5s (×per summon, max 5) |
+| Yax | 200 | Healing Potion consumed |
+| Neo | 200 | Dealing damage after 2s without taking damage (resets if Invulnerable) |
+| Zan | 200 | Ultimate Skill cast |
+| Cir | 300 | After casting 5 skills (then exhausted for 3s) |
 
-Example — Andariel's Visage:
-| Material | Quantity |
-|---|---|
-| Tam (any rarity, 6 each) | 6 Legendary + 6 Rare + 6 Magic |
-| Qax (any rarity, 6 each) | 6 Legendary + 6 Rare + 6 Magic |
-| Zan (any rarity, 6 each) | 6 Legendary + 6 Rare + 6 Magic |
-| Resplendent Spark | 2 |
+**Notable Runeword examples:**
 
-Full recipes: see Crafting Cheat Sheet (https://maxroll.gg/d4/resources/crafting-cheat-sheet).
+| Runeword | Recipe | Effect |
+|----------|--------|--------|
+| BacJah | Bac + Jah | Accumulate 400 Offering by traveling 25m → replace next Evade with Teleport |
+| Andariel's Visage (Mythic) | 6× Tam + 6× Qax + 6× Zan + 2 Resplendent Spark | Crafts the Mythic Unique Andariel's Visage |
+
+**Drop sources:** World Bosses · Kurast Undercity (with Tribute of Harmony) · Helltide Chests · Tree of Whispers rewards
+
+---
 
 ## Strategy
-1. Identify your main condition that fires constantly (e.g., movement → Bac; resource spending → Poc; CCing → Noc) and match it to a high-value Invocation.
-2. Pair high Offering-per-proc Ritual runes (Neo 200, Zan 200, Cir 300) with high-threshold Invocations (Ohm 600, Ner 600) to hit thresholds in one or few procs.
-3. Pair low Offering-per-proc Ritual runes (Noc 5, Poc 5, Gar 25) with low-threshold Invocations (Eom 100, Vex 100, Qua 50) to trigger repeatedly.
-4. Maximize Overflow by choosing Ritual runes that overshoot the Invocation threshold — bonus scales with surplus.
-5. Use the Jeweler to upgrade surplus duplicate Runes into higher-rarity or different Runes needed for target Runewords.
-6. Prioritize Kurast Undercity (Tribute of Harmony), World Bosses, and Helltide chests for targeted Rune farming.
+
+1. **Match generation rate to cost.** Pair high-yield Ritual runes (Zan: 200, Cir: 300) with high-cost Invocations (Ner: 600, Yom: 500); pair low-yield runes (Poc, Noc) with cheap Invocations (Wat: 100, Tzic: 200).
+2. **Leverage Overflow deliberately.** If your Ritual rune can over-generate (e.g., Cir 300 into Tzic 200), the surplus Overflow amplifies the triggered effect — build around consistent over-generation.
+3. **Cir requires skill density.** Cir fires after 5 skill casts then exhausts for 3 seconds; fast-hitting builds gain more cycles per minute.
+4. **Noc doubles on hard CC.** Any crowd control that isn't Slow or Chill gives 10 Offering instead of 5 — favor builds that apply Stuns, Freezes, or Knockdowns.
+5. **Bac pairs naturally with mobile builds.** At 50 Offering per 5m, a movement-heavy build (Evade-spam, dash skills) passively accumulates Offering for the BacJah combo.
+6. **Plan rune uniqueness constraint early.** With only two Runewords allowed and no duplicate runes permitted, plan both Runewords together to avoid conflicts — especially for Legendary runes that are hard to farm.
+7. **Craft up from low-rarity surplus.** Hoard 3× duplicate low-rarity runes and craft at the Jeweler for a chance at higher rarity; farm Kurast Undercity with Tribute of Harmony for targeted drops.
+
+---
 
 ## Pitfalls
-- Cannot socket Runes and Gems in the same item — choose one before using crafting materials on the socket.
-- Cannot use two Runewords containing the same Rune name anywhere on the character.
-- Only 2-socket items (Helm, Chest, Legs, 2H Weapon) are valid — 1H weapons and jewelry cannot hold Runewords.
-- Runes do not drop without the Vessel of Hatred expansion.
-- Crafted Rune is always a different name than the input — cannot target-craft a specific Rune directly, only reroll.
-- Overflow bonus only applies when surplus Offering exists; under-shooting the threshold wastes no Offering but gains no Overflow benefit.
+
+- **Gems and Runes are mutually exclusive per item** — socketing a Rune removes the ability to use a Gem in that same item.
+- **Only 2-socket items can hold Runewords** — single-socket items cannot form a Runeword.
+- **Duplicate rune restriction is character-wide** — using Zan in one Runeword locks it out of your second Runeword entirely.
+- **Max two Runewords per character** — extra socketed gear beyond two active Runewords does not stack.
+- **Neo Offering resets on Invulnerability** — builds using Invulnerability frames (e.g., Evade-based effects) will lose Neo's Offering counter.
+- **Cir's 3-second exhaustion punishes burst windows** — if your damage window aligns with Cir's downtime, the Runeword adds nothing during that window.
+- **Rune crafting output is random** — combining 3× of the same rune yields a *random* rune, not the same name; do not craft when you need a specific rune.
+- **Vessel of Hatred required** — Runes and Runewords are inaccessible without the expansion.

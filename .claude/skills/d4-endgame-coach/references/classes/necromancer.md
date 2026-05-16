@@ -1,71 +1,68 @@
 # Necromancer
 
-> Season: 10 · Patch: 2.4.x · Last refreshed: 2026-05-16 · Source: https://maxroll.gg/d4/resources/necromancer-class-overview https://www.icy-veins.com/d4/necromancer-class-overview
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-16 · Source: https://maxroll.gg/d4/resources/necromancer-class-overview
 
 ## Core identity
-Necromancer commands a minion army (Skeletal Warriors, Mages, Golem) or sacrifices them for self-buffs, dealing damage through Shadow, Blood, Bone, Corpses, and Curses. Corpse generation and consumption is the central resource loop alongside Essence.
+Necromancer is a minion-summoning and corpse-fueled caster that deals damage across Shadow, Blood, Bone, and Curse archetypes. The class rewards tactical corpse management and Book of the Dead optimization, but demands careful skill rotation and can feel mechanically dense.
 
 ## Damage scaling buckets
-- **Multiplicative sources:** Legendary Aspects (primary multipliers, especially on 2-handed weapon slot); skill type passive trees (Bone/Blood/Darkness, 12 ranks each)
-- **Additive sources:** Intelligence (12.5% Skill Damage per 100); skill ranks (≈+10% base per rank); Paragon board stats
-- **Critical / Vulnerable / Overpower hooks:** Dexterity → Crit Chance (2% per 100); Willpower → Overpower Damage (25% per 100); multiple skills apply Vulnerable
+- **Multiplicative sources:** Intelligence (12.5% Skill Damage per 100 points); Key Passive bonuses; Book of the Dead sacrifice bonuses
+- **Additive sources:** Willpower (25% Overpower Damage per 100 points; 3% Resource Generation per 100 points; 3.5% Healing Received per 100 points); Strength (+200 Armor per 100 points); Dexterity (2% Critical Strike Chance per 100 points; 0.6% Dodge Chance per 100 points); Intelligence (+40 All Elemental Resistances per 100 points); passive skill ranks (all passives have 3 ranks, linear scaling); active skill ranks (each rank ≈ +10% base value or reduced cooldown, up to rank 5)
+- **Critical / Vulnerable / Overpower hooks:** Dexterity feeds Critical Strike Chance (2% per 100); Willpower feeds Overpower Damage (25% per 100); Key Passives Ossified Essence, Shadowblight, and Rathma's Vigor interact with specific damage states (see Key Passives table)
 
 ## Skill tree priorities
-| Skill | Role | Notes |
-|---|---|---|
-| Bone Splinters / Reap / Hemorrhage / Decompose | Basic — Essence gen | Also generate Corpses; apply Vulnerable |
-| Blood Surge / Bone Spear / Blight / Blood Lance / Sever | Core — Primary damage | AoE, ST, DoT, Blood Orb generation |
-| Corpse Explosion | Corpse — AoE nuke | Near-universal pick; Blighted or Plagued upgrade |
-| Blood Mist | Corpse — Survival | Defensive staple |
-| Corpse Tendrils | Macabre — CC | Best CC skill in class |
-| Bone Spirit | Macabre — ST nuke | Strongest single-target option |
-| Iron Maiden / Decrepify | Corruption — Curses | Damage amp and damage reduction |
-| Blood Wave / Bone Storm / Army of the Dead / Soulrift | Ultimate — High CD | One pick only; build-dependent |
+| Skill | Role | Applies | Generates / Consumes | Notes |
+|---|---|---|---|---|
+| Bone Splinters | Basic — ranged Bone damage | Bone damage type | Generates Essence | One of four Basic options |
+| Hemorrhage | Basic — Blood melee | Blood damage type | Generates Essence | Generates Blood Orbs |
+| Reap | Basic — Shadow melee AoE | Shadow damage type | Generates Essence | — |
+| Decompose | Basic — channeled Corpse generation | Corpse / Shadow | Generates Essence; creates Corpses | Key for Corpse-dependent builds |
+| Bone Spirit | Core — strongest single-target nuke | Bone | Consumes Essence (high cost) | Best-in-class ST damage |
+| Bone Prison | Corpse & Macabre active | Bone / CC | Consumes Essence | Utility / crowd control |
+| Iron Maiden | Corruption curse | Curse | — | Reflects damage to enemies |
+| Decrepify | Corruption curse | Curse | — | Slows and debuffs enemies |
+| Blood Wave | Ultimate | Blood | — | AoE Blood nuke |
+| Bone Storm | Ultimate | Bone | — | Sustained Bone AoE |
+| Army of the Dead | Ultimate | Minion / Corpse | — | Mass minion burst |
+| Soulrift | Ultimate | Shadow | — | Shadow Ultimate option |
 
 ## Key passives / class mechanic
-**Book of the Dead** — Necromancer-exclusive minion customization system (unlocked at level 5):
-- **Skeletal Warriors:** 3 variants (high DPS / Tank / heavy damage); sacrifice for offensive bonuses
-- **Skeletal Mages:** 3 variants (Shadow / Physical / Chill CC); sacrifice for damage and resource bonuses
-- **Golem:** 3 variants (ultra-tank / AoE damage / AoE CC); unlocked via level 25 class quest; sacrifice for tankiness/DPS bonuses
-- Minions inherit 30% of player stats baseline
-- Raise Skeleton and Golem skills must be on skillbar to summon
+| Key Passive | Buffs (state/skill) | Effect | Best for |
+|---|---|---|---|
+| Kalan's Edict | Minion / summoner builds | (exact rank values not covered in source) | Minion-focused builds |
+| Shadowblight | Shadow damage | Amplifies Shadow damage based on stacking mechanic | Shadow / Curse builds |
+| Rathma's Vigor | Blood / Bone; survivability | Rewards maintaining high Life threshold | Bone Spirit / Blood builds |
+| Ossified Essence | Bone damage | Scales Bone skill damage with current Essence | Bone Spirit / high-Essence builds |
+| Affliction | Curse / DoT | Enhances Curse and ailment damage output | Curse / Decrepify builds |
 
-**Key Passives (choose one):**
-- Kalan's Edict
-- Shadowblight
-- Rathma's Vigor
-- Ossified Essence
-- Affliction
-
-**Notable damage passives:** Grim Harvest, Fueled by Death, Skeletal Warrior Mastery, Skeletal Mage Mastery, Serration, Compound Fracture, Evulsion, Coalesced Blood, Tides of Blood, Gloom, Crippling Darkness, Terror
-
-**Notable defensive passives:** Necrotic Carapace, Spiked Armor, Necrotic Fortitude, Death's Defense, Stand Alone
+*Only one Key Passive can be chosen per build.*
 
 ## Aspects (legendary)
-(not covered in source)
+| Aspect | Slot | Buffs (skill/state) | Effect | When to drop it |
+|---|---|---|---|---|
+| (not covered in source) | — | — | — | — |
 
 ## Uniques worth chasing
-(not covered in source)
-
-## Mythic uniques
-(not covered in source)
+| Unique | Slot | Buffs | Why | GA priority |
+|---|---|---|---|---|
+| (not covered in source) | — | — | — | — |
 
 ## Tempering manuals
-(not covered in source)
+- Weapon: (not covered in source)
+- Armor: (not covered in source)
 
 ## Masterworking crit picks
-(not covered in source)
+1. (not covered in source)
 
 ## Paragon priority
-(not covered in source)
-
-## Mercenary pairing
-(not covered in source)
+- Starting board: (not covered in source)
+- Glyph order to L15: (not covered in source)
 
 ## Common mistakes
-- Neglecting Corpse generation — many skills and aspects require Corpses on the ground to function
-- Skipping Blood Mist; it is a near-universal defensive requirement
-- Not completing the level 25 class quest before trying to slot Golem into build
-- Running a minion build without Raise Skeleton / Golem on skillbar (minions won't summon)
-- Picking a Key Passive that doesn't match the skill-type focus of the build (Bone vs Blood vs Darkness passives must align)
-- Over-investing in 1-handed + Focus when the build's primary multiplier is a single large Aspect (2-handed is usually better)
+- **Skipping Book of the Dead optimization** — Skeletal Warriors, Skeletal Mages, and Golem each have specialized variants; picking the wrong one or leaving Raise Skeleton/Golem off the skillbar prevents summoning entirely.
+- **Hoarding summons when sacrifice is stronger** — Sacrificing Skeletal Warriors, Skeletal Mages, or the Golem grants substantial personal DPS and survivability bonuses; many builds perform better without minions.
+- **Corpse Dependency mismanagement** — Several core skills require Corpses; not running a reliable Corpse generator (e.g., Decompose) leaves the build starved mid-combat.
+- **Ignoring Essence economy** — Bone Spirit costs high Essence; Ossified Essence builds lose damage if Essence is spent carelessly before casting.
+- **Stacking wrong primary stat** — Intelligence is the Necromancer's primary damage stat (12.5% Skill Damage per 100); over-investing in Strength for armor at the cost of Intelligence hurts damage output significantly.
+- **Spreading skill points too thin** — Ability Bloat is a listed class weakness; prioritize the active skills your Key Passive directly amplifies and max their ranks before investing in situational tools.
+- **Neglecting the class quest** — "Necromancer: Call of the Underworld" unlocks at level 25 and is required to summon and customize the Golem; delaying it locks out a major Book of the Dead slot.
