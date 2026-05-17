@@ -1,87 +1,67 @@
 # Spiritborn
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-16 · Source: https://maxroll.gg/d4/resources/spiritborn-class-overview
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-17 · Source: https://maxroll.gg/d4/resources/spiritborn-class-overview
 
 ## Core identity
-
-Spiritborn (introduced in the Vessel of Hatred expansion) channels four Spirit Guardians — Jaguar, Eagle, Gorilla, and Centipede — each tied to a distinct element and playstyle. Builds pivot around stacking a primary Guardian's bonuses while weaving in a secondary for utility or survivability.
+Spiritborn is a brand-new class introduced with the Vessel of Hatred expansion, channeling four Spirit Guardians (Jaguar, Gorilla, Eagle, Centipede) to deal damage and survive. Players build around a chosen Primary and Secondary Spirit, weaving elemental attacks with Vigor generation from Basic Skills.
 
 ## Damage scaling buckets
-
-- **Multiplicative sources:** Dexterity (main stat — multiplies all damage done); Spirit Hall primary/secondary bonuses (e.g., Jaguar Beat Strike stacking ×2 per subsequent hit); Ferocity stacks (attack-speed / damage multiplier via Jaguar skills); Noxious Resonance burst on Critical Strike (Centipede builds)
-- **Additive sources:** Strength (+2% Critical Strike Chance per 100 pts); Willpower (+25% Overpower Damage per 100 pts); Intelligence (+40 All Resistances, 3% Resource Generation per 100 pts); Thorns (via Rock Splitter path)
-- **Critical / Vulnerable / Overpower hooks:** Vital Strikes key passive — synergizes with Vulnerable to enhance damage, heal, and restore Vigor; Noxious Resonance — consumes poison on Critical Strike for burst damage; Overpower scales with Willpower (25% per 100 pts); The Seeker ultimate applies Vulnerable to nearby foes
+- **Multiplicative sources:** Spirit Hall Primary/Secondary bonuses (all skills count as chosen Guardian's type); Ferocity (Jaguar/Rake stacking attack speed/damage); Pestilent Swarms (Centipede Poison summons); Crushing Hand dual-shockwave overlap on elites/bosses
+- **Additive sources:** Dexterity (12.5% Skill Damage per 100 points); passive skill ranks (all 3 ranks, linear scaling); Thorns (Rock Splitter / Toxic Skin line)
+- **Critical / Vulnerable / Overpower hooks:** Vital Strikes key passive (Vulnerable → bonus damage + healing + Vigor restore); Thunderspike applies Vulnerable; The Seeker ultimate applies Vulnerable; Scourge-Vulnerable upgrade; Counterattack retaliation damage on dodge
 
 ## Skill tree priorities
-
 | Skill | Role | Applies | Generates / Consumes | Notes |
 |---|---|---|---|---|
-| Rock Splitter | Basic | Thorns buff, defensive bonuses | Generates Vigor | Gorilla-affiliated; defensive-leaning basic option |
-| Thunderspike | Basic | Lightning damage | Generates Vigor | Eagle-affiliated |
-| Thrash | Basic | Ferocity (attack speed) | Generates Vigor | Jaguar; dives into enemies, fuels Ferocity stacks |
-| Withering Fist | Basic | Poison | Generates Vigor | Centipede-affiliated |
-| Rake | Core | Ferocity generation | Consumes Vigor | Can be specced to reduce skill cooldowns |
-| Crushing Hand | Core | Physical AoE | Consumes Vigor | Two shockwaves overlap at center — maximizes damage on elites/bosses kept between them |
-| Vortex | Focus | Pull / group enemies | Consumes Vigor | Pulls enemies to a central point; AoE setup tool |
-| Soar | Focus | Dodge ground effects | Consumes Vigor | Enhanced version grants increased movement speed |
-| Concussive Stomp | Defensive | Knockdown | — | Crowd control; knocks foes to the ground |
-| The Hunter | Ultimate | — | — | Manifests Tiger Spirit; slashes foes; resets on kills during duration |
-| The Seeker | Ultimate | Vulnerable, Knockdown | — | Manifests Eagle Spirit; knocks nearby foes down |
-| The Protector | Ultimate | Barrier, AoE | — | Manifests Gorilla Spirit; provides personal Barrier |
-| The Devourer | Ultimate | Poison | — | Manifests Centipede Spirit; long-duration poison channel |
-
-> **Ultimate notes:** One ultimate chosen per build; single rank with a two-step linear upgrade path; long cooldowns.
+| Rock Splitter | Basic (Gorilla / Physical) | Thorns access | Generates Vigor | Defensive bonuses; Shattered Stone & Resolve upgrades |
+| Thrash | Basic (Jaguar / Fire) | — | Generates Vigor | Enhances attack speed via Ferocity |
+| Thunderspike | Basic (Eagle / Lightning) | Vulnerable | Generates Vigor | Evade synergy for mobility |
+| Withering Fist | Basic (Centipede / Poison) | Poison / Weaken | Generates Vigor | Reduces enemy damage output |
+| Rake | Core (Jaguar / Fire) | Ferocity | Consumes Vigor | Generates Ferocity; upgrade reduces skill cooldowns |
+| Rushing Claw | Core (Jaguar) | — | Consumes Vigor | Evasive Swipe & Charge Refund upgrades; popular in Poison/Evade builds |
+| Crushing Hand | Core (Gorilla / Physical) | — | Consumes Vigor | Two overlapping shockwaves; maximize damage by keeping elites between them |
+| Vortex | Defensive/CC | Knock-Down | Consumes Vigor | 1000-Year-Storm & Vigor Generation upgrades |
+| Scourge | Centipede skill | Vulnerable / Weaken | Consumes Vigor | Hive-Mind upgrade; Vigor Generation upgrade |
+| Ravager | Jaguar skill | Ferocity | Consumes Vigor | Duration, Flurry of Claws, Ferocity Min/Max upgrades |
+| Concussive Stomp | Gorilla skill | CC | Consumes Vigor | Barrier Generation & Crushing Blow upgrades |
+| Armored Hide | Defensive | — | — | Barrier; Blocked Damage Reduction; Ferocious Meal upgrades |
+| Toxic Skin | Defensive (Centipede) | Poison / Thorns | — | Duration Increase; Vigor Generation; Skuttlebug upgrades |
+| Counterattack | Defensive | — | — | Grants dodge chance; on activation dodges all hits briefly and retaliates; DoT Reduction & Damage Bonus upgrades |
+| The Hunter | Ultimate | — | — | Tiger Spirit slashes; resets on kills during duration |
+| The Seeker | Ultimate | Vulnerable / Knock-Down | — | Eagle Spirit; only one Ultimate can be chosen |
+| The Protector | Ultimate | — | — | Barrier; Thorns Damage; Canopy Shelter; Resolve Generation upgrades |
+| The Devourer | Ultimate | Poison | — | Healing; Poisoning Duration; Spew Putrefaction upgrades |
 
 ## Key passives / class mechanic
-
 | Key Passive | Buffs (state/skill) | Effect | Best for |
 |---|---|---|---|
-| Vital Strikes | Vulnerable synergy | Hitting Vulnerable enemies enhances damage, provides healing, and restores Vigor | Builds that apply Vulnerable consistently (e.g., The Seeker, Eagle-heavy) |
-| Adaptive Stances | Empowers based on active Spirit invoked | Grants different bonuses depending on which Spirit Guardian is currently invoked | Hybrid / multi-Guardian builds |
-| Prodigy's Tempo | Skill repetition reward | Rewards using the same skill three times consecutively | Single-skill spam builds; Jaguar Beat Strike chains |
-| Noxious Resonance | Poison + Critical Strike | Consumes poison effects on Critical Strike to cause a burst of damage | Centipede / poison-focused builds |
-| Counterattack (passive) | Dodge / retaliation | Grants dodge chance; when activated, dodges all incoming attacks for a short duration and retaliates on each successful dodge | Defensive / counter-playstyle builds |
-
-**Class mechanic — Spirit Guardians & Spirit Hall:**
-- Four guardians: Rezoka the Jaguar (Fire), Kwatli the Eagle (Lightning), Wumba the Gorilla (Physical), Balazan the Centipede (Poison)
-- Choose a Primary and Secondary Spirit Hall bonus
-
-| Spirit Hall Slot | Guardian | Bonus |
-|---|---|---|
-| Primary — Jaguar | Rezoka | Every 15th direct damage hit with a Jaguar Skill triggers a Beat Strike (100% of hit's damage); each stack increases all damage dealt by +3%; each subsequent Beat Strike doubles in damage; stacks up to 5×; all stacks lost after 1 second without attacking |
-| Secondary — Jaguar | Rezoka | +1 maximum Ferocity; gain 1 Ferocity stack on kill or on damaging a Boss |
-| Secondary — Gorilla | Wumba | +2 maximum Resolve; become Unstoppable when at ≥5 Resolve stacks |
-
-**Resource:** Vigor — generated by Basic Skills, consumed by Core/Focus Skills.
+| Vital Strikes | Vulnerable state | Hitting Vulnerable enemies grants bonus damage, healing, and restores Vigor | Eagle / mixed builds applying Vulnerable via Thunderspike or The Seeker |
+| Adaptive Stances | Active Spirit (all skills) | Empowers Spiritborn based on which Spirit is currently invoked | Builds that cycle multiple Guardians |
+| **Spirit Hall (class mechanic)** | All skills | At level 15 choose Primary Spirit — all skills also count as that Guardian's type. At level 30 choose Secondary Spirit for additional bonuses. | Core to every build; Primary should match main damage Spirit |
 
 ## Aspects (legendary)
-
 (not covered in source)
 
 ## Uniques worth chasing
-
 (not covered in source)
 
 ## Tempering manuals
-
-- **Weapon:** (not covered in source)
-- **Armor:** (not covered in source)
+- Weapon: (not covered in source)
+- Armor: (not covered in source)
 
 ## Masterworking crit picks
-
 (not covered in source)
 
 ## Paragon priority
-
-- **Starting board:** (not covered in source)
-- **Glyph order to L15:** (not covered in source)
+- Starting board: Path through key nodes — confirmed shared across all three top builds (Rake/Fireborn, Rock Splitter/Gorillaborn, Rushing Claw Poison/Evade); prioritize nodes along the X11–X13 / Y2–Y14 spine, then branch to X9–X10 side nodes
+- Secondary boards: Sapping board (used by all three top builds); Spiney Skin board (Rock Splitter/Gorillaborn build)
+- Glyph order to L15: (not covered in source)
 
 ## Common mistakes
-
-- Neglecting Dexterity — it is the primary scaling stat and multiplies all damage; stacking secondary attributes first is a significant loss
-- Picking Willpower as a damage investment — it contributes only Overpower Damage (25% per 100 pts) and Healing Received; weakest offensive attribute for most builds
-- Wasting the Jaguar Spirit Hall Beat Strike by letting stacks expire — stacks drop after 1 second without attacking; any gap in the attack chain resets all 5 stacks
-- Choosing two Ultimates' effects by misreading the tree — only one Ultimate can be selected; it has a single rank and a two-step upgrade path
-- Misusing Crushing Hand — both shockwaves must overlap at the center to deal maximum damage; poor positioning against elites/bosses wastes the skill's potential
-- Ignoring the secondary Spirit Hall choice — the secondary bonus (e.g., Gorilla's Unstoppable at 5 Resolve or Jaguar's passive Ferocity generation) provides significant defensive or offensive utility
-- Expecting dual-weapon itemization — Spiritborn equips only one two-handed weapon (Glaive or Quarterstaff); plan affixes accordingly
+- Not selecting a Primary Spirit at level 15 in the Spirit Hall — leaving all skills un-typed costs massive multiplicative damage
+- Forgetting to choose a Secondary Spirit at level 30 (second Spirit Hall unlock)
+- Keeping Crushing Hand targets off-center — both shockwaves must overlap on the enemy for full damage; elites and bosses need to be held between the two impact points
+- Choosing a second Ultimate Skill — only one can be equipped; the second slot is wasted points
+- Ignoring Dexterity as a damage stat — it provides 12.5% Skill Damage per 100 points, making it a meaningful secondary stat
+- Running Counterattack as a pure passive without activating it; the active dodge window + retaliation is a large DPS and survival contribution
+- Overlooking Pestilent Swarms on Centipede builds — they deal Poison damage independently and should be maintained

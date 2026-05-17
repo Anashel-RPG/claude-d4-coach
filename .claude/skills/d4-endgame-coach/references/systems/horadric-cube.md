@@ -1,103 +1,132 @@
 # Horadric Cube
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-16 · Source: https://maxroll.gg/d4/resources/horadric-cube
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-17 · Source: https://maxroll.gg/d4/resources/horadric-cube
 
 ## What it is
 
-The **Horadric Cube** is a crafting station returning in Diablo IV with the **Lord of Hatred** expansion. It offers item transmutation, affix manipulation, gem/rune upgrading, and unique crafting recipes unavailable elsewhere.
-
-- Unlocked by completing the Lord of Hatred campaign
-- Permanently located in **Temis** after unlock
-- Primary materials: **Primordial Dust** (Raw, Refined, Attuned, Enhanced, Volatile variants) and **Tuning Prisms**
+The Horadric Cube is a crafting station returning in Diablo IV with the **Lord of Hatred** expansion (Season 13, Patch 2.4.1). It provides item transmutation, affix manipulation, gem/rune upgrading, and unique crafting through a set of discrete recipes. After unlocking it via the Lord of Hatred campaign, the Cube is located in **Temis**.
 
 ---
 
 ## Mechanics
-1. Place inputs into the Cube and select a recipe to transmute them into an output item or material
-2. **Amalgamation** — converts five identical/same-category items into a single upgraded item (see Recipes)
-3. **3 to 1 Transmutation** — converts three identical equipment, talisman, or rune items into a random new item of that type; using Ancestral inputs guarantees an Ancestral output
-4. **Affix manipulation** — Add, Remove, Chaotic Reroll, or Focused Reroll affixes on Magic/Rare/Legendary items using Primordial Dust; a **Tuning Prism** narrows the affix category for Focused Reroll and Add Affix recipes
-5. **Transfiguration** — changes the item type of a Legendary/Unique/Mythic Unique item; optionally guided by a Tuning Prism
-6. **Legendary Rune crafting** — each recipe targets a specific Legendary Rune output and costs Rare + Legendary Rune inputs
-7. **Gem upgrading** — the Amalgamation recipe is the **only** way to upgrade GrandGems → Horadric Gems → Flawless Horadric Gems
+
+1. Each recipe consumes specific **Primordial Dust variants** and optionally **Tuning Prisms** to influence random outcomes.
+2. **Tuning Prisms** are optional in most affix recipes (Add Affix, Chaotic Reroll, Transfiguration) but **mandatory** for Focused Reroll — they steer results toward a specific affix category.
+3. **Amalgamation** follows a strict 5-to-1 ratio; inputting Ancestral items in a 3-to-1 Transmutation guarantees an Ancestral output.
+4. The Amalgamation recipe is the **only** way to upgrade GrandGems into Horadric Gems and Flawless Horadric Gems.
+5. Legendary Rune crafting requires a **specific Legendary Rune seed** plus bulk Rare and Legendary Rune fodder.
 
 ---
 
 ## Costs / requirements
 
-| Recipe | Inputs |
+- Unlocked by completing the **Lord of Hatred campaign**; afterwards found in Temis.
+- Primary materials: variants of **Primordial Dust** and **Tuning Prisms**.
+
+**Primordial Dust variants by recipe:**
+
+| Dust Variant | Recipe(s) that consume it |
 |---|---|
-| **Add Affix** | 1× Magic/Rare/Legendary Item, 1× Refined Primordial Dust, 15× Raw Primordial Dust, (opt.) Tuning Prism |
-| **Remove Affix** | 1× Magic/Rare Item, 1× Refined Primordial Dust, 15× Raw Primordial Dust, (opt.) Tuning Prism |
-| **Chaotic Reroll** | 1× Magic/Rare/Legendary Item, 1× Refined Primordial Dust, 15× Raw Primordial Dust, (opt.) Tuning Prism |
-| **Focused Reroll** | 1× Magic/Rare/Legendary Item, 1× Refined Primordial Dust, 15× Raw Primordial Dust, 1× Tuning Prism (required) |
-| **Transfiguration** | 1× Legendary/Unique/Mythic Unique Item, 1× Volatile Primordial Dust, (opt.) Tuning Prism |
-| **Unique Power Reroll** | 1× Ancestral Unique Item, 1× Attuned Primordial Dust, 100× Raw Primordial Dust |
-| **Upgrade to Unique** | 1× Common Item, 1× Enhanced Primordial Dust, 10× Raw Primordial Dust |
-| **Craft Unique Charm** | 1× Ancestral Unique, 3× any Unique Charms, 1× Enhanced Primordial Dust, 50× Raw Primordial Dust, 100× Infused Horadric Resin |
-| **Reroll Set Charm** | 1× Set Charm, 25× Raw Primordial Dust, 50× Infused Horadric Resin |
-| **Legendary Rune craft** | 5× any Rare Runes, 5× any Legendary Runes |
+| Raw Primordial Dust | All recipes (quantity varies: 5 / 10 / 15 / 25 / 50 / 100×) |
+| Coarse Primordial Dust | Add Affix (1×) |
+| Refined Primordial Dust | Chaotic Reroll, Focused Reroll, Remove Affix (1× each) |
+| Pure Primordial Dust | Upgrade to Legendary (1×) |
+| Volatile Primordial Dust | Transfiguration (1×) |
+| Attuned Primordial Dust | Unique Power Reroll (1×) |
+| Enhanced Primordial Dust | Upgrade to Unique, Craft Unique Charm (1× each) |
 
-**Tuning Prism types (6 total):** Aggressive, Pragmatic, Protector's, Resourceful, Adept's, Chromatic
+**Tuning Prism types (affix-category variants):**
 
-> **Pragmatic Tuning Prism** targets: Barrier Generation, Cooldown Reduction, Fortify Generation, Healing Received, Impairment Reduction, Life Regeneration, Lucky Hit Chance, Movement Speed, Potion Capacity, Thorns, Maximum Evade Charges, Attacks reduce Evade Cooldown, Evade grants Movement Speed.
+| Prism | Affix Category Targeted |
+|---|---|
+| Aggressive Tuning Prism | Offensive / damage |
+| Pragmatic Tuning Prism | Utility / mobility |
+| Protector's Tuning Prism | Defensive |
+| Resourceful Tuning Prism | Resource |
+| Adept's Tuning Prism | Mainstat & Skill Ranks |
+| Chromatic Tuning Prism | Specific Resistances |
+| Entropic Tuning Prism | Transfiguration outcomes |
+| Kullean Tuning Prism | Transfiguration → random Utility Aspect on Amulet |
 
 ---
 
 ## Recipes / breakpoints / interactions
 
-### Amalgamation (5× → 1×)
+### Affix Manipulation
 
-| Input (×5) | Output |
+| Recipe | Input Item | Dust Cost | Raw Dust | Tuning Prism | Effect |
+|---|---|---|---|---|---|
+| Add Affix | Common / Magic / Rare / Legendary | 1× Coarse | 5× | Optional | Adds a random affix (Prism steers category) |
+| Chaotic Reroll | Magic / Rare / Legendary | 1× Refined | 15× | Optional | Changes a random affix to a different category |
+| Focused Reroll | Magic / Rare / Legendary | 1× Refined | 15× | **Mandatory** | Changes an affix to another of the same category; Prism determines which category |
+| Remove Affix | Magic / Rare | 1× Refined | 15× | Optional | Removes a random affix |
+
+### Item Upgrades & Transformations
+
+| Recipe | Input Item | Dust Cost | Additional Cost | Effect |
+|---|---|---|---|---|
+| Upgrade to Legendary | 1× Rare Item | 1× Pure | 10× Raw | Produces Legendary with random Legendary power |
+| Upgrade to Unique | 1× Common (or Ancestral) | 1× Enhanced | 10× Raw | Produces random Unique; Ancestral input → Ancestral Unique output |
+| Transfiguration | 1× Legendary / Unique / Mythic Unique | 1× Volatile | — | Transforms item; optional Tuning Prism steers outcome; Kullean Prism imprints random Utility Aspect on Amulet |
+| Unique Power Reroll | 1× Ancestral Unique | 1× Attuned | 100× Raw | Randomizes the Unique Power value on the item |
+
+### Charm Recipes
+
+| Recipe | Inputs | Dust Cost | Additional Cost | Effect |
+|---|---|---|---|---|
+| Craft Unique Charm | 1× Ancestral Unique + 3× any Unique Charms | 1× Enhanced | 50× Raw + 100× Infused Horadric Resin | Converts Ancestral Unique equipment into a Unique Charm |
+| Reroll Set Charm | 1× Set Charm | — | 25× Raw + 50× Infused Horadric Resin | Rerolls Set Charm to a different Charm of the same set |
+
+### Amalgamation (5-to-1)
+
+| Input (5×) | Output (1×) |
 |---|---|
-| Magic Runes | 1× random Rare Rune |
-| Rare Runes | 1× random Legendary Rune |
-| Magic Tributes (identical) | 1× Rare Tribute (same type) |
-| Greater Tribute of Armaments | 1× Mythic Tribute of Armaments |
-| GrandGems (identical) | 1× Horadric Gem (same type) |
-| Horadric Gems (identical) | 1× Flawless Horadric Gem (same type) |
+| Same GrandGem | Horadric Gem (same type) |
+| Same Horadric Gem | Flawless Horadric Gem (same type) |
+| Same Magic Tribute | Rare Tribute (same type) |
+| 5× Greater Tribute of Armaments | 1× Mythic Tribute of Armaments |
+| Any Magic Runes | Random Rare Rune |
+| Any Rare Runes | Random Legendary Rune |
 | Nightmare Sigils | 1× Escalation Sigil |
-| Boss Trophy items (identical) | 1× random Unique from that Boss |
 
 > Amalgamation is the **only** path to upgrade GrandGems into Horadric Gems and Flawless Horadric Gems.
 
-### Legendary Rune Crafting (5× Rare Runes + 5× Legendary Runes → target Rune)
+### Legendary Rune Crafting
 
-| Output Rune | Yields |
+All Legendary Rune recipes cost: **1× specific Legendary Rune seed + 5× any Rare Runes + 5× any Legendary Runes**
+
+| Seed Rune (Input) | Output Rune |
 |---|---|
-| Rune Ohm | 1× Rune Qua |
-| Rune Jah | 1× Rune Cem |
-| Rune Yom | 1× Rune Kry |
-| Rune Tam | 1× Rune Ner |
-| Rune Eom | 1× Rune Tzic |
-| Rune Igni | 1× Rune Teb |
-| Rune Vex | 1× Rune Gar |
-
-### Key interactions
-
-- **Upgrade to Unique** with an Ancestral Common item → produces an **Ancestral Unique**
-- **3 to 1 Transmutation** with Ancestral items → output is guaranteed **Ancestral**
-- **Life on Hit** can only be transfigured on **Offensive** and **Jewelry** slots
-- **Total Resistance% [+]** Transfiguration affix range: **8–10%**
-- **Focused Reroll** changes an affix to another within the **same category** (category set by Tuning Prism)
-- **Chaotic Reroll** changes a random affix to one from a **different** category
+| Bac | Prid |
+| Igni | Teb |
+| Tam | Ner |
+| Yul | Ur |
+| Eom | Tzic |
+| Jah | Cem |
+| Ohm | Qua |
+| Vex | Gar |
+| Yom | Kry |
 
 ---
 
 ## Strategy
-1. **Gem progression priority** — use Amalgamation exclusively to push GrandGems → Horadric → Flawless Horadric; hoard GrandGems from early content
-2. **Target specific Legendary Runes** — if you need a specific rune, check the craft table above and stockpile Rare + Legendary Rune fodder rather than gambling Amalgamation rolls
-3. **Use Tuning Prisms on Focused Reroll** to guarantee affix category; don't waste them on Chaotic Reroll unless you intentionally want cross-category results
-4. **Ancestral crafting loop** — feed Ancestral Commons into Upgrade to Unique for targeted Ancestral Unique farming; feed 3× Ancestral duplicates into 3 to 1 Transmutation to reroll Ancestral quality
-5. **Unique Power Reroll** is your last-resort tool for min-maxing an otherwise perfect Ancestral Unique — costs 100× Raw Primordial Dust, so reserve for near-perfect bases
-6. **Craft Unique Charm** requires sacrificing an Ancestral Unique — plan this intentionally; don't consume chase items you may need equipped
+
+1. **Unlock early.** Complete the Lord of Hatred campaign as soon as possible to gain Cube access in Temis; all endgame crafting paths depend on it.
+2. **Use Focused Reroll over Chaotic Reroll** when you know the affix category you want — it costs the same Refined Dust but is deterministic within a category. Always bring the correct Tuning Prism; it is not optional for this recipe.
+3. **Stack Raw Primordial Dust aggressively.** Nearly every recipe consumes it, and Unique Power Reroll demands 100× per use — it will be your most limiting resource.
+4. **Hoard GrandGems for Amalgamation.** Since this is the only upgrade path to Horadric Gems and Flawless Horadric Gems, don't vendor or salvage GrandGems.
+5. **Use Ancestral items in 3-to-1 Transmutation** when you want to guarantee an Ancestral output; the game preserves ancestral tier on that recipe.
+6. **Plan Rune Crafting around your runeword goals.** Each recipe costs 5× Rare + 5× Legendary Rune fodder on top of the seed rune — farm Amalgamation chains (Magic → Rare → Legendary Runes) to stockpile fodder before crafting targeted Legendary Runes.
+7. **Kullean Tuning Prism + Transfiguration** is the dedicated route to imprint a random Utility Aspect onto an Amulet that cannot otherwise be modified.
 
 ---
 
 ## Pitfalls
-- **Chaotic Reroll is uncontrolled** — it changes a random affix to a random different-category affix; without a Tuning Prism you have no influence over the result
-- **Amalgamation Rune output is random** — 5× Rare Runes yield *a* random Legendary Rune, not a chosen one; use the explicit Legendary Rune craft recipes if you need a specific rune
-- **GrandGem upgrades are Amalgamation-exclusive** — there is no other method; losing GrandGems to other uses slows Flawless Horadric Gem progression significantly
-- **Upgrade to Unique uses Common items** — submitting a non-Ancestral Common yields a non-Ancestral Unique; verify item quality before transmuting
-- **Craft Unique Charm is destructive** — the Ancestral Unique input is consumed; this cannot be undone
-- **Tuning Prism is consumed on use** — optional slots in Add Affix / Chaotic Reroll / Transfiguration still burn the Prism if included; only add it when you want category restriction
+
+- **Focused Reroll requires a Tuning Prism** — it is not optional like in other recipes. Attempting it without the correct Prism will fail or produce unintended results.
+- **Remove Affix is random** — you cannot choose which affix is removed. Do not use it on items with only one affix you want to keep.
+- **Chaotic Reroll changes affix category** — the replaced affix can roll into a completely unrelated stat pool. Use Focused Reroll when staying in-category matters.
+- **Unique Power Reroll consumes 100× Raw Primordial Dust per use** — do not spam it without a large stockpile; results are random.
+- **Craft Unique Charm destroys the Ancestral Unique** — the input item is consumed. Confirm the item is not best-in-slot before using it.
+- **Amalgamation requires 5 identical inputs** — mixing gem or tribute types will not work; verify item type before queuing the recipe.
+- **Legendary Rune crafting eats Legendary Rune fodder**, not just Rares — every craft costs 5× Legendary Runes as fuel, rapidly depleting your rune supply if you chain-craft.

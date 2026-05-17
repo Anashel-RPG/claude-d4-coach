@@ -1,37 +1,61 @@
 # Sorcerer
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-16 · Source: https://maxroll.gg/d4/resources/sorcerer-class-overview
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-17 · Source: https://maxroll.gg/d4/resources/sorcerer-class-overview
 
 ## Core identity
-Sorcerer is a ranged caster dealing Cold, Lightning, and Fire damage with strong crowd control, screen-wide AoE, and high mobility via Teleport. The class is Mana-dependent and struggles in melee, trading survivability and party utility for overwhelming elemental output.
+Sorcerer channels Cold, Fire, and Lightning to delete enemies at range with screen-wide AoE, crowd control, and strong mobility. Mana-dependent and fragile in melee, the class rewards managing resources and status conditions to maximize conditional damage multipliers.
 
 ## Damage scaling buckets
-- **Multiplicative sources:** Intelligence (12.5% Skill Damage per 100 points, multiplicative as primary stat)
-- **Additive sources:** Skill ranks (each of 5 ranks adds ~+10% of base value); Willpower (25% Overpower Damage per 100 points)
-- **Critical / Vulnerable / Overpower hooks:** Dexterity (2% Critical Strike Chance per 100 points); Willpower (25% Overpower Damage per 100 points); Lucky Hit procs (Fire Bolt ~20% on initial hit / ~1.5% per DoT tick; Incinerate ~8% per tick)
+- **Multiplicative sources:** Skill damage from Intelligence (12.5% per 100 pts); Enchantment passive procs; Key Passive multipliers (e.g., Combustion, Esu's Ferocity, Avalanche, Vyr's Mastery)
+- **Additive sources:** Flat skill damage per rank (~+10% of base value per rank, up to rank 5); Willpower Overpower Damage (25% per 100 pts); Dexterity Critical Strike Chance (2% per 100 pts)
+- **Critical / Vulnerable / Overpower hooks:** Dexterity +2% Crit Chance per 100 pts; Willpower +25% Overpower Damage per 100 pts; Hydra-Overpower and Meteor-Overpower skills have dedicated Overpower synergies; Aspect of Burning affects Overpower; Esu's Ferocity Key Passive ties into Crit; Shatter Key Passive synergizes with Frozen/Vulnerable states
 
 ## Skill tree priorities
 | Skill | Role | Applies | Generates / Consumes | Notes |
 |---|---|---|---|---|
-| Fire Bolt | Basic / DoT | Burning | Generates Mana | DoT ticks 2×/sec, 16 total ticks; ~20% Lucky Hit on hit, ~1.5% per tick |
-| Chain Lightning | Core / Damage | — | Consumes Mana | Hits up to 6 times (initial + 5 bounces) |
-| Incinerate | Core / Channel | Burning (AoE DoT) | Consumes Mana | Base + Enhanced AoE DoT each tick 2×/sec; ~8% Lucky Hit per tick |
-| Blizzard | Core / Utility | Chill (9% per tick) | Consumes Mana | Damages 2×/sec; each tick applies 9% Chill |
-| Meteor | Core / Burst | — | Consumes Mana | Hits after 1.25-second delay |
-| Ice Blades | Conjuration / Utility | — | Consumes Mana | Attacks 7–8 times over base 6-sec duration regardless of Attack Speed |
-| Teleport | Defensive / Mobility | — | Consumes Mana | Can traverse cliffs and through walls |
-| Unstable Currents | Ultimate / Damage | — | Consumes Mana | Castable mid-action; triggered skills benefit from their ranks and upgrades |
+| Arc Lash | Basic / Mana builder | — | Generates Mana | Melee-range basic; Arc-Lash-Full-Lash and Arc-Lash-Damage-Bonus upgrades available |
+| Spark | Basic | — | Generates Mana | Ranged basic option |
+| Chain Lightning | Core damage | — | Consumes Mana | Multiple upgrades: Critical Strike Chance, Additional Chains, Power Flux, Chain of Cold, Damage Bonus |
+| Ball Lightning | Core damage | — | Consumes Mana | Orbital, Implosion, Ferocity, Damage Bonus upgrades; basis of Ballkuna build |
+| Blizzard | AoE damage / Chill | 9% Chill per tick (2 ticks/sec) | Consumes Mana | Seek/Duration, Damage, Barrier, Static Field, Exposure, Resource Generation upgrades |
+| Firewall | AoE Fire damage | — | Consumes Mana | Damage, Grounding, Weaken, Healing upgrades |
+| Meteor | AoE Fire damage / Overpower | — | Consumes Mana | Overpower, Shooting Star, Air Burst, Immobilize upgrades |
+| Ice Shards | Projectile Cold damage | — | Consumes Mana | Thunderbolt, Hit Damage, Pierce Damage upgrades |
+| Hydra | Summon / Fire damage | — | Consumes Mana | Cooldown Reduction, Healing, Overpower, Frigid Hydra upgrades |
+| Teleport | Mobility / Defensive | — | Cooldown | Traverses cliffs and walls; Weaken, Crackling Energy, Movement Speed, Blaze, Wormhole upgrades |
+| Flame Shield | Defensive | — | Cooldown | Protection Barriers do not stack; multiple uses only refresh duration |
+| Ice Armor | Defensive / Barrier | — | Cooldown | Cooldown Reduction, Duration/Barrier, Permafrost, Resource Regen upgrades |
+| Lightning Spear | Core damage | — | Consumes Mana | Projectile Speed, Reverse Polarity, Duration, Critical Strike, Damage, Flame Spear upgrades |
+| Familiar | Utility / Damage | — | Cooldown | Duration, Healing Flames, Fast as Lightning, Charge, Prismatic Familiar upgrades |
+| Ice Blades | Damage / Utility | — | Cooldown | Frozen Tomb, Cooldown Reduction, Duration upgrades |
+| Unstable Currents | Ultimate | — | Cooldown | Boundless, Cooldown Reduction, Damage Bonus, Ferocity upgrades |
+| Charged Bolts | Damage | — | Consumes Mana | Weaken, Overload, Burn Through, Movement Speed, Cast Speed, Damage Bonus upgrades |
 
 ## Key passives / class mechanic
 | Key Passive | Buffs (state/skill) | Effect | Best for |
 |---|---|---|---|
-| Enlightenment | Attack Speed | Grants Attack Speed bonus; capped by Cap 1 (gear, paragon, elixir sources) | Attack-speed–scaling builds |
-| Align the Elements | Damage Reduction | Provides damage mitigation buff; removed upon taking any Elite damage, even if mitigated by a Barrier | Defensive uptime builds (note: unreliable vs Elites) |
+| Avalanche | Cold skills | Bonus damage after cast sequences | Cold / Frozen-Orb builds |
+| Shatter | Frozen enemies | Damage bonus vs. Frozen/Vulnerable | Ice Shards, Blizzard, Frozen-Orb builds |
+| Combustion | Burning enemies / Fire skills | Increased damage to Burning targets | Firewall, Incinerate, Hydra builds |
+| Esu's Ferocity | Critical Strikes | Damage amplification on Crit | Builds stacking high Crit Chance |
+| Overflowing Energy | Crackling Energy / Lightning | Resource and damage synergy | Chain Lightning, Arc Lash builds |
+| Vyr's Mastery | Close-range skills | Bonus damage and DR at close range | Arc Lash melee builds |
+| Enlightenment | Attack Speed | Attack Speed bonus (capped by Cap 1: gear, paragon, elixir) | Fast-casting builds |
 
-*Only one Key Passive can be active at a time.*
+**Class Mechanic — Enchantment Slots:**
+- Slot 1 unlocks at level 15 (triggers Priority Quest "Legacy of the Magi")
+- Slot 2 unlocks at level 30
+- Any skill can be placed on the action bar AND in an Enchantment Slot simultaneously
+- Slots grant passive bonus effects from the slotted skill
+- Choices can be swapped at any time
 
 ## Aspects (legendary)
-(not covered in source)
+| Aspect | Slot | Buffs (skill/state) | Effect | When to drop it |
+|---|---|---|---|---|
+| Aspect of Cold | Any (Sorcerer, Rogue, Necromancer) | Cold skills | Cold damage / utility bonus | When Cold investment is low |
+| Aspect of Burning | Any (Sorcerer, Barbarian) | Overpower / Fire | Overpower damage amplification | Non-Overpower builds |
+
+*(Full aspect list not covered in source — only the above were provided in facts.)*
 
 ## Uniques worth chasing
 (not covered in source)
@@ -44,14 +68,14 @@ Sorcerer is a ranged caster dealing Cold, Lightning, and Fire damage with strong
 1. (not covered in source)
 
 ## Paragon priority
-- Starting board: (not covered in source)
-- Glyph order to L15: (not covered in source)
+- Starting board: Prioritize nodes along the X11–X13 / Y7–Y14 corridor, shared across nearly all top builds (Chain Lightning, Ball Lightning, Shockuna, Electric Firewall, Arc Lash, Shock Blizz, Ice Shards, Meteor). The X12-Y2 / X11-Y2 cluster is a secondary priority picked up by most builds.
+- Glyph order to L15: Static Surge board nodes (X2–X7, Y11–Y15) appear in Shockuna and Ball Lightning builds — prioritize the Static Surge board for Lightning-focused builds. Enchantment Master board (X7-Y4, X8-Y4) is required for Meteor Meatspear — slot Enchantment Master glyph for Fire/Meteor builds. Exact glyph unlock order not fully covered in source beyond board pathing.
 
 ## Common mistakes
-- **Using a Staff over 1H + Focus:** Loses an additional Legendary Aspect slot and the Focus's Cooldown Reduction — only use a Staff if no other option exists.
-- **Ignoring Enchantment Slots:** First slot unlocks at level 15 (after completing "Legacy of the Magi"), second at level 30. Leaving slots empty is a major power loss.
-- **Placing Ultimate Skills in Enchantment Slots:** Not permitted — only non-Ultimate skills can be enchanted.
-- **Swapping Enchantments carelessly:** Slots can be swapped at any time, but skill Ranks, Enhancements, and Upgrade choices carry over — plan accordingly.
-- **Stacking Strength/Dexterity/Willpower over Intelligence:** Intelligence is the primary damage stat (12.5% Skill Damage per 100 pts); Strength only gives +200 Armor per 100 pts, Dexterity gives 0.6% Dodge / 2% Crit per 100 pts.
-- **Relying on Align the Elements vs Elites:** The buff drops even when incoming Elite damage is fully absorbed by a Barrier, making it unreliable in high-tier content.
-- **Ignoring Mana management:** Mana is the only resource and generates in combat — over-spending without generation results in dead-skill windows.
+- Using a Staff instead of 1H + Focus — loses one Legendary Aspect slot and the Focus's Cooldown Reduction
+- Stacking multiple defensive cooldowns expecting Barrier to multiply — Protection Barriers don't stack, extra cooldowns only refresh duration
+- Ignoring Enchantment Slot swapping — slots can be changed freely; locking into one setup without adapting is a DPS loss
+- Building toward Overpower on non-Overpower builds — Willpower's 25% Overpower Damage only matters if the build triggers Overpower reliably
+- Neglecting Intelligence — each 100 points gives 12.5% Skill Damage AND +40 All Resistances, making it the primary stat for both offense and defense
+- Relying on Align the Elements for damage reduction — its buff is removed even when Elite damage is blocked by a Barrier
+- Playing Staff on early progression — the lost aspect slot compounds heavily once Legendary item power scales up
