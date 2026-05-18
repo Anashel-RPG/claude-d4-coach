@@ -1,59 +1,53 @@
 # Druid
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-17 · Source: https://maxroll.gg/d4/resources/druid-class-overview
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-18 · Source: https://maxroll.gg/d4/resources/druid-class-overview
 
 ## Core identity
-Druid is a versatile shapeshifter that cycles between Werewolf, Werebear, and human form, leveraging forces of nature, wildlife companions, and elemental damage. Defensively strong in shapeshifted forms; relatively squishy when casting nature spells in human form with limited mobility options.
+Druid is a hybrid class that weaves shapeshifting (Werewolf / Werebear), nature spells, and wildlife companions. Defensively strong in animal forms; relatively squishy when casting in human form. Excels at high burst damage with good defensive utility but has limited mobility and relies on positioning.
 
 ## Damage scaling buckets
-- **Multiplicative sources:** Shapeshifting form bonuses (Werebear/Werewolf), Key Passive multipliers, Spirit Boon bonuses
-- **Additive sources:** Skill rank scaling (+10% base value per rank), Intelligence (+40 All Resistances, +3% Resource Generation per 100 pts), Strength (+200 Armor per 100 pts)
-- **Critical / Vulnerable / Overpower hooks:** Wind Shear (applies Vulnerable via Wind-Shear-Vulnerable upgrade), Earthen Bulwark (Overpower hook via Earthen-Bulwark-Overpower upgrade), Pulverize (initial damage bonus via Pulverize-Initial-Damage-Bonus)
+- **Multiplicative sources:** (not covered in source)
+- **Additive sources:** Skill rank scaling (+10% of base value per rank, up to rank 5); Intelligence (+40 All Resistances and 3% Resource Generation per 100 points); Strength (+200 Armor per 100 points)
+- **Critical / Vulnerable / Overpower hooks:** (not covered in source)
 
 ## Skill tree priorities
 | Skill | Role | Applies | Generates / Consumes | Notes |
 |---|---|---|---|---|
-| Wind Shear | Basic / Generator | Vulnerable | Generates Spirit | Upgrade path: Wind-Shear-Vulnerable for Vulnerable application; Wind-Shear-Spirit for bonus Spirit |
-| Shred | Core / Werewolf | Berserking | Consumes Spirit | Key to Storm-Shred build; Shred-Storm-Shred and Shred-Berserking upgrades |
-| Pulverize | Core / Werebear | — | Consumes Spirit | Cornerstone of Mega-Bear-Punch build; Pulverize-Mega-Bear-Punch upgrade |
-| Lightning Storm | Core / Storm | — | Consumes Spirit | Lightning-Storm-Supercell and Hero-Of-The-Storm upgrades; scales with additional strikes |
-| Hurricane | Utility / Storm | Weaken | Consumes Spirit | Hurricane-Weaken applies damage reduction to enemies; Hurricane-Derecho upgrade |
-| Earthen Bulwark | Defensive | Barrier / Unstoppable | Consumes Spirit | Preserving upgrade for frequent use; Que Rune can evoke it |
-| Cyclone Armor | Defensive | Knockback | — | Enhanced version adds resistance; Greater Cyclone Armor upgrade |
-| Debilitating Roar | Utility / Werebear | Weaken | — | Reduces enemy damage; Booming Roar upgrade for AoE |
-| Blood Howl | Utility / Werewolf | Unstoppable / Berserking | — | Healing and movement speed on upgrades |
-| Grizzly Rage | Ultimate / Werebear | Unstoppable / Fortify | — | Locks skill bar to Werebear skills while active |
-| Cataclysm | Ultimate / Storm | — | — | Prime and Supreme upgrade paths |
-| Trample | Mobility | Unstoppable | Consumes Spirit | Primary mobility skill; used mainly for its innate Unstoppable effect |
-| Ravens | Companion | — | — | Enhanced/Brutal/Raven-Flock upgrades; passive via One With Nature |
-| Wolves | Companion | Stun | — | Werewolf-Pack upgrade; passive via One With Nature |
-| Poison Creeper | Companion | Poison | — | Germinate and cooldown reduction upgrades |
-| Tornado | Projectile / Storm | — | Consumes Spirit | Seeks enemies when paired with Stormchaser's Offensive Aspect |
+| Basic Skills (any) | Resource generation | — | Generates Spirit | Spirit is the primary resource |
+| Pulverize | Core damage (Werebear) | Werebear form | Consumes Spirit | Central skill of Mega-Bear-Punch build |
+| Maul | Damage / sustain (Werebear) | Werebear form | Consumes Spirit | Belongs to Druid class |
+| Grizzly Rage | Ultimate (Werebear) | Werebear form | — | While active, only Werebear Skills on the bar can be used |
+| Tornado | Nature spell / damage | — | Consumes Spirit | Seeks enemies when paired with Stormchaser's Offensive Aspect |
+| Shred | Core damage (Werewolf) | Werewolf form | Consumes Spirit | Key Unique: Waxing Gibbous |
+| Ancestral Fortitude | Passive / defense | — | — | Belongs to Druid class |
+
+Each active skill can be leveled up to 5 times, then Enhanced with 1 additional point, then upgraded via one of two specialization choices.
 
 ## Key passives / class mechanic
 | Key Passive | Buffs (state/skill) | Effect | Best for |
 |---|---|---|---|
-| One With Nature | Companions (Ravens, Wolves, Poison Creeper) | Calls all Companions to passively attack even without a skill bar slot; active components still require skill bar placement | Companion/Storm-Pack builds |
-| (Only one Key Passive active at a time) | — | — | Choose based on primary damage archetype |
+| One With Nature | All Companions | Calls all Companions to the Druid's side to passively attack even if not on the skill bar; active Companion abilities still require the skill to be slotted | Companion-focused builds |
+| *(others)* | — | Only one Key Passive can be chosen at a time | All builds |
 
-**Spirit Boons (class mechanic):** Unlock by completing "Spirits of the Lost Grove" (auto-starts at level 15; requires clearing Túr Dúlra stronghold). 16 total Boons across four Spirits — Deer, Eagle, Snake, Wolf. Each Boon costs 15 Druidic Spirit Offerings (240 total). Druidic Spirit Offerings drop from monsters starting at level 15. Snake Boons must all be unlocked simultaneously (60 Offerings at once). Once all Boons are unlocked, bond with one Spirit for 2 Boons; the other three each grant 1 Boon. Boons can be swapped at any time, including mid-combat.
+**Spirit Boons (class mechanic):**
+- Unique to Druid; select one passive bonus from each of the four Spirits: Deer, Eagle, Snake, Wolf.
+- Unlock each Boon by spending 15 Druidic Spirit Offerings (16 Boons total = 240 Offerings total).
+- Druidic Spirit Offerings start dropping from monsters at level 15.
+- All Snake Spirit Boons must be unlocked simultaneously (costs 60 Offerings at once).
+- Once all Boons are unlocked, bond with one Spirit to gain **two** Boons from it; each remaining Spirit provides one Boon.
+- Boons can be swapped at any time, including mid-combat.
 
-| Spirit | Boon focus |
-|---|---|
-| Deer | Utility — Thorns, max Spirit, Damage Reduction vs. Elites, Movement Speed + Impairment Reduction |
-| Eagle | (not covered in source) |
-| Snake | (not covered in source — all 4 Boons unlocked simultaneously for 60 Offerings) |
-| Wolf | (not covered in source) |
+**Deer Spirit Boons (utility-focused):** Thorns, additional maximum Spirit, Damage Reduction vs. Elites, Movement Speed with Impairment Reduction.
 
 ## Aspects (legendary)
 | Aspect | Slot | Buffs (skill/state) | Effect | When to drop it |
 |---|---|---|---|---|
-| Stormchaser's Offensive Aspect | Weapon / Offensive | Tornado | Makes Tornado seek out enemies | Drop when not running Tornado |
+| Stormchaser's Offensive Aspect | Offensive | Tornado | Tornado seeks out enemies | Replace if not running Tornado |
 
 ## Uniques worth chasing
 | Unique | Slot | Buffs | Why | GA priority |
 |---|---|---|---|---|
-| Waxing Gibbous | Weapon | Shred | Core Unique for the Shred archetype | High — mandatory for Storm-Shred |
+| Waxing Gibbous | Weapon | Shred | Core Unique for Shred/Werewolf builds | High |
 
 ## Tempering manuals
 - Weapon: (not covered in source)
@@ -63,14 +57,13 @@ Druid is a versatile shapeshifter that cycles between Werewolf, Werebear, and hu
 1. (not covered in source)
 
 ## Paragon priority
-- Starting board: Both Storm-Shred and Mega-Bear-Punch prioritize a cluster of starting board nodes centered around rows Y2–Y14 at columns X9–X14; path differs slightly per build — Storm-Shred routes toward upper columns (X12–X13, Y2–Y7) while Mega-Bear-Punch sweeps laterally (X9–X14, Y4–Y14)
-- Glyph order to L15: Storm-Shred — Lust For Carnage board → Thunderstruck board → Heightened Malice board → Sinister Tendrils board. Mega-Bear-Punch — Earthen Devastation board (extensive pathing across X4–X18, Y4–Y18)
+- Starting board: Invest in nodes spreading outward from starting position; Mega-Bear-Punch build paths heavily through the Starting Board cluster around X11–X14 / Y2–Y14 ranges.
+- Glyph order to L15: Boards used by top builds — Earthen Devastation, Survival Instincts, Heightened Malice, Sinister Tendrils; prioritize the Rare and Magic nodes feeding each board's Glyph socket. Specific glyph leveling order not covered in source.
 
 ## Common mistakes
-- Equipping a Two-Handed weapon for Legendary Aspect power but ignoring the attack speed loss vs. 1H + Totem — choose deliberately based on build needs
-- Trying to cast nature spells in human form without defensive investment — human form is squishy; rotate into shapeshifting forms under pressure
-- Neglecting Spirit Boon setup early — Druidic Spirit Offerings drop at level 15 but all Snake Boons require 60 Offerings simultaneously; plan currency accordingly
-- Running Companions off the skill bar expecting full output without One With Nature — active Companion effects still require a bar slot even with One With Nature equipped
-- Entering Grizzly Rage without a full Werebear skill bar — only Werebear skills can be used during the Ultimate, locking out all other skill types
-- Ignoring positioning — Druid has very few mobility options; Trample is the primary escape and is used mostly for its Unstoppable, not gap-closing distance
-- Swapping Key Passives without rebuilding around the new passive's synergies — only one can be active at a time and each fundamentally changes the playstyle
+- Casting nature spells in human form without defensive support — human form is noticeably squishier than either shapeshift form.
+- Not slotting a Companion skill on the bar when needed for active Companion abilities, even when running One With Nature (passive attacks happen automatically, but active components still require the skill).
+- Skipping the Snake Spirit Boon cluster — all four Snake Boons must be purchased simultaneously for 60 Offerings; plan your Offering budget accordingly.
+- Grizzly Rage locking out non-Werebear skills — ensure your skill bar is Werebear-only before activating it.
+- Choosing a Two-Handed Weapon for speed-dependent builds — 2H provides stronger Legendary Aspect values but significantly slower attack speed; use 1H + Totem when attack speed matters.
+- Neglecting positioning — Druid has few mobility skills, so poor positioning is punished heavily.

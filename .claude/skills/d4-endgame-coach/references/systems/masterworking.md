@@ -1,10 +1,10 @@
 # Masterworking
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-17 · Source: https://maxroll.gg/d4/resources/masterworking-guide
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-18 · Source: https://maxroll.gg/d4/resources/masterworking-guide
 
 ## What it is
 
-Masterworking is an endgame upgrade system accessed at the **Blacksmith** (found in any major Town) that improves base stats and all affix values — including Tempering Affixes — on Legendary, Unique, and Mythic Unique equipment.
+Masterworking is an endgame upgrade system accessed at the **Blacksmith** (found in any major Town). It improves base stats and all affix values — including Tempering Affixes — on **Legendary, Unique, and Mythic Unique** equipment. Max Quality rank is **25**, after which a **Capstone Bonus** upgrade becomes available.
 
 *(Season 13, Patch 2.4.1)*
 
@@ -12,87 +12,81 @@ Masterworking is an endgame upgrade system accessed at the **Blacksmith** (found
 
 ## Mechanics
 
-1. Each upgrade attempt adds **1–5 Quality ranks** (random per attempt).
-2. Each Quality rank grants **+1% to base Damage, Armor, Resistance, and all affix values**.
-3. Maximum Quality rank is **25**, for a total of **+25%** to all stats.
-4. At rank 25 the **Capstone Bonus** upgrade becomes available: grants **+50% to a random affix** (can target Tempering Affixes).
-5. The Capstone Bonus can be **rerolled indefinitely** until the desired affix is hit.
-6. Obducite cost per upgrade follows: `floor(3.75 × CurrentQuality + 10)`.
+1. Each upgrade attempt grants **1–5 Quality ranks** at random (introduces RNG into progression speed).
+2. Every Quality rank increases base **Damage, Armor, Resistance, and all affix values by +1%**.
+3. At rank 25 the total bonus is **+25%** to all of the above.
+4. Reaching rank 25 unlocks the **Capstone Bonus**: a **+50% bonus applied to one random affix** (can target Tempering Affixes).
+5. The Capstone Bonus can be **rerolled indefinitely** until the desired affix is hit, paying the reroll cost each time.
+6. Obducite cost per upgrade follows the formula: **floor(3.75 × CurrentQuality + 10)**.
 
 ---
 
 ## Costs / requirements
 
-**Materials consumed by Masterworking:**
+**Per-upgrade materials** vary by item power tier:
 
-| Material | Source |
+| Item Power | Secondary materials |
 |---|---|
-| Obducite | Nightmare Dungeons, Infernal Hordes, Undercity (Tribute of Refinement), Mercenary bartering |
-| Veiled Crystal | General drop / salvage |
-| Abstruse Sigil | General drop / salvage |
-| Forgotten Soul | High item power (800 IP) equipment upgrades |
-| Gold | All upgrades |
-| Neathiron | Capstone Bonus rerolls only; drops from endgame Bosses |
+| 750 (Legendary / Unique) | Veiled Crystals + Abstruse Sigils |
+| 800 (Legendary / Unique / Mythic Unique) | Forgotten Souls + Abstruse Sigils |
 
-**Worst-case totals (0 → 25 + Capstone, 2 Quality per upgrade):**
+**All tiers also require:** Obducite + Gold.
 
-| Item Power | Obducite | Secondary Mat | Abstruse Sigils | Gold |
-|---|---|---|---|---|
-| 750 (Legendary/Unique) | 862 | 64 Veiled Crystals | 16 | 2,000,000 |
-| 800 (Legendary/Unique/Mythic Unique) | 862 | 16 Forgotten Souls | 32 | 2,000,000 |
+**Capstone Bonus (initial unlock at rank 25):**
+- 150 Obducite
 
-**Best-case totals (0 → 25 + Capstone, 5 Quality per upgrade):**
-
-| Item Power | Obducite | Secondary Mat | Abstruse Sigils | Gold |
-|---|---|---|---|---|
-| 750 (Legendary/Unique) | 386 | 36 Veiled Crystals | 9 | 1,125,000 |
-| 800 (Legendary/Unique/Mythic Unique) | 386 | 9 Forgotten Souls | 18 | 1,125,000 |
-
-**Capstone Bonus costs:**
-
-| Action | Obducite | Neathiron | Gold |
-|---|---|---|---|
-| Initial unlock | 150 | — | — |
-| Each reroll | 200 | 1 | 1,000,000 |
+**Capstone Bonus reroll:**
+- 200 Obducite + 1 Neathiron + 1,000,000 Gold per reroll
 
 ---
 
 ## Recipes / breakpoints / interactions
 
-**Stat scaling formula:**
+### Full 0→25 + Capstone cost (best case = 5 ranks per upgrade)
 
-`Final Value = Base Value × (1 + MW% + Greater Affix bonus% + Capstone bonus%)`
+| Item Power | Obducite | Secondary mat A | Secondary mat B | Gold |
+|---|---|---|---|---|
+| 750 | 386 | 36 Veiled Crystals | 9 Abstruse Sigils | 1,125,000 |
+| 800 | 386 | 9 Forgotten Souls | 18 Abstruse Sigils | 1,125,000 |
 
-| Scenario | Base | Multiplier | Result |
-|---|---|---|---|
-| Armor at rank 25 (no bonuses) | 1,509 Armor | ×1.25 | **1,886 Armor** |
-| Max Resource (Greater Affix) at rank 25 | 18 | ×(1 + 25% + 50%) | **32** |
-| CDR (no Greater Affix) + Capstone at rank 25 | 20% | ×(1 + 25% + 50%) | **35%** |
-| CDR (Greater Affix) + Capstone at rank 25 | 20% | ×(1 + 25% + 50% + 50%) | **45%** |
+### Full 0→25 + Capstone cost (worst case = 2 ranks per upgrade)
 
-**Key interactions:**
-- **Greater Affix (+50%) + Capstone Bonus (+50%) stack multiplicatively** on the same affix — prioritize Capstone landing on a Greater Affix.
-- Capstone Bonus **can target Tempering Affixes**.
-- Masterworking applies to Legendary, Unique, and Mythic Unique slots only.
+| Item Power | Obducite | Secondary mat A | Secondary mat B | Gold |
+|---|---|---|---|---|
+| 750 | 862 | 64 Veiled Crystals | 16 Abstruse Sigils | 2,000,000 |
+| 800 | 862 | 16 Forgotten Souls | 32 Abstruse Sigils | 2,000,000 |
+
+### Key interactions
+
+| Interaction | Effect |
+|---|---|
+| Capstone Bonus + Greater Affix (same affix) | **+50% stacks with +50%** → significant multiplier |
+| Capstone Bonus → Tempering Affix | Capstone can target Tempering Affixes directly |
+| Masterworking + Tempering | +1% per rank applies to Tempering Affix values |
+| Dismantling a Masterworked item | Returns only a **small fraction** of Obducite spent |
 
 ---
 
 ## Strategy
 
-1. **Farm Obducite first.** Best source: Nightmare Dungeon sigils with the **Treasure Breach** (goblin) affix. Run four goblin NMD sigils in a group rotation for maximum efficiency.
-2. **Use Infernal Hordes** as a secondary Obducite source alongside NMDs.
-3. **Stockpile Neathiron** from endgame Boss kills before attempting Capstone rerolls — costs can spike if RNG is poor.
-4. **Target the Capstone on a Greater Affix** — the combined +50% + +50% bonus (×2.25 total with MW) yields the largest stat swing.
-5. **Fully Masterwork gear before pushing the Pit of Artificers** — the +25% baseline alone significantly raises effective power.
-6. Accept RNG on upgrade speed (1–5 ranks per attempt); do not craft around hitting specific breakpoints on a schedule.
+1. **Farm Obducite efficiently** — priority order:
+   - 🥇 Nightmare Dungeon with **Treasure Breach sigil affix** (goblin NMD) — best source
+   - 🥈 **Strongroom Chests** via Nightmare Dungeon sigil affixes — second best
+   - 🥉 **Infernal Hordes** — reliable secondary source
+   - ⬇️ **Mercenary Bartering** for a Masterworking Cache — lowest priority
+2. **Farm Neathiron** from endgame bosses throughout Sanctuary before planning Capstone rerolls.
+3. **Target the Capstone Bonus on your highest-value affix** — if a Greater Affix is present on that slot, the +50%/+50% stack is the strongest amplifier available.
+4. **Socket before Masterworking** — recommended crafting order: socket → Masterwork → Temper.
+5. **Don't dismantle Masterworked gear carelessly** — Obducite return is a small fraction of what was spent.
+6. **Fully Masterwork gear before pushing the Pit of Artificers** — rank 25 + a favorable Capstone Bonus is expected baseline for high-tier content.
 
 ---
 
 ## Pitfalls
 
-- **Rerolling the Capstone is expensive** — each reroll costs 200 Obducite + 1 Neathiron + 1,000,000 Gold. Don't reroll casually on items you may replace.
-- **Worst-case upgrade RNG roughly doubles material cost** (386 vs. 862 Obducite) — maintain a buffer before starting.
-- **800 IP items cost Forgotten Souls instead of Veiled Crystals** — track which secondary mat your target gear needs before farming.
-- **Obducite from Mercenary bartering is the least efficient source** — use it only as a last resort.
-- **Masterworking does not apply to non-Legendary/Unique/Mythic Unique items** — wasted materials if attempted on lower rarity gear.
-- **Capstone Bonus is random** — there is no guarantee it will land on your best affix without potentially many rerolls.
+- Each upgrade grants 1–5 ranks randomly; **budget for worst-case costs** (up to ~2.2× more Obducite than best case).
+- **Dismantling returns very little Obducite** — treat a Masterworked item as a near-permanent investment.
+- Capstone Bonus rerolls cost **1 Neathiron each**; rerolling many times depletes boss-drop materials quickly — farm bosses consistently.
+- The Capstone Bonus is **random on initial grant**; don't assume it will land on your priority affix without reroll budget.
+- Mercenary Bartering for Obducite is the **least efficient** farming method — avoid relying on it as a primary source.
+- Masterworking is only available on **Legendary, Unique, and Mythic Unique** items — does not apply to lower rarity gear.

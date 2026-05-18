@@ -1,59 +1,59 @@
 # Barbarian
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-17 · Source: https://maxroll.gg/d4/resources/barbarian-class-overview
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-18 · Source: https://maxroll.gg/d4/resources/barbarian-class-overview
 
 ## Core identity
-Barbarian is a melee brawler that equips four weapons simultaneously and cycles between them via the Arsenal System to amplify damage. The class excels at tanky, mobile, high-damage combat at close range but is gated by Fury generation and long cooldowns.
+Barbarian is a melee juggernaut that wields four weapons simultaneously via the Arsenal System, generating Fury in combat to fuel high-damage core and fury-spending skills. Strengths include massive damage, Berserking uptime, and tankiness; weaknesses include Fury dependency, long cooldowns, mandatory melee range, and a slow early game.
 
 ## Damage scaling buckets
-- **Multiplicative sources:** Berserking (damage bonus while active), Vulnerable damage (Two-Handed Axe Expertise / Technique Slot), Weapon Expertise rank bonuses (up to rank 10)
-- **Additive sources:** Affixes from all four equipped weapons (always apply to damage); +10% base value per skill rank (up to rank 5 base, further with items); passive skills scale linearly across 3 ranks
-- **Critical / Vulnerable / Overpower hooks:** Vulnerable applied by Steel Grasp and Two-Handed Axe Expertise (Technique Slot); Overpower synergy on Hammer of the Ancients (Hammer-Of-The-Ancients-Overpower upgrade); Bleed via Two-Handed Sword Expertise / Rend / Flay enabling Gushing Wounds key passive; Death Blow achieves highest single-target damage against bosses when paired with Encroaching Wrath + Earthstriker on two-handed weapons
+- **Multiplicative sources:** Berserking (damage bonus while active), Vulnerable (multiplicative damage taken debuff on enemies), weapon-assigned skill DPS via Arsenal System
+- **Additive sources:** Rolled affixes on all equipped weapons (always apply to damage regardless of which weapon is used), passive skill ranks (+10% base value per active skill rank, linear scaling on passives over 3 ranks), Intelligence (+40 All Resistances per 100 pts — defensive, not offensive)
+- **Critical / Vulnerable / Overpower hooks:** Vulnerable applied via Two-Handed Sword Expertise (Technique Slot) or Steel Grasp; Overpower hooks used by Death Blow + Encroaching Wrath + Earthstriker combo for peak boss damage; Crit hooks vary by build
 
 ## Skill tree priorities
 | Skill | Role | Applies | Generates / Consumes | Notes |
 |---|---|---|---|---|
-| Lunging Strike | Basic — most popular pick | — | Generates Fury | Provides mobility; #1 most-favorited build archetype |
-| Frenzy | Basic — attack speed stacker | Frenzy stacks | Generates Fury | Only Basic Skill with a dedicated Unique (Battle Trance) |
-| Flay | Basic — bleed setup | Bleed | Generates Fury | Synergizes with Gushing Wounds; dedicated build archetype |
-| Hammer of the Ancients | Core — popular single-target | Overpower potential | Consumes Fury | Among most popular core skills; Overpower upgrade available |
-| Double Swing | Core — Fury-efficient ST | — | Consumes Fury (efficient) | Best Fury-efficiency + single-target DPS of core skills; very small AoE |
-| Whirlwind | Core — AoE sustained | — | Consumes Fury (very efficient) | Extremely Fury-efficient; poor single-target damage |
-| Rend | Core — bleed burst | Bleed (DoT) | Consumes Fury | Highest damage per hit of core skills; requires DoT ramp time |
-| Death Blow | Core — boss nuke | — | Consumes Fury | Highest potential boss damage; needs Encroaching Wrath + Earthstriker |
-| Steel Grasp | Defensive/Utility | Vulnerable + Berserking | — | Stacks on enemies; accelerates clear times |
-| War Cry | Shout — Berserking | Berserking (4 sec) | — | Popular Berserking uptime tool |
-| Challenging Shout | Shout — defense | — | — | Damage reduction / taunts |
-| Rallying Cry | Shout — utility | — | — | Movement speed / Fury generation support |
-| Ground Stomp | Brawling — CC | Stun | — | Enhanced/Strategic upgrades available |
-| Leap | Brawling — mobility | — | — | Mosh and Pull upgrade variants |
-| Wrath of the Berserker | Ultimate — Berserking | Berserking | — | Prime + Supreme upgrades; Unconstrained key passive interaction |
-| Call of the Ancients | Ultimate — summon | Attack speed + damage buffs | — | Empowered/Prime/Supreme upgrades; Brobarian build archetype |
+| Lunging Strike | Basic (most popular) | — | Generates Fury | Most common basic skill pick |
+| Frenzy | Basic | — | Generates Fury | Only Basic Skill with a dedicated Unique (Battle Trance) |
+| Flay | Basic | Bleed | Generates Fury | Popular bleed-focused build enabler |
+| Hammer of the Ancients | Core (popular) | — | Consumes Fury | One of the most popular core skills |
+| Double Swing | Core | — | Consumes Fury | Best Fury-efficiency and single-target DPS of core skills; very small AoE |
+| Whirlwind | Core | — | Consumes Fury | Extremely Fury-efficient; poor single-target damage |
+| Rend | Core | Bleed (DoT) | Consumes Fury | Highest damage per hit of core skills; requires patience for bleed to pay off |
+| Death Blow | Core | — | Consumes Fury | Highest boss damage in game when paired with Encroaching Wrath + Earthstriker (two-handed weapons) |
+| Steel Grasp | Defensive | Berserking, Vulnerable | — | Stacks on enemies to accelerate clear times |
+| War Cry | Shout | Berserking (4 sec) | — | Key Berserking uptime tool |
+| Rupture | Weapon Mastery | Bleed burst | — | Pairs with Flay/bleed builds |
+| Cut To The Bone | Passive | — | — | Bleed synergy passive |
+| Gushing Wounds | Passive | Bleed | — | Bleed synergy passive |
 
 ## Key passives / class mechanic
 | Key Passive | Buffs (state/skill) | Effect | Best for |
 |---|---|---|---|
-| Walking Arsenal | All weapon skills | Maintain bonus by using 3 different weapon types at least once every 15 sec; bonus lost if rotation lapses | Builds cycling all four weapon slots actively |
-| Unconstrained | Wrath of the Berserker | Extended / enhanced Berserking tied to Ultimate | Wrath of the Berserker builds |
-| Gushing Wounds | Bleed skills (Flay, Rend, Two-Handed Sword Expertise) | Amplifies Bleed damage output | Bleed/Flay-focused builds |
-| Invigorating Fury | Fury-spending skills | Healing or sustain tied to Fury expenditure | Tanky sustained-damage builds |
+| Walking Arsenal | All equipped weapon skills | Bonus damage maintained by using three different weapon types at least once every 15 seconds | Builds that cycle across all four weapon slots regularly |
+| Endless Fury | Fury generation | (not covered in source — effect details beyond name not provided) | Fury-hungry builds |
+| (only one Key Passive can be equipped) | — | — | — |
 
-*Only one Key Passive can be selected per build.*
+**Arsenal System notes:**
+- Each skill uses the DPS of its assigned weapon only; affixes on all equipped weapons always apply.
+- Weapon Expertise levels to rank 10, gained on hit (not on kill); no XP gained in PvP.
+- Technique Slot (unlocked at level 15 via quest in Dry Steppes): grants the Weapon Expertise bonus of any assigned weapon type permanently, regardless of what weapon is being swung.
+- Top Technique Slot picks: **Two-Handed Sword** (applies Bleeds) or **Two-Handed Axe** (more Vulnerable damage).
+- Two-handed slots accept: Maces (Bludgeoning), Swords (Slashing), Polearms, Axes.
 
 ## Aspects (legendary)
 | Aspect | Slot | Buffs (skill/state) | Effect | When to drop it |
 |---|---|---|---|---|
-| Encroaching Wrath | Weapon | Death Blow | Enables Death Blow's highest-damage boss interaction alongside Earthstriker | Replace only if no Death Blow in build |
-| Earthstriker | Weapon | Death Blow / two-handed weapon skills | Works with Encroaching Wrath for peak boss damage | Replace only if no Death Blow in build |
-
-*(Aspect coverage in source is limited to Death Blow interactions. Additional aspects not covered in source.)*
+| Aspect of Glynn's Anvil | (not covered in source) | Barbarian class | (effect details not covered in source) | (not covered in source) |
+| Aspect of Dominance | (not covered in source) | Barbarian class | (effect details not covered in source) | (not covered in source) |
+| Aspect of Swift Spirit | (not covered in source) | Barbarian class | (effect details not covered in source) | (not covered in source) |
+| Aspect of Exorcism | (not covered in source) | Barbarian class | (effect details not covered in source) | (not covered in source) |
+| Aspect of Heavenly Strength | (not covered in source) | Barbarian class | (effect details not covered in source) | (not covered in source) |
 
 ## Uniques worth chasing
 | Unique | Slot | Buffs | Why | GA priority |
 |---|---|---|---|---|
-| Battle Trance | Amulet or Weapon | Frenzy | Only Unique dedicated to a Basic Skill (Frenzy); core to Frenzy builds | High for Frenzy builds |
-
-*(Additional Uniques not covered in source.)*
+| Battle Trance | (not covered in source) | Frenzy | Only Unique dedicated to a Barbarian Basic Skill | (not covered in source) |
 
 ## Tempering manuals
 - Weapon: (not covered in source)
@@ -63,15 +63,14 @@ Barbarian is a melee brawler that equips four weapons simultaneously and cycles 
 1. (not covered in source)
 
 ## Paragon priority
-- Starting board: Path through nodes including X11-Y15 → X11-Y14 → X12-Y14 → X13-Y14 → X13-Y13 → X13-Y12 → X13-Y11 → X13-Y10 → X13-Y9 → X13-Y8 → X13-Y7 → X12-Y7 → X12-Y6 → X12-Y5 → X12-Y4 → X12-Y3 → X12-Y2 → X11-Y2 (shared path across Lunging Strike, Flay, Hammer of the Ancients, and Frenzy builds); branch toward X10-Y7, X9-Y5–Y7, X10-Y5, X9-Y4 for lateral coverage; X14-Y12 and X12-Y12 picked in select builds
-- Glyph order to L15: Weapons Master board (X6-Y2 through branch to X6-Y8, X4-Y7–Y9, X2-Y7–Y12 lateral path) prioritized across most builds; Warbringer board (X11-Y20 down to X8-Y16, X9-Y18–Y19, X14–X15 cluster) for Hammer of the Ancients; specific glyph socket locations and glyph names not covered in source
+- Starting board: Path from X11-Y15 through cluster around X13-Y7 to X12-Y2, picking up X9-Y5/Y6/Y7 side nodes and X14-Y12 notable (confirmed via Flay build routing).
+- Glyph order to L15: Boards used across top builds include **Weapons Master**, **Blood Rage**, **Warbringer**, **Hemorrhage**, and **Carnage** — prioritize the board whose glyph aligns with your key damage type (bleed vs. direct). Specific glyph leveling order not covered in source beyond board names.
 
 ## Common mistakes
-- Neglecting Fury generation — Fury depletes outside combat and the class is entirely resource-gated; always prioritize a reliable Basic Skill (Lunging Strike is the most popular choice)
-- Misunderstanding the Arsenal System — raw skill DPS is set only by the weapon assigned to that skill, not all four weapons; assign your highest-DPS weapon to your primary damage skill
-- Ignoring the Technique Slot — unlocked at level 15 in the Dry Steppes; not equipping a Weapon Expertise (Two-Handed Sword for Bleed or Two-Handed Axe for Vulnerable damage) is a significant DPS loss
-- Letting Walking Arsenal lapse — if using this key passive, all three weapon types must be used at least once every 15 seconds or the damage bonus drops
-- Weapon Expertise gains ranks on hit, not on kill — farming dense packs is more efficient than boss-only play for leveling expertise; note that expertise does not gain XP in PvP
-- Trying to engage at range — Barbarian requires close combat; no reliable ranged pressure outside specific builds
-- Choosing more than one Key Passive — only one can be active; plan the build around it from the start
-- Skipping cooldown management — long cooldowns on Ultimates and Shouts mean poor uptime if not offset with CDR investment
+- Neglecting Fury generation: running out of Fury mid-fight due to skipping Basic Skills or not investing in Fury-cost reduction affixes.
+- Assigning the wrong weapon to a skill in the Arsenal System — only the assigned weapon's DPS counts for that skill's damage.
+- Ignoring the Technique Slot; it should be filled immediately at level 15. Picking neither Two-Handed Sword nor Two-Handed Axe expertise is a common early-game oversight.
+- Leveling Weapon Expertise in PvP — no XP is gained there.
+- Choosing more than one Key Passive — only one can be active; a second selection replaces the first.
+- Playing Death Blow builds without Encroaching Wrath and Earthstriker on two-handed weapons, losing the peak boss-damage combo.
+- Expecting Rend to feel strong immediately — bleed DoT takes time to deal its damage; rotating off targets too early wastes the investment.

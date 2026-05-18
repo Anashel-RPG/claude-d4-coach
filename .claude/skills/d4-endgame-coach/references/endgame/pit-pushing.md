@@ -1,10 +1,10 @@
 # Pit Pushing
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-17 · Source: https://maxroll.gg/d4/resources/pit-guide
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-18 · Source: https://maxroll.gg/d4/resources/pit-guide
 
 ## Goal
 
-Push Pit of Artificers tiers to upgrade Glyphs to max level (150) and unlock Legendary affixes. Higher tiers = stronger glyph upgrades and more tier unlocks on a fast clear.
+Farm the Pit of Artificers to level Paragon Glyphs (max level 150) and unlock higher tiers. Glyphs are leveled **exclusively** through Pit clears — it is the primary endgame scaling loop.
 
 ## Unlock / access
 
@@ -13,47 +13,55 @@ Push Pit of Artificers tiers to upgrade Glyphs to max level (150) and unlock Leg
 | Seasonal | Complete Capstone Dungeon **Hellish Descent** at Season Rank II |
 | Eternal | Reach **level 70** |
 
-- Access point: interact with the **obelisk in Cerrigar/Temis**
-- No entry materials required (removed as of Season 11, December 2025)
+- Access point: interact with the obelisk in **Cerrigar/Temis**
+- As of Season 11 (December 2025): **no materials required** to enter a run
 
 ## Rewards
+
 | Tier | Drops | Notes |
 |---|---|---|
-| Any (successful clear) | 4 Glyph Upgrade Attempts | Base attempts per clear |
-| Any (no-death clear) | +1 Glyph Upgrade Attempt | Bonus for dying zero times |
-| Any (War Plans Pit Skill Tree) | Up to +4 Glyph Upgrade Attempts | Unlocked via Pit Skill Tree nodes |
-| Any | Glyph drops | Glyphs not yet found elsewhere can drop at run end |
-| Any (fast kill) | Additional Tier unlocks | Extra tiers awarded based on time remaining after boss kill |
+| Any (clear) | 4 glyph upgrade attempts | Base reward for defeating boss before timer |
+| Any (no-death clear) | +1 glyph upgrade attempt | Bonus attempt for zero deaths |
+| Pit Skill Tree nodes (War Plans) | Up to +4 glyph upgrade attempts | Unlocked via War Plans; stacks on top of base attempts |
+| Any (end of run) | Glyphs not yet found elsewhere | Can drop at run completion |
+| Higher tiers | Better rewards + additional tier unlocks | Amount of extra tiers unlocked scales with time remaining after boss kill |
 
-**Glyph milestones:**
-
-| Glyph Level | Effect |
-|---|---|
-| 25 | +1 effect radius increase |
-| 50 | +1 effect radius increase |
-| 51 | Legendary upgrade — unlocks a new affix |
-| 150 | Maximum level |
+- Clearing a tier **unlocks the next tier(s)**; more time remaining = more tiers unlocked
+- Glyph radius increases at levels **25** and **50**
+- Glyphs receive a **Legendary upgrade at level 51** (unlocks a new affix)
+- If **Pit tier − glyph level > 20**, the glyph receives a **guaranteed extra level upgrade**
 
 ## DPS / EHP checkpoints
 
-- Monsters scale with player level; HP and damage increase with every tier increase.
-- **Key threshold:** If `(Pit Tier) − (Glyph Level) > 20`, that glyph receives a **guaranteed extra level** on upgrade — prioritize tiers at least 20 above your target glyph's current level when farming fast XP.
-- Lower tiers: fastest route to level fresh/low glyphs.
-- Higher tiers: better tier-unlock progression and larger glyph level jumps.
-- Recommended gear state before pushing: fully Tempered, fully Masterworked, best Gems socketed.
-- Different Pit bosses have varying HP amounts — factor into timer budget.
+- Pit monsters scale in HP and damage with every tier increase
+- **Fully temper and masterwork all gear** before attempting the Pit
+- Equip best-in-slot Gems before entering
+- Boss HP varies by boss type — randomized from the same pool used in The Tower
+- General rule: if you cannot kill the boss with significant time remaining, drop 1–3 tiers
+
+| Tier range | Expectation |
+|---|---|
+| Low tiers | Fast clears; use to level glyphs from scratch efficiently |
+| Mid/high tiers | Higher reward density; requires solid DPS and survivability |
+| Tier 150 | Maximum tier; hardest scaling |
 
 ## Strategy by tier
 
-1. **Early tiers (1–50):** Clear quickly to bank glyph levels on newly found glyphs. Prioritize Elites — they contribute the most progression toward summoning the boss.
-2. **Mid tiers (50–100):** Target a tier ~20 above your lowest-priority glyph to guarantee extra upgrade levels. Maintain no-death runs for the +1 bonus attempt.
-3. **High tiers (100–150):** Boss HP spikes significantly; time management is critical. Kill boss with maximum time remaining to earn the most additional tier unlocks.
-4. **General:** All five floors and monster layouts are randomized — adapt pathing each run. Use portals between floors efficiently. Elites remain the highest-value kill priority throughout.
-5. **War Plans investment:** Unlock Pit Skill Tree nodes via War Plans to add up to +4 upgrade attempts on top of the base 4+1 — compounding glyph XP per run.
+1. **Start low** — run easy tiers quickly to level fresh glyphs from scratch; speed matters more than tier here.
+2. **Prioritize Elites** — Elite Monsters contribute the most progression toward summoning the boss; ignore white trash when possible.
+3. **Navigate all five floors** — floors are connected by portals with randomized layout and monster composition each run.
+4. **Summon boss ASAP** — the boss spawns nearby once the monster progression bar is filled; 15-minute hard timer.
+5. **Don't die** — a deathless run grants +1 glyph upgrade attempt; dying forfeits that bonus.
+6. **Push for time surplus** — killing the boss early unlocks more additional tiers; aim to finish with as much time left as possible.
+7. **Apply the >20 rule** — if a glyph is more than 20 levels below the current tier, it gets a guaranteed extra level; stack this when leveling multiple glyphs.
+8. **Invest in War Plans** — Pit Skill Tree nodes can add up to 4 extra glyph upgrade attempts per run on top of the base 4.
+9. **Scale tier with gear progression** — only push higher tiers after gear is fully tempered and masterworked.
 
 ## Boss mechanics (if applicable)
+
 | Phase | Mechanic | Counter |
 |---|---|---|
-| Summon | Fill monster-kill meter within 15-minute timer; Elites give the most progress | Prioritize Elites; skip low-density rooms |
-| Fight | Boss is randomized from the same pool used in The Tower; HP varies by boss | Learn Tower boss patterns; budget kill time based on boss HP |
-| Enrage/Timer | Failing to kill boss before 15 minutes = failed run (no glyph upgrades, no tier unlock) | Track timer; abandon and drop a tier if boss is at low HP with <1 min remaining only if confident |
+| Spawn | Boss spawns close by once monster progression bar is filled | Fill bar efficiently by targeting Elites; be ready to engage immediately |
+| All phases | Boss is randomized from the same pool used in The Tower | Learn Tower boss mechanics; each boss has unique HP pool and abilities |
+| All phases | Different bosses have varying HP totals and unique mechanics | Adjust burst window and cooldown timing per boss type |
+| Enrage / fail state | 15-minute timer — boss must die before it expires | Prioritize boss kill over exploration once summoned; drop tier if timer is tight |

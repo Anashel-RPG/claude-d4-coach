@@ -1,49 +1,49 @@
 # Paladin
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-17 · Source: https://maxroll.gg/d4/resources/paladin-class-overview
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-18 · Source: https://maxroll.gg/d4/resources/paladin-class-overview
 
 ## Core identity
-Paladin is a melee-focused holy warrior (introduced Season 11 / Patch 2.5.0) built around four Oath specializations—Zealot, Juggernaut, Judicator, and Disciple—each with distinct keywords (Fervor, Resolve, Judgement, Arbiter). The class excels at speed, tankiness, and support but relies heavily on cooldowns and stays in melee range.
+A melee holy warrior with four Oath specializations (Zealot, Juggernaut, Judicator, Disciple) who builds class-specific resources (Fervor, Resolve) and triggers keyword explosions (Judgement, Retribution, Arbiter form). Excels at speed, survivability, and support but is cooldown-dependent and inflexible.
 
 ## Damage scaling buckets
-- **Multiplicative sources:** Resolve stacks (Juggernaut damage buff), Arbiter form bonuses (Disciple / Exaltation key passive), Coat of Arms (scales off Armor + Block Chance), Strength (+12.5% Skill Damage per 100 pts)
-- **Additive sources:** Skill ranks (+10% base value per rank up to rank 5), passive ranks (3 ranks, linear scaling), Strength secondary (+20 Armor per 100 pts)
-- **Critical / Vulnerable / Overpower hooks:** Rally (grants Critical Strike Chance upgrade option); Judgement keyword (marks enemies until they explode for damage — chains via Judgement Day key passive); Retribution keyword (Thorns explosions around player); Blessed-Shield-Shield-Of-Retribution (Thorns synergy)
+- **Multiplicative sources:** Resolve stacks (damage buff when consumed as Juggernaut); Arbiter form bonus damage (Disciple/Exaltation key passive); Coat of Arms scaling (Armor × Block Chance); Judgement chain reactions (Judgement Day key passive)
+- **Additive sources:** Strength — 12.5% Skill Damage per 100 points; active skill ranks — +10% base value per rank (up to rank 5); passive ranks — linear scaling across 3 ranks
+- **Critical / Vulnerable / Overpower hooks:** (not covered in source)
 
 ## Skill tree priorities
 | Skill | Role | Applies | Generates / Consumes | Notes |
 |---|---|---|---|---|
-| Advance | Basic (Zealot) | — | Generates Fervor, Resolve | Primary resource builder for mixed Oath builds |
-| Brandish | Basic (Disciple) | — | — | Holy arc; damages enemies in multiple patterns |
-| Clash | Core | — | Generates Faith | Has Crusader's March Effectiveness and Punishment upgrade options |
-| Zeal | Core (Zealot) | — | — | Zealot's Legacy upgrade available |
-| Blessed Hammer | Core (Disciple) | — | Consumes Faith | Damage Bonus, Cast Speed, Disciple's Halo upgrades; backbone of Hammerdin builds |
-| Blessed Shield | Core | — | — | Cast Speed, Damage Bonus, Shield of Retribution (Thorns) / Shield of Justice upgrades |
-| Falling Star | Valor (Disciple) | Triggers Arbiter form | — | Additional Charge, Cooldown Reduction, Faster Than Light, Starfall, Freefall upgrades |
-| Aegis | Defensive | — | — | Grants Unstoppable, Block DR, Cooldown Reduction, Faith Is My Shield, Stay Resolute, Impunity upgrades |
-| Rally | Defensive | — | — | Words of Rejuvenation, Critical Strike Chance, Cost Reduction upgrades; support utility |
-| Consecration | Valor | Weaken | — | Fortify, Hallowed Ground, Duration upgrades |
-| Defiance Aura | Aura (Juggernaut) | Resolve, Thorns, Unstoppable | — | Rite of Might / Prayer / Thorns, Maximum Life, Potency, Bonus Healing, Enhanced upgrades |
-| Fanaticism Aura | Aura (Zealot) | — | Generates/boosts Faith | Resource Generation, Additional Maximum Resource, Extra Passive Stack, Rite of Vengeance, Potency, Enhanced upgrades |
-| Holy Light Aura | Aura (Disciple) | Judgement bonus | — | Additional Targets, Judgement Damage Bonus, Rite of Judgement / Mercy, Enhanced upgrades |
-| Arbiter of Justice | Core (Disciple) | Arbiter-form attacks | — | Wing Strike Recast, Seraph's Wings, Reach of the Law, Movement Speed, Cooldown Reduction, Enhanced upgrades |
-| Fortress | Ultimate (Juggernaut) | — | Consumes / rewards Resolve | Creates arena; Free Cast, Resolve Damage Bonus, Barricade upgrades |
-| Zenith | Ultimate (Zealot) | — | — | Summons gigantic sword to slash hordes |
-| Heaven's Fury | Ultimate (Judicator) | Judgement | — | Summons holy beams to incinerate enemies |
+| Advance | Basic (Zealot) | — | Generates Fervor, Resolve | Damage dealer; good opener for Fervor/Resolve builds |
+| Brandish | Basic (Disciple) | — | — | Holy arc; hits enemies in multiple patterns |
+| Zeal | Core (Zealot) | Fervor | Fervor | Enhanced and Zealot's Legacy upgrade variants available |
+| Blessed Hammer | Core (Judicator) | Judgement | — | Spiraling hammer; hits enemies around you |
+| Falling Star | Valor (Disciple) | Arbiter trigger | — | Can trigger transformation into Arbiter form |
+| Consecration | Valor | — | — | Enhanced variant available |
+| Condemn | Valor (Judicator) | Judgement | — | Enhanced, Gather the Guilty upgrade variants |
+| Defiance Aura | Aura (Juggernaut) | Resolve, Unstoppable, Thorns | — | Grants Unstoppable + Resolve + Thorns |
+| Shield Charge | Mobility | — | — | Relentless Charge upgrade variant; featured in top builds |
+| Blessed Shield | Mobility/Damage | — | — | Shield of Justice upgrade; top community build |
+| Fortress | Ultimate (Juggernaut) | Resolve, defense | — | Creates fighting arena; blocks enemy attacks |
+| Zenith | Ultimate (Zealot) | — | — | Giant sword slashes through hordes |
+| Heaven's Fury | Ultimate (Judicator) | Judgement | — | Holy beams incinerate enemies |
 
 ## Key passives / class mechanic
 | Key Passive | Buffs (state/skill) | Effect | Best for |
 |---|---|---|---|
-| Coat of Arms | Armor, Block Chance | Scales damage based on Armor and Block Chance | Juggernaut / Blessed Shield tank-DPS builds |
-| Judgement Day | Judgement keyword | Creates Judgement chain reactions between marked targets | Judicator / AoE nuke builds (e.g., Heaven's Fury) |
-| Exaltation | Arbiter form | Buffs the Paladin while transformed into Arbiter | Disciple / Arbiter builds (Hammerdin, Wing Strikes) |
-| *(only one Key Passive can be chosen at a time)* | — | — | — |
+| Judgement Day | Judgement keyword | Creates Judgement chain reactions between marked targets | Judicator AoE / Blessed Hammer / Condemn builds |
+| Exaltation | Arbiter form | Buffs Paladin while transformed into Arbiter | Disciple / Falling Star builds |
+| Coat of Arms | All damage | Scales damage based on Armor and Block Chance | Juggernaut / tank-oriented builds |
+| *(only one key passive can be chosen per build)* | — | — | — |
 
 ## Aspects (legendary)
-(not covered in source)
+| Aspect | Slot | Buffs (skill/state) | Effect | When to drop it |
+|---|---|---|---|---|
+| (not covered in source) | | | | |
 
 ## Uniques worth chasing
-(not covered in source)
+| Unique | Slot | Buffs | Why | GA priority |
+|---|---|---|---|---|
+| (not covered in source) | | | | |
 
 ## Tempering manuals
 - Weapon: (not covered in source)
@@ -53,15 +53,15 @@ Paladin is a melee-focused holy warrior (introduced Season 11 / Patch 2.5.0) bui
 1. (not covered in source)
 
 ## Paragon priority
-- Starting board: Path through central cluster (nodes around X10–X13, Y4–Y14 appear in multiple top builds); Auradin and Hammerdin both heavily invest the Starting Board before branching
-- Glyph order to L15: Auradin (Holy Light Aura build) branches into the **Castle** board early; Arbiter Hammerdin branches into the **Beacon** board — specific glyph slot priorities not covered in source
-- Additional boards referenced: Castle, Beacon
+- Starting board: Path through central cluster (X10–X13, Y2–Y14 range); pick up nodes leading toward the board connector at X11-Y14 / X12-Y14 / X13-Y14. Both Arbiter-Paladin and Arbiters-Zeal builds heavily invest the starting board before transitioning to secondary boards.
+- Secondary boards used across top builds: **Castle** board (wide investment X6–X20, Y2–Y19), **Relentless** board (X4–X14, Y2–Y20), **Divinity** board (at minimum X2-Y11 for Arbiter-Paladin).
+- Glyph order to L15: (not covered in source — specific glyph names not provided in source material)
 
 ## Common mistakes
-- Choosing more than one Key Passive — only one is allowed per build
-- Choosing more than one Ultimate Skill — only one slot is available
-- Neglecting Resolve stacks on Juggernaut builds; Resolve both reduces incoming damage and gates the Fortress damage bonus
-- Ignoring Strength scaling — each 100 Strength provides +12.5% Skill Damage and +20 Armor simultaneously, making it the primary offensive and defensive stat
-- Playing Disciple builds without a plan to trigger Arbiter form (Falling Star is the primary enabler)
-- Expecting Retribution / Thorns builds to work at range — the class is primarily melee and Thorns explosions require proximity
-- Over-investing cooldown reduction without the Faith resource to cast skills off cooldown (Fanaticism Aura helps address this)
+- Choosing more than one Key Passive — only one can be active per build.
+- Choosing more than one Ultimate Skill — only one slot is available.
+- Ignoring Strength as a damage stat (12.5% Skill Damage per 100 pts) and over-investing in secondary stats early.
+- Not upgrading active skills to rank 5 — each rank adds +10% base damage, compounding quickly.
+- Skipping the Enhancement and upgrade choices after unlocking a skill — one enhancement point plus one of three upgrade options is available per skill and should not be left unspent.
+- Playing ranged or expecting flexibility — the Paladin is primarily melee and cooldown-gated; build around cooldown reduction accordingly.
+- Neglecting Resolve generation in Juggernaut builds — Resolve is both a damage trigger and a damage reduction layer; running dry in both respects is a large DPS and survivability loss.
