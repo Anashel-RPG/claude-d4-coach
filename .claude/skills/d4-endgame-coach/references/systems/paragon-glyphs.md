@@ -1,65 +1,50 @@
 # Paragon Glyphs
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-18 · Source: https://maxroll.gg/d4/resources/paragon-boards
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-19 · Source: https://maxroll.gg/d4/resources/paragon-boards
 
 ## What it is
 
-Paragon Glyphs are socketable items placed into the single **Glyph Socket** on each Paragon Board. They amplify nearby Paragon Nodes within a radius, scale in power as they level up, and convert from Rare to Legendary quality at level 50. The system unlocks at character level 70 alongside the full Paragon Board.
+Paragon Glyphs are socketable items placed into **Glyph Sockets** on Paragon Boards. They amplify nearby Paragon Nodes within a radius, and Rare/Legendary Glyphs unlock a bonus effect when the Attribute threshold from allocated nodes in that radius is met. Glyphs unlock at character level 70 alongside the Paragon Board system.
 
 ---
 
 ## Mechanics
 
-1. **Socketing** — Each Paragon Board has exactly one Glyph Socket. Slot one Glyph per board.
-2. **Radius** — Glyphs start with a radius of 3 (affects all Paragon Nodes within 3 nodes of the socket). At level 50 the radius expands to 5.
-3. **Scaling** — Glyphs amplify or react to Attributes allocated on Paragon Nodes within their radius (Normal, Magic, Rare nodes all count).
-4. **Attribute threshold bonus** — Rare and Legendary Glyphs grant an additional bonus when allocated Paragon Nodes within the radius meet a specified Attribute threshold.
-5. **Quality tiers** — Glyphs start at Rare quality. Reaching level 50 converts them to Legendary quality (see Costs section).
-6. **Leveling** — Glyphs are leveled by completing Pit runs and killing the boss before the timer expires. Each successful clear grants upgrade attempts.
-7. **Max level** — Glyphs can be upgraded to a maximum of level 150.
-
-**Example — Fulminate (Lightning Glyph):**
-
-| Property | Value |
-|---|---|
-| Base effect | +2.0% increased Lightning damage per 5 Dexterity allocated in radius |
-| Attribute threshold | 25 Dexterity on allocated Paragon Nodes within radius |
-| Threshold unlocks | Additional bonus (exact value not covered in source) |
-| Damage type | Lightning |
-
-**Example — Spiritual Power (Rare Node, not a Glyph, but illustrates threshold mechanic):**
-
-| Property | Value |
-|---|---|
-| Base | +14% Core Skill Damage, +35% Basic Skill Damage |
-| Both Attribute thresholds met | Core Skill Damage doubles to +28% |
+1. **Socketing** — Each Paragon Board has one Glyph Socket. One Glyph slots into it.
+2. **Radius** — Glyphs start with a radius of 3 (affects Paragon Nodes within 3 nodes of the socket). At Glyph level 50 the radius expands to 5.
+3. **Attribute threshold bonus** — Rare and Legendary Glyphs grant an additional bonus when allocated Paragon Nodes within the radius meet the specified Attribute requirement.
+4. **Quality progression** — Glyphs begin at Rare quality. Reaching level 50 converts the Glyph to Legendary quality, unlocking a stronger bonus multiplier.
+5. **Leveling method** — Glyphs are leveled by completing the Pit (killing the boss before the timer expires). Each successful clear grants upgrade attempts.
+6. **Max level** — Glyphs can be upgraded to a maximum of level 150.
+7. **Drop source** — Once a character reaches level 70, any activity can drop a Glyph. The Pit and Nightmare Dungeons are the best dedicated sources.
 
 ---
 
 ## Costs / requirements
 
-| Requirement / Cost | Detail |
+| Action | Requirement / Cost |
 |---|---|
-| Unlock condition | Reach character level 70 |
-| Paragon Points available | Up to 327 total (from Paragon levels 1–300, Renown, and Altars of Lilith) |
-| Glyph drops | Any activity at level 70+; Pit and Nightmare Dungeons are the best sources |
-| Rare → Legendary conversion (at level 50) | 15,000 Gem Fragments |
+| Unlock Paragon Boards & Glyphs | Reach character level 70 |
+| Upgrade Glyph (general) | Clear the Pit before timer expires |
+| Upgrade Glyph to Legendary (level 50) | 15,000 Gem Fragments |
+| Fulminate Attribute threshold | 25 Dexterity allocated on Paragon Nodes within radius |
+| Total Paragon Points available | Up to 327 (from leveling Paragon 1–300, Renown, and Altars of Lilith) |
 
 ---
 
 ## Recipes / breakpoints / interactions
 
-**Glyph upgrade attempts per Pit run:**
+**Glyph upgrade attempts per Pit run**
 
-| Condition | Attempts granted |
+| Condition | Attempts |
 |---|---|
-| Clear Pit (boss killed before timer) | +3 attempts |
-| No deaths during the run | +1 additional attempt |
-| Seasonal Blessing (Season 13) | +1 additional attempt |
+| Base (clear before timer) | 3 |
+| No deaths during run | +1 |
+| Seasonal Blessing (Season 13) | +1 |
 
-**Upgrade success chance by (Pit Level − Glyph Level):**
+**Upgrade success chance by (Pit level − Glyph level)**
 
-| Pit − Glyph Level | Upgrade Chance |
+| Pit − Glyph | Chance |
 |---|---|
 | −50 to −41 | 1% |
 | −40 to −31 | 2% |
@@ -75,31 +60,46 @@ Paragon Glyphs are socketable items placed into the single **Glyph Socket** on e
 | +8 to +9 | 90% |
 | +10 or higher | 100% |
 
-**Key interactions:**
+**Radius breakpoints**
 
-- Glyph radius 3 → 5 at level 50 directly increases the number of nodes contributing Attributes to threshold and scaling bonuses.
-- Fulminate synergizes with Dexterity-granting Normal Nodes placed within its radius.
-- At level 50, Glyph converts to Legendary quality and activates a Legendary Bonus multiplier in the socket.
+| Glyph Level | Radius |
+|---|---|
+| 1–49 | 3 |
+| 50–150 | 5 |
+
+**Example Glyph — Fulminate**
+
+| Property | Value |
+|---|---|
+| Effect | +2.0% increased Lightning damage per 5 Dexterity allocated within radius (base level) |
+| Attribute threshold | 25 Dexterity on allocated Paragon Nodes within radius |
+| Synergizes with | Dexterity/Intelligence Normal Nodes in radius; Lightning damage builds |
+
+**Example Rare Node — Spiritual Power**
+
+| Stat | Base | With both Attributes met |
+|---|---|---|
+| Core Skill Damage | +14% | +28% |
+| Basic Skill Damage | +35% | +35% |
 
 ---
 
 ## Strategy
 
-1. **Target Pit for leveling** — Pit is the primary source of both Glyph drops and upgrade attempts. Prioritize it over Nightmare Dungeons once you need to push Glyph levels.
-2. **Match Pit tier to Glyph level** — Run Pit at Glyph level +10 or higher for guaranteed 100% upgrade success. Accept 70% (Pit ≈ Glyph level) when you're pushing beyond your current clear ceiling.
-3. **Don't die** — A deathless run adds a free upgrade attempt. In aggregate across many runs this meaningfully accelerates Glyph leveling.
-4. **Prioritize level 50 first** — Reaching level 50 expands radius from 3 to 5, unlocks Legendary quality, and significantly increases board-wide power. Push one key Glyph to 50 before spreading attempts across all sockets.
-5. **Plan Gem Fragments** — Budget 15,000 Gem Fragments per Glyph for the Rare → Legendary conversion at level 50.
-6. **Place Attribute-granting nodes inside radius** — Stack the Dexterity/Intelligence/Willpower Normal and Magic Nodes closest to the Glyph Socket to maximize threshold bonuses and Glyph scaling.
-7. **Leverage Seasonal Blessings** — If Season 13 Blessings grant +1 upgrade attempt, activate them before running Pit sessions to stretch your attempts further.
+1. **Push Pit levels ~0 to +10 above Glyph level** for the best return on upgrade attempts — 70–100% success rate with no wasted runs.
+2. **Prioritize deathless clears** to bank the bonus attempt; a free extra roll at 70%+ is significant over hundreds of levels.
+3. **Budget 15,000 Gem Fragments per Glyph** before targeting level 50 so the Rare → Legendary conversion isn't blocked by materials.
+4. **Maximize Attribute nodes inside the Glyph radius** before socketing — meeting the threshold unlocks the bonus, and a radius-5 Glyph at level 50 captures far more nodes than radius 3.
+5. **Stack complementary node types** — Normal Nodes supply raw Attributes for Glyph thresholds; Magic Nodes surrounding Rare Nodes supply additional Attribute totals; plan pathing to hit both.
+6. **Farm Glyphs in the Pit or Nightmare Dungeons** at level 70+ rather than relying on incidental drops from other content.
 
 ---
 
 ## Pitfalls
 
-- **Missing the boss timer** — Failing to kill the Pit boss before the timer voids all upgrade attempts for that run; no kill = no upgrades.
-- **Upgrading at low Pit levels** — Running Pit tiers 40+ below your Glyph level gives only 1–2% success chance; this wastes attempts rapidly.
-- **Neglecting radius planning** — Socketing a Glyph where few relevant Attribute nodes fall within radius 3 leaves the Glyph severely underpowered until level 50.
-- **Gem Fragment shortfall** — Failing to stockpile 15,000 Gem Fragments delays the Legendary conversion and the radius-5 breakpoint.
-- **Spreading attempts too thin** — Leveling every Glyph equally delays the critical level-50 radius and quality upgrade on your most impactful sockets.
-- **Ignoring Attribute thresholds** — Socketing a Glyph like Fulminate without 25 Dexterity allocated within radius forfeits its additional bonus entirely.
+- **Upgrading at a large negative delta** (e.g., −40 or lower) wastes attempts at 1–2% success — hold off until you can push a higher Pit tier.
+- **Missing the Pit timer** grants no upgrade attempts at all; a failed boss kill forfeits the session.
+- **Ignoring the radius expansion** — planning a board around radius 3 and then unlocking radius 5 at level 50 can pull in unintended or unhelpful nodes; pre-plan pathing.
+- **Socketing Fulminate without 25 Dexterity in range** leaves the additional bonus permanently inactive; verify node pathing before committing.
+- **Spending Paragon Points without a plan** — with only 327 total points available, uncoordinated allocation can leave Attribute thresholds on Rare Nodes and Glyph bonuses unmet.
+- **Forgetting Seasonal Blessings** — in Season 13 the +1 attempt bonus is available; not activating it before Pit runs is a free upgrade missed.

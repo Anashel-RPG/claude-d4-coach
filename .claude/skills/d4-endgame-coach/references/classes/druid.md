@@ -1,53 +1,43 @@
 # Druid
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-18 · Source: https://maxroll.gg/d4/resources/druid-class-overview
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-19 · Source: https://maxroll.gg/d4/resources/druid-class-overview
 
 ## Core identity
-Druid is a hybrid class that weaves shapeshifting (Werewolf / Werebear), nature spells, and wildlife companions. Defensively strong in animal forms; relatively squishy when casting in human form. Excels at high burst damage with good defensive utility but has limited mobility and relies on positioning.
+Druid is a shapeshifting nature caster that seamlessly blends Werewolf, Werebear, and human-form spells. It excels at high burst damage with strong defensive utility in animal forms, at the cost of limited mobility and squishiness when casting in human form.
 
 ## Damage scaling buckets
 - **Multiplicative sources:** (not covered in source)
-- **Additive sources:** Skill rank scaling (+10% of base value per rank, up to rank 5); Intelligence (+40 All Resistances and 3% Resource Generation per 100 points); Strength (+200 Armor per 100 points)
+- **Additive sources:** Skill ranks (+10% base value per rank, up to rank 5); Intelligence (+40 All Resistances, 3% Resource Generation per 100 pts); Strength (+200 Armor per 100 pts)
 - **Critical / Vulnerable / Overpower hooks:** (not covered in source)
 
 ## Skill tree priorities
 | Skill | Role | Applies | Generates / Consumes | Notes |
 |---|---|---|---|---|
-| Basic Skills (any) | Resource generation | — | Generates Spirit | Spirit is the primary resource |
-| Pulverize | Core damage (Werebear) | Werebear form | Consumes Spirit | Central skill of Mega-Bear-Punch build |
-| Maul | Damage / sustain (Werebear) | Werebear form | Consumes Spirit | Belongs to Druid class |
-| Grizzly Rage | Ultimate (Werebear) | Werebear form | — | While active, only Werebear Skills on the bar can be used |
-| Tornado | Nature spell / damage | — | Consumes Spirit | Seeks enemies when paired with Stormchaser's Offensive Aspect |
-| Shred | Core damage (Werewolf) | Werewolf form | Consumes Spirit | Key Unique: Waxing Gibbous |
-| Ancestral Fortitude | Passive / defense | — | — | Belongs to Druid class |
-
-Each active skill can be leveled up to 5 times, then Enhanced with 1 additional point, then upgraded via one of two specialization choices.
+| Basic Skills (generic) | Spirit generator | — | Generates Spirit | Primary resource engine |
+| Pulverize | Core damage (Werebear) | Werebear form | Consumes Spirit | Central skill in Mega-Bear-Punch build |
+| Maul | Damage / sustain | Werebear form | Consumes Spirit | Belongs to Druid skill tree |
+| Grizzly Rage | Ultimate | Werebear form (locked) | Consumes Spirit | While active, only Werebear Skills on the bar can be used |
+| Tornado | Damage (Storm) | Human / Storm | Consumes Spirit | Seeks enemies when paired with Stormchaser's Aspect |
+| Shred | Core damage (Werewolf) | Werewolf form | Consumes Spirit | Key skill for Waxing Gibbous builds |
+| Ancestral Fortitude | Passive / defense | — | — | Belongs to Druid skill tree |
+| Each active skill can be leveled ×5 | — | — | — | ~+10% base value per rank; unlock → Enhanced → one of two Specializations |
 
 ## Key passives / class mechanic
 | Key Passive | Buffs (state/skill) | Effect | Best for |
 |---|---|---|---|
-| One With Nature | All Companions | Calls all Companions to the Druid's side to passively attack even if not on the skill bar; active Companion abilities still require the skill to be slotted | Companion-focused builds |
-| *(others)* | — | Only one Key Passive can be chosen at a time | All builds |
-
-**Spirit Boons (class mechanic):**
-- Unique to Druid; select one passive bonus from each of the four Spirits: Deer, Eagle, Snake, Wolf.
-- Unlock each Boon by spending 15 Druidic Spirit Offerings (16 Boons total = 240 Offerings total).
-- Druidic Spirit Offerings start dropping from monsters at level 15.
-- All Snake Spirit Boons must be unlocked simultaneously (costs 60 Offerings at once).
-- Once all Boons are unlocked, bond with one Spirit to gain **two** Boons from it; each remaining Spirit provides one Boon.
-- Boons can be swapped at any time, including mid-combat.
-
-**Deer Spirit Boons (utility-focused):** Thorns, additional maximum Spirit, Damage Reduction vs. Elites, Movement Speed with Impairment Reduction.
+| One With Nature | All Companions | Calls all Companions to passively attack even without being slotted on the skill bar; active components still require the skill bar slot | Companion-focused builds |
+| (others) | (not covered in source) | Only one Key Passive can be active at a time | — |
 
 ## Aspects (legendary)
 | Aspect | Slot | Buffs (skill/state) | Effect | When to drop it |
 |---|---|---|---|---|
-| Stormchaser's Offensive Aspect | Offensive | Tornado | Tornado seeks out enemies | Replace if not running Tornado |
+| Stormchaser's Offensive Aspect | Offensive | Tornado | Tornado seeks out enemies | When not running a Tornado build |
+| (others) | Two-Handed weapon slots amplify Legendary Aspect values | — | 2H weapons yield stronger Aspect numbers but slower attack speed vs. 1H + Totem | — |
 
 ## Uniques worth chasing
 | Unique | Slot | Buffs | Why | GA priority |
 |---|---|---|---|---|
-| Waxing Gibbous | Weapon | Shred | Core Unique for Shred/Werewolf builds | High |
+| Waxing Gibbous | (not covered in source) | Shred | Core Unique for Shred builds | High — mandatory for Shred |
 
 ## Tempering manuals
 - Weapon: (not covered in source)
@@ -57,13 +47,15 @@ Each active skill can be leveled up to 5 times, then Enhanced with 1 additional 
 1. (not covered in source)
 
 ## Paragon priority
-- Starting board: Invest in nodes spreading outward from starting position; Mega-Bear-Punch build paths heavily through the Starting Board cluster around X11–X14 / Y2–Y14 ranges.
-- Glyph order to L15: Boards used by top builds — Earthen Devastation, Survival Instincts, Heightened Malice, Sinister Tendrils; prioritize the Rare and Magic nodes feeding each board's Glyph socket. Specific glyph leveling order not covered in source.
+- Starting board: Prioritize nodes along the Druid Starting Board (multiple pathing nodes confirmed for Mega-Bear-Punch / Pulverize build — see build planner for exact coordinates)
+- Glyph order to L15: Earthen Devastation board → Survival Instincts board → Heightened Malice board → Sinister Tendrils board (all four boards used in the Mega-Bear-Punch / Pulverize build)
 
 ## Common mistakes
-- Casting nature spells in human form without defensive support — human form is noticeably squishier than either shapeshift form.
-- Not slotting a Companion skill on the bar when needed for active Companion abilities, even when running One With Nature (passive attacks happen automatically, but active components still require the skill).
-- Skipping the Snake Spirit Boon cluster — all four Snake Boons must be purchased simultaneously for 60 Offerings; plan your Offering budget accordingly.
-- Grizzly Rage locking out non-Werebear skills — ensure your skill bar is Werebear-only before activating it.
-- Choosing a Two-Handed Weapon for speed-dependent builds — 2H provides stronger Legendary Aspect values but significantly slower attack speed; use 1H + Totem when attack speed matters.
-- Neglecting positioning — Druid has few mobility skills, so poor positioning is punished heavily.
+- Running human-form spells without defensive investment — human form has significantly less innate tankiness than Werewolf or Werebear form
+- Not completing the 16 Spirit Boon unlocks (240 Druidic Spirit Offerings total, 15 per Boon) before committing to a build — missing the bonded Spirit's double-Boon is a major power loss
+- Forgetting that Druidic Spirit Offerings do not drop until level 15; don't delay farming them after that threshold
+- Choosing a Spirit bond before considering which Spirit synergizes with the build — the bonded Spirit grants two Boons while the other three grant one each; swap is allowed any time including mid-combat
+- Slotting Companion skills for passive attacks without One With Nature equipped — without that Key Passive, unslotted Companions do nothing
+- Locking a full Grizzly Rage bar with non-Werebear Skills — only Werebear Skills on the bar function during Grizzly Rage
+- Picking a Two-Handed weapon expecting fast clear; 2H increases hit power and Aspect values but attack speed is noticeably slower than 1H + Totem
+- Ignoring positioning — Druid has few mobility tools and must pre-position before engaging dense packs
