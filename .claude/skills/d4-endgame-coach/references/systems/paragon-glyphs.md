@@ -1,48 +1,45 @@
 # Paragon Glyphs
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-20 · Source: https://maxroll.gg/d4/resources/paragon-boards
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-21 · Source: https://maxroll.gg/d4/resources/paragon-boards
 
 ## What it is
 
-Paragon Glyphs are socketable items placed into the single **Glyph Socket** on each Paragon Board. They amplify nearby Paragon Nodes within a radius, scale in power as they level up, and convert from Rare to Legendary quality at level 50. Paragon Boards unlock at **character level 70**.
+Paragon Glyphs are socketable items placed into **Glyph Socket** nodes on Paragon Boards. Each board has exactly one Glyph Socket. Glyphs amplify nearby Paragon Nodes within a radius, grant their own bonus effect, and unlock additional bonuses when nearby nodes meet an Attribute threshold. Glyphs start at Rare quality and convert to Legendary at level 50.
 
 ---
 
 ## Mechanics
-1. **Socketing** — Each Paragon Board has exactly one Glyph Socket. One Glyph slots into it.
-2. **Radius** — Glyphs start with a radius of **3** (affects all Paragon Nodes within 3 nodes of the socket). At level 50 the radius expands to **5**.
-3. **Attribute threshold bonus** — Rare and Legendary Glyphs grant an additional bonus when allocated Paragon Nodes within the Glyph's radius meet a specified Attribute threshold.
-4. **Quality tiers** — Glyphs start at **Rare** quality. Reaching level 50 converts them to **Legendary** quality, activating a Legendary bonus multiplier.
-5. **Leveling** — Glyphs are upgraded by spending attempts earned from clearing the Pit. Upgrade success is probabilistic, based on the difference between Pit level and Glyph level (see Breakpoints).
-6. **Overflow bonus** — When the Pit level exceeds the Glyph level by more than 20, the Glyph receives an additional **+3 levels** (shown in green) on a successful upgrade.
-7. **Max level** — Glyphs cap at level **150**.
+
+1. **Unlock:** Paragon Boards (and Glyphs) become available at character level 70.
+2. **Socketing:** One Glyph slots into each board's single Glyph Socket Node.
+3. **Radius:** Glyphs start with a radius of 3 (affects Paragon Nodes within 3 nodes of the socket). At level 50 the radius expands from 3 → 5.
+4. **Attribute threshold bonus:** Rare and Legendary Glyphs grant an additional bonus when the Attribute total from allocated Paragon Nodes within the Glyph's radius meets the specified threshold.
+5. **Quality upgrade:** At level 50 the Glyph converts from Rare to Legendary, activating a Legendary Bonus multiplier. Cost: 15,000 Gem Fragments.
+6. **Max level:** Glyphs can be upgraded to a maximum of level 150.
+7. **Drop source:** Any activity after reaching level 70 can drop a Glyph; the Pit and Nightmare Dungeons are the best sources.
+8. **Upgrade attempts:** Clearing the Pit before the timer grants 3 Glyph upgrade attempts. Not dying adds +1 attempt. A Seasonal Blessing can add a further +1 attempt.
+9. **Pit level overleveling bonus:** When the Pit level is more than 20 levels higher than the Glyph level, the Glyph gains an additional +3 levels (shown in green).
 
 ---
 
 ## Costs / requirements
 
-| Gate | Requirement |
+| Action | Requirement / Cost |
 |---|---|
 | Unlock Paragon Boards | Reach character level 70 |
-| Upgrade Glyphs | Clear the Pit (boss killed before timer expires) |
-| Rare → Legendary conversion (level 50) | **15,000 Gem Fragments** |
-| Fulminate additional bonus | **25 Dexterity** allocated on Paragon Nodes within radius |
-
-**Upgrade attempts per Pit clear:**
-
-| Source | Attempts |
-|---|---|
-| Base (Pit cleared) | +3 |
-| No-death bonus | +1 |
-| Seasonal Blessing (Season 13) | +1 |
+| Socket a Glyph | One Glyph Socket Node per board |
+| Upgrade Glyph levels | Clear the Pit before the timer expires |
+| Rare → Legendary conversion (level 50) | 15,000 Gem Fragments |
+| Max Glyph level | 150 |
+| Fulminate threshold bonus | 25 Dexterity allocated on Paragon Nodes within radius |
 
 ---
 
 ## Recipes / breakpoints / interactions
 
-**Upgrade chance by (Pit level − Glyph level):**
+**Pit level − Glyph level → upgrade success chance**
 
-| Pit − Glyph | Upgrade Chance |
+| Pit lvl − Glyph lvl | Upgrade Chance |
 |---|---|
 | −50 to −41 | 1% |
 | −40 to −31 | 2% |
@@ -56,42 +53,48 @@ Paragon Glyphs are socketable items placed into the single **Glyph Socket** on e
 | 0 to +5 | 70% |
 | +6 to +7 | 80% |
 | +8 to +9 | 90% |
-| +10 or higher | **100%** |
-| +21 or higher | 100% + **+3 level bonus** |
+| +10 or higher | 100% |
 
-**Fulminate Glyph (example):**
+**Overleveling bonus:** Pit level ≥ Glyph level + 21 → Glyph gains +3 additional levels (green bonus).
 
-| Stat | Value |
+**Fulminate (example Glyph — Lightning, Spiritborn)**
+
+| Property | Value |
 |---|---|
-| Base effect | +2.0% Lightning damage per 5 Dexterity allocated in radius |
-| Additional bonus threshold | 25 Dexterity on nodes within radius |
-| Damage type applied | Lightning |
+| Base effect | +2.0% increased Lightning damage per 5 Dexterity allocated in radius |
+| Threshold bonus requirement | 25 Dexterity on allocated Paragon Nodes within radius |
+| Scaling | Scales upward with Glyph level (up to +16.7% per 5 Intelligence at level 100) |
 
-**Class-specific Glyph pools (Season 13, Patch 2.4.1):**
+**Class-specific Glyph lists**
 
-| Class | Glyphs (23 total for Barbarian) |
+| Class | Glyphs |
 |---|---|
-| **Barbarian** | Ambidextrous, Bloodfeeder, Brawl, Challenger, Cleaver, Crusher, Disembowel, Dominate, Executioner, Exploit, Imbiber, Ire, Marshal, Might, Mortal Draw, Revenge, Rumble, Seething, Territorial, Twister, Undaunted, Weapon Master, Wrath |
-| **Spiritborn** | Bane, Canny, Colossal, Consumption, Exploit, Fester, Fitness, Fulminate, Guzzler, Headhunter, Hone, Hubris, Innate, Jagged Plume, Menagerist, Outmatch, Revenge, Ritual, Spirit, Talon, Turf, Wildfire |
-| **Paladin** | Apostle, Arbiter, Canny, Challenger, Chip, Control, Diminish, Exploit, Feverous, Honed, Imbiber, Judicator, Law, Outmatch, Resplendence, Revenge, Sentinel, Spirit, Turf, Undaunted |
+| Barbarian (23) | Ambidextrous, Bloodfeeder, Brawl, Challenger, Cleaver, Crusher, Disembowel, Dominate, Executioner, Exploit, Imbiber, Ire, Marshal, Might, Mortal Draw, Revenge, Rumble, Seething, Territorial, Twister, Undaunted, Weapon Master, Wrath |
+| Spiritborn | Bane, Canny, Colossal, Consumption, Exploit, Fester, Fitness, Fulminate, Guzzler, Headhunter, Hone, Hubris, Innate, Jagged Plume, Menagerist, Outmatch, Revenge, Ritual, Spirit, Talon, Turf, Wildfire |
+| Paladin | Apostle, Arbiter, Canny, Challenger, Chip, Control, Diminish, Exploit, Feverous, Honed, Imbiber, Judicator, Law, Outmatch, Resplendence, Revenge, Sentinel, Spirit, Turf, Undaunted |
+
+*Some Glyph names (e.g. Exploit, Revenge, Canny) appear on multiple class lists.*
 
 ---
 
 ## Strategy
-1. **Farm Glyphs at level 70+** — Any activity can drop Glyphs after level 70; the **Pit** and **Nightmare Dungeons** are the most efficient sources.
-2. **Run Pit levels ~10 above your Glyph level for guaranteed upgrades** — A +10 or higher differential gives 100% success; push only as high as needed.
-3. **Don't die** — A deathless Pit clear adds +1 upgrade attempt per run; over many runs this is a meaningful efficiency gain.
-4. **Prioritize reaching Glyph level 50** — The radius expansion (3 → 5) and Legendary quality conversion are the largest power spikes; get key Glyphs here first.
-5. **Plan your board layout around Attribute thresholds** — Pack Dexterity/Intelligence/Strength Normal Nodes inside the Glyph radius to hit the additional bonus threshold (e.g., 25 Dexterity for Fulminate).
-6. **Budget 15,000 Gem Fragments per Glyph** — The Rare → Legendary upgrade at level 50 has a fixed material cost; stockpile accordingly before converting multiple Glyphs.
-7. **Use Seasonal Blessings** — Season 13 blessings can add +1 attempt per Pit clear; check and activate relevant blessings before farming.
+
+1. **Push Pit ~10 levels above your Glyph level** for guaranteed 100% upgrade chance — most efficient path when you can clear it.
+2. **Never die during Pit runs** — the deathless bonus adds a 4th upgrade attempt, compounding over many runs.
+3. **Activate Seasonal Blessings** that grant +1 upgrade attempt to squeeze out a 5th attempt per run.
+4. **Prioritize upgrading your highest-impact Glyphs to level 50 first** — the radius expansion (3 → 5) and Legendary quality conversion both represent large power spikes.
+5. **Stack the correct Attribute type within each Glyph's radius** — for Fulminate, route your board path through Dexterity/Intelligence nodes to hit the 25 Dexterity threshold and maximize per-5-stat scaling.
+6. **Use the Pit and Nightmare Dungeons** as primary Glyph farming activities post-level 70.
+7. **Bank 15,000 Gem Fragments** before a Glyph hits level 50 so the Rare → Legendary conversion isn't gated by materials.
+8. **When over-leveling the Pit by 21+**, take advantage of the +3 green bonus to accelerate Glyph leveling on low-level Glyphs.
 
 ---
 
 ## Pitfalls
-- **Upgrading into a wall** — Running Pit levels far below your Glyph level wastes attempts (e.g., −40 differential = 2% success). Always track the delta.
-- **Ignoring the no-death bonus** — Dying once per run forfeits +1 attempt every clear; this compounds significantly over a farming session.
-- **Forgetting Gem Fragment costs** — Attempting the Rare → Legendary conversion without 15,000 Gem Fragments on hand stalls progression at a critical breakpoint.
-- **Misreading the +3 overflow** — The extra +3 levels on a 20+ Pit-over-Glyph clear is only a bonus on top of a successful roll; it does not guarantee success by itself (success is still 100% at +10, not conditional on +20).
-- **Skipping Attribute threshold setup** — Socketing a Glyph without enough of the required Attribute in radius loses the additional bonus entirely — the base effect still applies, but the extra multiplier does not.
-- **Assuming all Glyphs are universal** — Many Glyphs are class-specific; confirm a Glyph is usable by your class before targeting it in farming.
+
+- **Upgrading at low Pit levels relative to Glyph level** (e.g. −40 offset = 1–2% chance) wastes upgrade attempts; push higher content or accept slower progress.
+- **Forgetting the deathless bonus** — a single death removes the +1 attempt; avoidable deaths are a meaningful efficiency loss at scale.
+- **Not meeting the Attribute threshold** inside the Glyph radius means the additional bonus never activates — check the threshold requirement before finalizing board pathing.
+- **Hoarding Gem Fragments for other uses** and being unable to convert a level-50 Glyph to Legendary; the 15,000 cost is significant and should be planned around.
+- **Socketing a Glyph on the wrong board** — mismatched Glyph type and board Attributes means poor threshold value and wasted radius nodes.
+- **Assuming all Glyphs are universal** — many high-value Glyphs are class-specific and cannot be used on other classes.

@@ -1,53 +1,59 @@
 # Sorcerer
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-20 · Source: https://maxroll.gg/d4/resources/sorcerer-class-overview
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-21 · Source: https://maxroll.gg/d4/resources/sorcerer-class-overview
 
 ## Core identity
-Sorcerer is a ranged elemental caster dealing Cold, Fire, and Lightning damage with screen-wide AoE, strong crowd control, and high mobility via Teleport. The class is Mana-dependent and fragile in melee, trading survivability for overwhelming offensive output and on-the-move DPS.
+Sorcerer channels Cold, Lightning, and Fire to delete screens of enemies at range, with strong crowd control, on-the-move DPS, and powerful defensive tools — offset by heavy Mana dependency and melee fragility.
 
 ## Damage scaling buckets
-- **Multiplicative sources:** Enchantment Slot passive procs, Key Passive bonuses (e.g., Esu's Ferocity, Combustion, Avalanche), skill-specific damage multipliers
-- **Additive sources:** Intelligence (12.5% Skill Damage per 100 pts), Willpower (25% Overpower Damage per 100 pts), Dexterity (2% Critical Strike Chance per 100 pts)
-- **Critical / Vulnerable / Overpower hooks:** Dexterity adds Crit Chance; Willpower adds Overpower Damage; Blizzard applies 9% Chill per tick (twice/sec) enabling Freeze → Shatter; Meteor-Overpower and Hydra-Overpower skills have dedicated Overpower upgrades
+- **Multiplicative sources:** Enchantment Slot passive effects; Key Passive bonuses (e.g. Esu's Ferocity, Combustion); Ultimate Skill damage windows (Unstable Currents)
+- **Additive sources:** Intelligence (+12.5% Skill Damage per 100 pts); Willpower (+25% Overpower Damage per 100 pts); Dexterity (+2% Critical Strike Chance per 100 pts)
+- **Critical / Vulnerable / Overpower hooks:** Dexterity (+2% Crit Chance per 100 pts); Meteor-Overpower and Hydra-Overpower upgrades; Willpower (+25% Overpower Damage per 100 pts); Ball-Lightning-Ferocity (Crit synergy)
 
 ## Skill tree priorities
 | Skill | Role | Applies | Generates / Consumes | Notes |
 |---|---|---|---|---|
-| Spark | Basic | — | Generates Mana | Primary Mana generator |
-| Charged Bolts | Core Lightning | — | Consumes Mana | Upgrade: Weaken or Cast Speed |
-| Chain Lightning | Core Lightning | — | Consumes Mana | Upgrades: Crit Chance, Additional Chains, Chain of Cold |
-| Ball Lightning | Core Lightning | — | Consumes Mana | Upgrades: Orbital, Ferocity |
-| Blizzard | Core Cold / CC | Chill (9% per tick, 2×/sec) → Freeze | Consumes Mana | Upgrades: Static Field, Damage Bonus, Seek & Duration |
-| Firewall | Core Fire | Burning | Consumes Mana | Strong DoT zone |
-| Hydra | Core Fire | Burning | Consumes Mana | Upgrades: CDR, Frigid Hydra, Overpower |
-| Meteor | Core Fire | — | Consumes Mana | Upgrades: Overpower, Shooting Star |
-| Teleport | Mobility / Utility | — | Cooldown | Traverses cliffs and walls; upgrades: Weaken, Crackling Energy, Blaze, Wormhole |
-| Ice Armor | Defensive | Barrier | Cooldown | Upgrades: CDR, Permafrost, Duration/Barrier; Protection passive Barriers do NOT stack — multiple cooldowns only refresh duration |
-| Lightning Spear | Conjuration | — | Cooldown | Upgrades: Projectile Speed, Reverse Polarity |
-| Familiar | Conjuration | Fire/Lightning | Cooldown | Upgrades: Healing Flames, Duration Bonus, Charge, Prismatic |
-| Unstable Currents | Ultimate | — | Cooldown | Upgrades: CDR, Boundless, Damage Bonus |
+| Spark | Basic / Mana gen | — | Generates Mana | Foundation for Lightning builds |
+| Charged Bolts | Core damage | — | Consumes Mana | Weaken & Cast Speed upgrades available |
+| Chain Lightning | Core damage | Cold (Chain of Cold upgrade) | Consumes Mana | Additional Chains & Crit Chance upgrades |
+| Ball Lightning | Core damage / DoT | — | Consumes Mana | Orbital and Ferocity upgrades |
+| Blizzard | Core AoE damage | Chill (9% per tick, 2×/sec) | Consumes Mana | Static Field, Damage Bonus, Seek upgrades |
+| Hydra | Persistent damage | — | Consumes Mana | Cooldown Reduction, Frigid Hydra, Overpower upgrades |
+| Firewall | DoT zone | — | Consumes Mana | Strong for Fire builds (Incinerate/Conflagration) |
+| Meteor | Burst damage | — | Consumes Mana | Shooting Star & Overpower upgrades |
+| Teleport | Mobility / utility | — | Cooldown | Traverses cliffs and walls; Wormhole, Weaken, Blaze, Crackling Energy upgrades |
+| Ice Armor | Defense | — | Cooldown | Barrier (does not stack — multiple CDs only refresh duration); Permafrost, Duration/Barrier upgrades |
+| Lightning Spear | Core damage | — | Cooldown | Reverse Polarity & Projectile Speed upgrades |
+| Unstable Currents | Ultimate / damage amplifier | — | Cooldown | Cooldown Reduction, Boundless, Damage Bonus upgrades |
+| Familiar | Utility / damage | — | Cooldown | Prismatic, Healing Flames, Duration, Charge upgrades |
 
 ## Key passives / class mechanic
-**Class mechanic — Enchantment Slots:** Two passive slots that grant bonus effects from any Sorcerer skill placed in them. Slot 1 unlocks at level 15 (triggers Priority Quest "Legacy of the Magi"); Slot 2 unlocks at level 30. A skill can appear on the action bar and in an Enchantment Slot simultaneously. Slots can be swapped at any time.
-
 | Key Passive | Buffs (state/skill) | Effect | Best for |
 |---|---|---|---|
-| Avalanche | Cold skills | (not covered in source) | Cold builds |
-| Shatter | Frozen enemies | (not covered in source) | Blizzard / Freeze builds |
-| Combustion | Burning enemies | (not covered in source) | Fire builds |
-| Esu's Ferocity | Ball Lightning / critical hits | (not covered in source) | Lightning / Ball Lightning builds |
-| Overflowing Energy | Crackling Energy | (not covered in source) | Lightning builds |
-| Vyr's Mastery | Close-range skills | (not covered in source) | Ball Lightning melee-range builds |
-| Enlightenment | Attack Speed | Attack Speed bonus subject to Cap 1 (gear, paragon, elixir) | Builds stacking multiple AS sources |
+| Avalanche | Cold skills | (not covered in source) | Cold / Blizzard builds |
+| Shatter | Frozen enemies | (not covered in source) | Freeze / burst builds |
+| Combustion | Fire skills | (not covered in source) | Fire / Firewall / Incinerate builds |
+| Esu's Ferocity | Fire + Cold skills | (not covered in source) | Mixed elemental builds |
+| Overflowing Energy | Crackling Energy | (not covered in source) | Lightning / Crackling Energy builds |
+| Vyr's Mastery | Close-range Lightning | (not covered in source) | Ball Lightning / melee-range builds |
+| Enlightenment | Attack Speed | Attack Speed bonus; capped by Cap 1 (gear, paragon, elixir) | Builds needing cast speed; note the cap |
+
+**Class mechanic — Enchantment Slots:**
+- First slot unlocks at level 15 (triggers Priority Quest "Legacy of the Magi"); second at level 30.
+- A skill can be on the action bar and in an Enchantment Slot simultaneously.
+- Enchantment choices can be swapped at any time.
+- Only 1 Ultimate Skill and 1 Key Passive can be selected.
 
 ## Aspects (legendary)
 | Aspect | Slot | Buffs (skill/state) | Effect | When to drop it |
 |---|---|---|---|---|
-| Aspect of Dominance | Any (Sorcerer only) | (not covered in source) | (not covered in source) | (not covered in source) |
-| Aspect of Exorcism | Any (Sorcerer only) | (not covered in source) | (not covered in source) | (not covered in source) |
-| Aspect of Heavenly Strength | Any (Sorcerer only) | (not covered in source) | (not covered in source) | (not covered in source) |
+| Aspect of Dominance | (not covered in source) | Sorcerer skills | (not covered in source) | (not covered in source) |
+| Aspect of Exorcism | (not covered in source) | Sorcerer skills | (not covered in source) | (not covered in source) |
+| Aspect of Heavenly Strength | (not covered in source) | Sorcerer skills | (not covered in source) | (not covered in source) |
+| Aspect of Cold | (not covered in source) | Cold skills | Usable by Sorcerer, Rogue, Necromancer | When Cold affinity is not needed |
+| Aspect of Burning | (not covered in source) | Overpower | Usable by Sorcerer, Barbarian | When Overpower synergy is not relevant |
 
-> **Weapon note:** Equipping a Staff loses one Legendary Aspect slot and the Focus's Cooldown Reduction compared to 1H weapon + Focus. Only trade this if the Staff implicit is worth the loss.
+> **Weapon note:** Using a Staff loses one Legendary Aspect slot and the Cooldown Reduction implicit from a Focus compared to 1H weapon + Focus.
 
 ## Uniques worth chasing
 (not covered in source)
@@ -60,15 +66,14 @@ Sorcerer is a ranged elemental caster dealing Cold, Fire, and Lightning damage w
 1. (not covered in source)
 
 ## Paragon priority
-- **Starting board:** Path through key Magic/Rare nodes toward the board connector; the Shockuna build routes through a dense cluster of nodes across rows Y2–Y14 on the Starting Board before branching to secondary boards.
-- **Glyph order to L15:** Boards used by top builds include **Static Surge**, **Enchantment Master**, **Frigid Fate**, and **Ceaseless Conduit**. Prioritize the glyph socket on whichever board amplifies your primary damage type first (Lightning → Static Surge; Cold → Frigid Fate; Enchantment-stacking → Enchantment Master).
-
-> Exact node-by-node paths are build-specific. The Shockuna (Mekuna's Static Field) build — the highest-favorited Sorcerer build at 15,780 favorites — uses all four boards above with extensive pathing documented on Maxroll.
+- **Starting board:** Path through nodes X11–X13 (rows Y2–Y14) covering stat clusters; notably X13-Y7 through Y14 spine and X9–X12 side branches for early Intelligence/resist density.
+- **Glyph order to L15:** Static Surge board → Enchantment Master board → Frigid Fate board → Ceaseless Conduit board (all four boards confirmed used by top-ranked Shockuna / Mekuna's Static Field build, 15 780 favorites).
 
 ## Common mistakes
-- Using a Staff instead of 1H + Focus — costs an Aspect slot and CDR with no compensation unless the Staff implicit is exceptional
-- Not slotting both Enchantment Slots as soon as they unlock (level 15 and 30)
-- Stacking multiple Barrier-granting Cooldowns expecting additive shields — Protection-sourced Barriers do not stack, only refresh duration
-- Ignoring Intelligence as a primary stat — every 100 pts gives +12.5% Skill Damage and +40 All Resistances
-- Running Enlightenment Key Passive without verifying Attack Speed is not already at Cap 1 (gear + paragon + elixir)
-- Staying in melee range; Sorcerer has minimal close-combat defenses and Mana is the primary resource gate on damage output
+- Equipping a Staff instead of 1H + Focus — costs an extra Legendary Aspect slot and the Focus's Cooldown Reduction implicit.
+- Stacking multiple Cooldowns to build bigger Barriers from Protection — Barriers do not stack; extra casts only refresh duration.
+- Ignoring Intelligence stacking — every 100 pts gives +12.5% Skill Damage **and** +40 All Resistances, making it the primary offensive and defensive stat.
+- Over-investing in Willpower without a dedicated Overpower build — the 25% Overpower Damage bonus is only impactful when Overpower triggers are consistent.
+- Picking two Key Passives or two Ultimates — the game only allows one of each; plan the skill tree around this constraint before spending points.
+- Running into melee range — Sorcerer has no inherent melee mitigation; use Teleport to maintain distance and traverse terrain.
+- Letting Mana run dry with no Basic skill or resource generation — always include a Mana-generating Basic skill or passive to sustain costly Mana spenders.

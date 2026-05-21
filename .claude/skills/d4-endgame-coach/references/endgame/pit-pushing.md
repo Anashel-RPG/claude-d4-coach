@@ -1,10 +1,10 @@
 # Pit Pushing
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-20 · Source: https://maxroll.gg/d4/resources/pit-guide
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-21 · Source: https://maxroll.gg/d4/resources/pit-guide
 
 ## Goal
 
-Push the highest Pit of Artificers tier possible to level Paragon Glyphs and unlock further tiers. Glyphs are leveled **exclusively** through Pit clears and cap at **level 150**.
+Push the highest Pit of Artificers tier possible to level Paragon Glyphs and unlock further tiers. Glyphs are leveled **exclusively** through Pit clears — making it the primary endgame progression loop.
 
 ---
 
@@ -15,8 +15,8 @@ Push the highest Pit of Artificers tier possible to level Paragon Glyphs and unl
 | Seasonal | Complete Capstone Dungeon **Hellish Descent** at Season Rank II |
 | Eternal | Reach **level 70** |
 
-- Access the obelisk in **Cerrigar/Temis** to enter.
-- As of **Season 11 (December 2025)**, no materials are required to enter a run.
+- Access the Pit by interacting with the **obelisk in Cerrigar/Temis**.
+- As of Season 11 (December 2025), **no materials are required** to enter a run.
 
 ---
 
@@ -24,32 +24,40 @@ Push the highest Pit of Artificers tier possible to level Paragon Glyphs and unl
 
 | Tier | Drops | Notes |
 |---|---|---|
-| Any (cleared) | **4 glyph upgrade attempts** | Base reward for defeating the boss before timer expires |
-| Any (no death) | **+1 bonus glyph upgrade attempt** | Requires zero deaths during the run |
-| Any (War Plans nodes) | **Up to +4 extra glyph upgrade attempts** | Unlocked via Pit Skill Tree nodes using War Plans |
-| Any | **Glyph drops** | Glyphs not yet found elsewhere can drop at run end |
-| Higher tiers | Additional tier unlocks | Extra tiers awarded based on time remaining after boss kill |
+| Any (successful clear) | **4 glyph upgrade attempts** | Base reward for defeating the boss before the timer |
+| Any (no-death clear) | **+1 bonus glyph upgrade attempt** | Requires zero deaths during the run |
+| Any (via War Plans) | **Up to +4 additional glyph upgrade attempts** | Unlocked through nodes in the Pit Skill Tree using War Plans |
+| Any | **Glyph drops** | Glyphs not yet found elsewhere can drop at end of run |
+| Higher tiers | Additional tier unlocks | Extra tiers awarded based on time remaining when boss dies |
+
+**Glyph upgrade mechanics:**
+- Upgrade success odds increase as the gap between Pit tier and glyph level grows.
+- If Pit tier exceeds glyph level by **>20**, the glyph receives a **guaranteed additional level**.
+- Glyph max level: **150**.
+- Glyphs gain bonus Paragon radius at levels **25** and **50**; Legendary upgrade (new affix unlocked) at level **51**.
 
 ---
 
 ## DPS / EHP checkpoints
 
-- Fully **temper** and **masterwork** all gear before attempting the Pit.
-- Equip best-in-slot **Gems** (from Jeweler) before entering.
-- Pit monsters scale in HP and damage with every tier increase.
-- **Elite Monsters** provide the most progression toward summoning the boss — prioritize them.
-- Glyph upgrade **success odds increase** as the gap between Pit tier and glyph level widens.
-- If **Pit tier − glyph level > 20**, the glyph receives a **guaranteed additional level upgrade**.
+- Fully **temper and masterwork** all gear slots before entering the Pit.
+- Equip best-in-slot **Gems** from the Jeweler before entry.
+- Pit monsters scale in HP and damage with each tier increase.
+- Elite monsters provide the **most progression** toward summoning the boss — prioritize them.
+- Must summon and slay the boss within the **15-minute timer** to earn rewards.
+
+*(Specific numeric DPS/EHP thresholds per tier not covered in source.)*
 
 ---
 
 ## Strategy by tier
 
-1. **Early / leveling glyphs from scratch** — Run lower tiers quickly; fast clears accumulate upgrade attempts rapidly.
-2. **Mid-progression** — Push tiers where the tier number exceeds your highest-priority glyph level by 20+ to guarantee bonus upgrade levels.
-3. **High-end pushing** — Attempt the highest tier you can clear within 15 minutes; time remaining after the boss kill unlocks additional tiers.
-4. **General flow each run** — Enter, move through all five floors (connected by portals), prioritize Elites to fill the boss-spawn meter, kill boss before timer, collect upgrade attempts.
-5. **Deathless runs** — Avoid dying to secure the +1 bonus upgrade attempt every run.
+1. **Entry tiers (new character / fresh glyphs):** Run lower tiers quickly to level glyphs from scratch. Speed matters more than difficulty.
+2. **Mid progression:** Push tiers where the Pit tier exceeds your glyph levels by >20 to guarantee bonus glyph levels on upgrade.
+3. **High-end pushing:** Attempt the highest tier you can clear within the timer for additional tier unlocks and better glyph upgrade odds.
+4. **Every run:** Prioritize Elite monsters on all five floors — they fill the boss-summon meter fastest. Move between floors via portals.
+5. **Boss phase:** The boss spawns nearby once enough monster progression is filled. Kill it before the 15-minute timer expires. No-death bonus is worth protecting.
+6. **Floors:** All five floors and their monster layouts are fully randomized each run — adapt pathing to density.
 
 ---
 
@@ -57,7 +65,9 @@ Push the highest Pit of Artificers tier possible to level Paragon Glyphs and unl
 
 | Phase | Mechanic | Counter |
 |---|---|---|
-| Spawn | Boss spawns **near the player** once monster progression meter is filled | Fill meter quickly by targeting Elites; be ready to engage immediately |
-| All phases | Boss is **randomized** from the same pool used in The Tower | Learn Tower boss movesets — knowledge transfers directly |
-| All phases | Different bosses have **varying HP pools and unique mechanics** | Adjust burst timing and positioning per boss; bring adequate single-target DPS |
-| Timer | Must slay boss **before the 15-minute run timer expires** | Track timer throughout floors; don't over-explore low-density areas |
+| Summon | Boss spawns near player after monster progression meter is filled | Clear elites efficiently; boss spawns close by, engage immediately |
+| Final boss | Randomized from the same boss pool used in **The Tower** | Learn Tower boss patterns — mechanics carry over directly |
+| All phases | Bosses vary in HP pool and have unique mechanics per boss type | Adjust burst timing and positioning based on which boss spawns |
+| Timer | 15-minute hard limit from run start | Do not over-clear trash; prioritize elites and portal transitions |
+
+*(Specific per-boss ability breakdowns not covered in source.)*
