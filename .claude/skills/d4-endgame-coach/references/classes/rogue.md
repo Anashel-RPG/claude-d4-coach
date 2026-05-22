@@ -1,59 +1,62 @@
 # Rogue
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-21 · Source: https://maxroll.gg/d4/resources/rogue-class-overview
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-22 · Source: https://maxroll.gg/d4/resources/rogue-class-overview
 
 ## Core identity
-Fast-moving assassin that chains Basic and Core skills to generate/spend Energy, using Imbuements (Cold, Poison, Shadow) and a chosen Specialization to gate damage behind conditional debuffs. Strengths: high damage, mobility, versatility. Weaknesses: squishy, positioning-dependent, conditional damage.
+Fast, mobile damage dealer that weaves melee and ranged attacks automatically based on skill used. Relies on Imbuements, Specializations, and precise positioning to stack conditional damage multipliers through Vulnerable, Poison, Shadow, and Cold.
 
 ## Damage scaling buckets
-- **Multiplicative sources:** Imbuement damage bonuses (Cold/Poison/Shadow applied per-hit on multi-hit skills); Specialization-gated damage windows (e.g., Preparation burst windows); Vulnerable multiplier (required for Victimize); Dexterity skill damage (11.1% per 100 pts)
-- **Additive sources:** Dexterity Dodge Chance (0.6% per 100 pts); Intelligence Crit Chance (2% per 100 pts); Intelligence All Resistances (+40 per 100 pts); Strength Resource Generation (3% per 100 pts)
-- **Critical / Vulnerable / Overpower hooks:** Critical Strike (Intelligence-scaled); Vulnerable (applied by Invigorating Strike on enemies below 50% Energy, required for Victimize); Overpower (Blade-Shift-Overpower upgrade)
+- **Multiplicative sources:** Imbuement effects (Cold, Poison, Shadow), Key Passive activations, Vulnerable multiplier (Victimize proc), Specialization bonuses (Preparation, Inner Sight)
+- **Additive sources:** Dexterity (+11.1% Skill Damage per 100 points), Intelligence (+2% Critical Strike Chance per 100 points; +40 All Resistances per 100 points), skill rank bonuses
+- **Critical / Vulnerable / Overpower hooks:** Vulnerable applied by Invigorating Strike (hits below 50% Energy → 3s Vulnerable); Victimize Key Passive triggers AoE on Vulnerable targets; Blade-Shift-Overpower variant for Overpower hooks; Critical Strike Chance scaled via Intelligence
 
 ## Skill tree priorities
 | Skill | Role | Applies | Generates / Consumes | Notes |
 |---|---|---|---|---|
-| Invigorating Strike | Basic | Vulnerable (3 sec, on hit below 50% Energy) | Generates Energy | Core Vulnerable applicator |
-| Puncture | Basic | (not covered in source) | Generates Energy | Rogue skill |
-| Blade Shift | Basic | — | Generates Energy | Upgrades: Overpower, Range of Motion, Energy |
-| Flurry | Core | Imbuement (every hit, no extra charge) | Consumes Energy | Multi-hit; applies Imbuement on every hit |
-| Dash | Agility/Imbueable | — | — | Imbueable; mobility |
-| Shadow Step | Agility/Imbueable | — | — | Imbueable; can teleport through impassable terrain (cliffs) |
-| Caltrops | Agility | — | — | Rogue skill |
-| Barrage | Core | Imbuement (every hit, no extra charge) | Consumes Energy | Multi-hit Imbuement delivery |
-| Rapid Fire | Core | Imbuement (every hit, no extra charge) | Consumes Energy | Multi-hit Imbuement delivery |
-| Poison Imbuement | Imbuement | Poison damage | — | Upgrades: Duration, Cooldown, Toxic Touch |
-| Rain of Arrows | Ultimate / Imbueable | Imbuement | — | Only imbueable Ultimate; one Ultimate slot |
-| Shadow Clone | Ultimate | — | — | Performs poorly; lacks interaction with most endgame damage modifiers |
+| Invigorating Strike | Basic / Vulnerable setup | Vulnerable (3s, on hit below 50% Energy) | Generates Energy | Core enabler for Victimize |
+| Puncture | Basic / utility | — | Generates Energy | Slow resource; good Imbuement carrier |
+| Blade Shift | Basic / mobility | — | Generates Energy | Overpower upgrade available; Range of Motion upgrade for mobility; Energy upgrade variant |
+| Flurry | Core / AoE | Imbuement on every hit (no extra charge cost) | Consumes Energy | Multi-hit; ideal Poison/Shadow Imbuement delivery |
+| Dash | Agility / mobility + damage | Imbueable | — | Can be Imbued; traversal tool |
+| Shadow Step | Agility / mobility | Imbueable | — | Can pass through impassable terrain (cliffs) |
+| Caltrops | Agility / CC | — | — | Positional tool; reduces reliance on passive dodging |
+| Poison Imbuement | Imbuement | Poison on Imbueable skills | — | Duration, Cooldown, Toxic Touch upgrades available |
+| Rain of Arrows | Ultimate | Imbueable | — | Only Imbued ultimate; one ultimate slot only |
+| Shadow Clone | Ultimate | — | — | Mirrors caster abilities |
+| Death Trap | Ultimate | — | — | Trap-based burst; central to Death Trap build |
+| Concealment | — | Concealing Fate upgrade | — | — |
 
 ## Key passives / class mechanic
 | Key Passive | Buffs (state/skill) | Effect | Best for |
 |---|---|---|---|
-| Victimize | Vulnerable state | Triggers AoE burst (functions like D3 Area Damage) on hitting Vulnerable enemies | AoE clearing; any build maintaining Vulnerable uptime |
-| (others) | (not covered in source) | (not covered in source) | — |
+| Momentum | Close-range / melee skills | (not covered in source) | Melee / Flurry builds |
+| Close Quarters Combat | Close-range attacks | (not covered in source) | Melee builds |
+| Precision | Critical Strike states | (not covered in source) | Crit-focused builds |
+| Victimize | Vulnerable state | Triggers AoE burst on hitting Vulnerable enemies — functions like Diablo 3's Area Damage mechanic | Builds that reliably apply Vulnerable; high-density clears |
+| Exposure | Trap / Imbuement skills | (not covered in source) | Trap / Imbuement builds |
+| Alchemical Admixture | Imbuement skills | (not covered in source) | Imbuement builds |
 
-> Only one Key Passive can be active at a time.
+> Only **one** Key Passive can be selected at a time.
 
-**Specializations** (one active at a time; can be swapped mid-combat):
-| Specialization | Unlocks | Mechanic |
-|---|---|---|
-| Combo Points | Level 1 | (not covered in source) |
-| Inner Sight | Level 20 | Hitting a marked enemy fills gauge; larger hits fill it faster |
-| Preparation | Level 30 | (not covered in source) |
+**Class Mechanics:**
+- **Specializations** (swap freely, even mid-combat; Preparation unlocks at level 30):
+  - *Combo Points* — spending Basic skills builds combo points spent on Core skills
+  - *Inner Sight* — gauge fills by hitting marked enemies; larger hits fill faster; grants unlimited Energy when full
+  - *Preparation* — cooldown-focused; resets Cooldowns
+- **Imbuements** — Core Skills, Dash, Shadow Step, and Rain of Arrows are all Imbueable; multi-hit skills (Flurry, Barrage, Rapid Fire) apply Imbuement on every hit without consuming extra charges
+- **Weapon swapping** — automatically switches between two melee weapons (Sword/Dagger) and one ranged weapon (Bow/Crossbow) based on skill used; no manual swap needed
 
 ## Aspects (legendary)
 | Aspect | Slot | Buffs (skill/state) | Effect | When to drop it |
 |---|---|---|---|---|
-| Aspect of Glynn's Anvil | (not covered in source) | Rogue | (not covered in source) | (not covered in source) |
-| Aspect of Dominance | (not covered in source) | Rogue | (not covered in source) | (not covered in source) |
-| Aspect of Swift Spirit | (not covered in source) | Rogue | (not covered in source) | (not covered in source) |
-| Aspect of Exorcism | (not covered in source) | Rogue | (not covered in source) | (not covered in source) |
-| Aspect of Heavenly Strength | (not covered in source) | Rogue | (not covered in source) | (not covered in source) |
+| Aspect of Glynn's Anvil | Rogue | (not covered in source) | (not covered in source) | (not covered in source) |
+| Aspect of Dominance | Rogue | (not covered in source) | (not covered in source) | (not covered in source) |
+| Aspect of Swift Spirit | Rogue | (not covered in source) | (not covered in source) | (not covered in source) |
+| Aspect of Exorcism | Rogue | (not covered in source) | (not covered in source) | (not covered in source) |
+| Aspect of Heavenly Strength | Rogue | (not covered in source) | (not covered in source) | (not covered in source) |
 
 ## Uniques worth chasing
-| Unique | Slot | Buffs | Why | GA priority |
-|---|---|---|---|---|
-| (not covered in source) | | | | |
+(not covered in source)
 
 ## Tempering manuals
 - Weapon: (not covered in source)
@@ -63,12 +66,13 @@ Fast-moving assassin that chains Basic and Core skills to generate/spend Energy,
 1. (not covered in source)
 
 ## Paragon priority
-- Starting board: Path through nodes X14-Y12 and X8-Y12 (used by Heartseeker and Rain of Arrows builds); pick up X8-Y6 through X8-Y9 cluster and X13-Y6 through X15-Y7 cluster for Rain of Arrows
-- Glyph order to L15: Eldritch Bounty board (heavily pathed by both Heartseeker and Rain of Arrows — prioritize cluster around X12–X13 Y8–Y16); Cheap Shot board (Heartseeker paths X15-Y3 through X16-Y5 and X14-Y6 cluster; Rain of Arrows paths X12-Y17 through X16-Y19); Tricks of the Trade board (Heartseeker); Cunning Stratagem board (Dance of Knives); Danse Macabre board (Death Trap); No Witnesses board (Death Trap — X16-Y8 through X16-Y12)
+- **Starting board:** Path through X14-Y12 and X8-Y12 nodes (used by Heartseeker and Rain of Arrows builds); X8-Y9 → X8-Y8 → X8-Y7 cluster for Rain of Arrows; X10-Y4 and X10-Y11 for utility nodes
+- **Glyph order to L15:** Boards referenced across top builds — **Eldritch Bounty** (Heartseeker, Rain of Arrows, Dance of Knives), **Cheap Shot** (Heartseeker, Rain of Arrows), **Tricks of the Trade** (Heartseeker), **Cunning Stratagem** (Dance of Knives), **No Witnesses** (Death Trap, Heartseeker), **Danse Macabre** (Death Trap) — prioritize the board matching your build's key passive first
 
 ## Common mistakes
-- Running Shadow Clone as the Ultimate — it does not interact with most endgame damage modifiers
-- Skipping Vulnerable uptime — Victimize and several scaling windows are entirely gated on the Vulnerable debuff
-- Ignoring Energy economy — Energy recovers slowly on its own; rely on Basic skills and Resource Generation affixes to fund Core skill spam
-- Forgetting Imbuements are applied per-hit on Flurry, Barrage, and Rapid Fire — these skills do not consume extra charges per hit, making them the best Imbuement carriers
-- Locking in a Specialization — all three can be swapped freely at any time, including mid-combat; adapt to the encounter
+- Neglecting Vulnerable uptime when running Victimize — the Key Passive does nothing without the debuff active
+- Picking the wrong Specialization for the build; swapping mid-combat is allowed, so test before committing a full paragon/aspect investment
+- Ignoring positioning — Rogue is explicitly squishy; failing to use Shadow Step / Caltrops for repositioning leads to avoidable deaths
+- Spreading Imbuement charges thin; multi-hit skills (Flurry, Barrage, Rapid Fire) are the most efficient Imbuement delivery tools — don't waste charges on single-hit basics
+- Slotting two Key Passives mentally — only one is active at a time; build the whole kit around whichever one is chosen
+- Skipping the Enhance + Upgrade steps on core skills; each skill has one Enhancement point then a binary upgrade choice that meaningfully changes behavior

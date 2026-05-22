@@ -1,124 +1,110 @@
 # Mercenaries
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-21 · Source: https://maxroll.gg/d4/resources/mercenaries-overview
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-22 · Source: https://maxroll.gg/d4/resources/mercenaries-overview
 
 ## What it is
 
-Mercenaries are a companion system introduced in the **Vessel of Hatred** expansion (Season 13, Patch 2.4.1). Players recruit up to four unique mercenaries from **The Den** (the mercenary hideout) and deploy them in two slots:
+Mercenaries are a companion system introduced in the **Vessel of Hatred** expansion (Season 13, Patch 2.4.1). Players assign two mercenaries simultaneously:
 
-| Slot | Behavior |
-|---|---|
-| **Hired Mercenary** | Fights alongside the player constantly |
-| **Reinforcement Mercenary** | Summoned on command in tag-team style; has an abbreviated skill tree |
+| Slot | Name | Behavior |
+|---|---|---|
+| Hired | Active companion | Fights alongside the player constantly |
+| Reinforcement | Tag-team companion | Summoned on command; has abbreviated skill tree |
+
+Four mercenaries are available: **Raheir**, **Subo**, **Aldkin**, and **Varyana**.
+
+| Mercenary | Role | Signature Mechanic |
+|---|---|---|
+| Raheir | Defensive tank | Shield-blocks incoming attacks; absorbs damage and draws aggro |
+| Subo | Utility / range | Marks enemies for disposal; grants Cooldown Reduction on kill |
+| Aldkin | Caster DPS | Half-child, half-demon; can shapeshift into demon form |
+| Varyana | Melee berserker | Massacre Meter scales strength with consecutive kills |
 
 ---
 
 ## Mechanics
-
-1. **Four mercenaries available:** Raheir, Subo, Aldkin, Varyana — each with a distinct role and skill tree.
-2. **Rapport** is the progression currency for each mercenary; it unlocks skill points, abilities, caches, and bartering options.
-3. **Pale Marks** are earned via Rapport tiers and spent at vendor **Fayira** in The Den via a bartering system.
-4. **Bartering expands** when a mercenary reaches Rapport Tier 5 and Tier 8.
-5. **Rapport Tiers 1–4** unlock Skill Points. **Rapport Tier 6** unlocks a Gear Cache and a Pale Mark.
-6. **Mercenary death:** When a mercenary is defeated they "take a knee" and cannot use skills. Rush to them and revive manually (same mechanic as reviving a player).
-7. **Mercenary-related events** appear throughout Sanctuary and grant bonus Rapport with the currently active companion.
-
-### Mercenary Roster
-
-| Mercenary | Role | Key Strengths | Key Weaknesses | Key Passives |
-|---|---|---|---|---|
-| **Raheir** | Defensive tank (Iron Wolves shield-bearer) | CC, Survivability, Damage Boost, Armor/Resistance Buff | Long Cooldowns, Scatters Monsters | Raheir's Aegis, Raheir's Guard, Raheir's Inspiration |
-| **Subo** | Utility ranged (disgraced archer/bounty hunter) | Cooldown Reduction, Damage Boost, Resource Generation, Maphack (Seeker) | Mob Density Reliance, Knock Back, No Defensive Option | Scorched Earth, Bargaining Chips, Opening Fire, Seeker |
-| **Aldkin** | Caster (half-child, half-demon; shapeshifts into demon) | CC, High DPS, Resource Generation, High Buff Uptime | Knock Back, AoE Placement Dependency, Poorly Mixed Kit, Makes Player Vulnerable | Blasphemous Fate, Field of Languish, Raging Havoc |
-| **Varyana** | Melee berserker | Short Cooldowns, Grouping, Attack Speed (Bloodthirst + Hysteria), Overpower | Attack Speed Inconsistency, Only 3-Target Grouping | Massacre, Bloodthirst, Hysteria |
-
-### Notable Skill Details
-
-| Mercenary | Skill | Effect |
-|---|---|---|
-| Raheir | **Raheir's Inspiration** | Triggered by Ground Slam and Bastion activation; high uptime |
-| Raheir | **Valiance / Bastion** | Core survivability tools |
-| Subo | **Seeker** | Reveals all enemies and materials in the area (functions as a maphack) |
-| Subo | **Opening Fire** | Benefits Critical Strike Damage builds |
-| Subo | **Scorched Earth** | Benefits Damage over Time builds |
-| Subo | **Bargaining Chips** | Benefits Overpower builds |
-| Aldkin | **Blasphemous Fate** | Applies Vulnerable to player and nearby enemies, or drains 8% Max Resource/sec depending on Curse type |
-| Aldkin | **Field of Languish** | Shadow path ground AoE — grants Damage Reduction and a Damage buff |
-| Aldkin | **Raging Havoc** | Fire path — places a Damage buff on target |
-| Varyana | **Massacre** | Stacking movement speed buff scaling with consecutive kills; excellent for farming |
-| Varyana | **Bloodthirst / Hysteria** | Two Attack Speed buffs; both require Varyana to be actively hitting targets |
-| Varyana | **No Escape / Ancient Harpoons** | Enemy grouping skills |
+1. **Two active slots** — one Hired (always active) and one Reinforcement (summoned on demand, tag-team style).
+2. **Rapport system** — primary progression currency per mercenary. Earned through gameplay and mercenary-related events scattered across Sanctuary. Tiers unlock skill points, abilities, gear caches, and Pale Marks.
+3. **Pale Marks** — currency earned by accumulating Rapport. Spent at vendor **Fayira** in The Den via a bartering system.
+4. **Bartering expands** at Rapport Tier 5 and Tier 8 for each mercenary, unlocking additional items from Fayira.
+5. **Skill Points** — Rapport Tiers 1–4 each unlock Skill Points for the mercenary.
+6. **Gear Cache** — Rapport Tier 6 unlocks a Gear Cache and a Pale Mark for that mercenary.
+7. **Downed state** — mercenaries can "take a knee" instead of dying; while downed they cannot use skills. Players can rush to them and revive, similar to reviving another player.
+8. **Mercenary events** — special events appear throughout Sanctuary granting bonus Rapport with the currently active companion.
 
 ---
 
 ## Costs / requirements
 
-| Requirement | Detail |
+| Mercenary | Unlock Condition |
 |---|---|
-| **Expansion** | Vessel of Hatred required for all mercenaries |
-| **Raheir** | Unlocked after completing the Vessel of Hatred main campaign |
-| **Subo, Aldkin, Varyana** | Unlocked via key quests given through The Den |
-| **Pale Marks** | Earned through Rapport progression; spent at Fayira (The Den) |
-| **Bartering expansion** | Rapport Tier 5 and Tier 8 per mercenary unlock additional barter options |
+| Raheir | Complete the Vessel of Hatred main campaign |
+| Subo | Complete key quest given via The Den |
+| Aldkin | Complete key quest given via The Den |
+| Varyana | Complete key quest given via The Den |
+
+- **Vessel of Hatred expansion** is required for the entire system.
+- Mercenaries are unlocked progressively throughout the VoH Main Quest and through The Den, the mercenary hideout.
+- **Pale Marks** are required for all bartering at Fayira in The Den.
 
 ---
 
 ## Recipes / breakpoints / interactions
 
-### Rapport Tier Breakpoints
+**Rapport tier breakpoints:**
 
 | Tier | Reward |
 |---|---|
-| 1–4 | Skill Points |
-| 5 | Expanded bartering at Fayira |
+| 1–4 | Skill Points (one per tier) |
+| 5 | Fayira bartering options expand |
 | 6 | Gear Cache + Pale Mark |
-| 8 | Further expanded bartering at Fayira |
+| 8 | Fayira bartering options expand again |
 
-### Bartering Rewards by Mercenary
+**Bartering rewards by mercenary:**
 
-| Mercenary | Aspect Unlocked | Cache Unlocked |
+| Mercenary | Aspect Type Unlocked | Cache Type Unlocked |
 |---|---|---|
 | Raheir | Defensive Aspects | Crafting Material Cache |
 | Subo | Utility Aspects | Boss Summoning Material Cache |
 | Aldkin | Resource Aspects | Augmentations Cache (Runes, Scattered Prisms, Gem Fragments) |
 | Varyana | Mobility Aspects | Masterworking Cache |
 
-### Build Synergies
+**Key passive interactions:**
 
-| Mercenary / Skill | Synergizes With |
-|---|---|
-| Subo – Scorched Earth | Damage over Time builds |
-| Subo – Opening Fire | Critical Strike Damage builds |
-| Subo – Bargaining Chips | Overpower builds |
-| Aldkin – Blasphemous Fate | Vulnerable-scaling builds (note: also makes the player Vulnerable) |
-| Aldkin – Field of Languish | Survivability-focused builds (Damage Reduction + Damage buff) |
-| Raheir – Inspiration | High uptime via Ground Slam + Bastion; armor/resistance-dependent builds |
-| Varyana – Massacre | Farming / high-density runs (stacking movement speed) |
-| Varyana – Bloodthirst + Hysteria | Attack-speed-scaling builds (requires consistent target access) |
+| Mercenary | Passive | Synergizes With |
+|---|---|---|
+| Raheir | Raheir's Inspiration | Ground Slam, Bastion (high uptime triggers) |
+| Raheir | Raheir's Aegis / Raheir's Guard | Defensive survivability |
+| Subo | Scorched Earth | Damage over Time builds |
+| Subo | Bargaining Chips | Overpower builds |
+| Subo | Opening Fire | Critical Strike Damage builds |
+| Subo | Seeker | Reveals all enemies and materials in area (functions as maphack) |
+| Aldkin | Blasphemous Fate | Applies Vulnerable to player and nearby enemies; alternate: drains 8% Max Resource/sec |
+| Aldkin | Field of Languish (Shadow path) | Provides AoE Damage Reduction and Damage buff |
+| Aldkin | Raging Havoc (Fire path) | Places Damage buff on target |
+| Varyana | Massacre | Stacking Movement Speed buff on consecutive kills |
+| Varyana | Bloodthirst + Hysteria | Attack Speed buffs; both require Varyana to be actively hitting targets |
+| Varyana | No Escape / Ancient Harpoons | Enemy grouping (up to 3 targets) |
 
 ---
 
 ## Strategy
-
-1. **Slot Raheir as Hired Mercenary** when progressing into Torment IV — his Armor/Resistance Buff directly patches survivability gaps before your gear catches up.
-2. **Use Subo's Seeker** in the overworld and open-world content to passively reveal all enemies and materials in the area.
-3. **Match Subo's passive to your build:** Scorched Earth for DoT, Opening Fire for Crit, Bargaining Chips for Overpower.
-4. **Trigger Raheir's Inspiration** by building his skill tree around Ground Slam and Bastion for maximum buff uptime.
-5. **Deploy Varyana in high-density content** — her Massacre stacking and grouping tools (No Escape, Ancient Harpoons) are highly density-dependent; she underperforms in sparse areas.
-6. **Revive downed mercenaries immediately** — a mercenary "taking a knee" loses all skill contributions until revived.
-7. **Prioritize Rapport on one mercenary at a time** to unlock Tier 5 and Tier 8 bartering quickly and access Aspect and Cache rewards.
-8. **Complete Mercenary-related events** in Sanctuary for bonus Rapport on top of normal progression.
+1. **Survivability / Torment IV prep** — Use **Raheir** as Hired for Armor/Resistance buffs, Crowd Control, and Damage Boost. Pair with Ground Slam or Bastion activation to keep Raheir's Inspiration passive at high uptime.
+2. **DoT builds** — Slot **Subo** with Scorched Earth passive. His mark-on-kill Cooldown Reduction also helps ability-heavy builds.
+3. **Overpower builds** — Use **Subo** with Bargaining Chips passive for direct Overpower synergy.
+4. **Critical Strike Damage builds** — Use **Subo** with Opening Fire passive.
+5. **High-density / farming** — Use **Varyana** as Hired in dense content. Massacre passive stacks Movement Speed on kills, accelerating clears. Use No Escape / Ancient Harpoons for grouping. Varyana's Masterworking Cache from bartering is a strong farming reward.
+6. **Caster / Vulnerable builds** — Use **Aldkin** for CC, Resource Generation, and high DPS. Shadow path (Field of Languish) for Damage Reduction in dangerous content; Fire path (Raging Havoc) for pure damage output.
+7. **Overworld exploration** — Equip **Subo** in at least one slot and activate Seeker to reveal all nearby enemies and materials automatically.
+8. **Reinforcement slot** — Place a mercenary whose kit complements the Hired merc's gaps (e.g., Raheir as Reinforcement on-demand shield wall for squishy Hired setups).
 
 ---
 
 ## Pitfalls
-
-- **Raheir's long cooldowns** mean his CC and Damage Boost windows have significant downtime; enemies can scatter during gaps.
-- **Subo requires mob density** — in low-density areas his Cooldown Reduction on kill and damage-marking provide little value.
-- **Subo provides no defensive option** — pairing him as Hired Mercenary on squishy builds leaves the player without a defensive fallback.
-- **Aldkin's Blasphemous Fate makes the player Vulnerable** — this is a liability against enemies that exploit Vulnerable (e.g., in high Torment tiers).
-- **Aldkin's AoE placement dependency** means his Field of Languish buffs are wasted if enemies don't stand in the zone.
-- **Varyana's Attack Speed buffs (Bloodthirst and Hysteria) are lost if she stops hitting targets** — inconsistent against mobile or spread-out enemies.
-- **Varyana's grouping caps at 3 targets** — she loses significant value in large packs compared to skills with broader pull radius.
-- **Ignoring Rapport tiers** delays access to Aspect unlocks and Cache rewards, which are meaningful character power upgrades.
-- **Leaving a mercenary downed** for extended periods is a significant DPS and utility loss — always revive promptly.
+- **Raheir** has long cooldowns and can scatter monsters, breaking grouping for AoE builds.
+- **Subo** relies on mob density for effectiveness, has no defensive option, and his Knock Back can disrupt positioning.
+- **Aldkin's** Blasphemous Fate applies Vulnerable to the *player* as well as enemies. AoE placement dependency and a mixed kit reduce consistency; Knock Back can break setups.
+- **Varyana** only groups up to 3 targets with No Escape/Ancient Harpoons, limiting AoE efficiency. Her Attack Speed buffs (Bloodthirst, Hysteria) drop off completely if she is not actively hitting targets. Requires high-density areas to perform optimally.
+- Letting a mercenary stay **downed** too long removes their skill contributions entirely — prioritize reviving during sustained fights.
+- Ignoring Rapport progression delays access to Fayira's expanded bartering (unlocked at Tiers 5 and 8), slowing Aspect and Cache acquisition.
+- All mercenaries and their Aspect barters are **expansion-locked** — requires Vessel of Hatred ownership.

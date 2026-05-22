@@ -1,21 +1,21 @@
 # Helltide Farming
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-21 · Source: https://maxroll.gg/d4/resources/helltide-guide
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-22 · Source: https://maxroll.gg/d4/resources/helltide-guide
 
 ## Goal
 
-Farm Aberrant Cinders to open Tortured Gifts, collect Forgotten Souls (Occultist enchanting material), Living Steel, Boss Lair Keys, Exquisite Blood, and Legendary/Unique gear — all within a 55-minute timed zone event.
+Farm Aberrant Cinders to open Tortured Gifts, collect Forgotten Souls for Occultist enchanting, gather Baneful Hearts for the Accursed Ritual, and accumulate Living Steel, Exquisite Blood, and Boss Lair Keys.
 
 ---
 
 ## Unlock / access
 
-- Available from **Normal difficulty** onwards; unlocked immediately on seasonal character creation.
-- Helltide occupies a **fixed set of 4 connected zones** within one region per event (Nahantu: 2 zones).
-- Schedule: starts **top of the hour**, lasts **55 minutes**, followed by a **5-minute break**.
-- Threat Meter status **persists and carries over** between Helltide events.
+- Available from **Normal difficulty** onwards on seasonal characters — unlocked immediately upon seasonal character creation.
+- Active on all difficulties; Torment difficulties unlock additional content (roaming bosses, meteor showers, Mystery Gifts, Living Steel).
 
-**Zone map (Season 13 / Patch 2.4.1):**
+**Schedule:** Starts top of each hour, lasts **55 minutes**, followed by a **5-minute break**.
+
+**Zone footprint:** Each Helltide occupies a fixed set of **4 connected zones** within one region (2 zones in Nahantu).
 
 | Region | Zones |
 |---|---|
@@ -31,43 +31,56 @@ Farm Aberrant Cinders to open Tortured Gifts, collect Forgotten Souls (Occultist
 
 | Tier | Drops | Notes |
 |---|---|---|
-| All enemies (Elites) | 1 Aberrant Cinder | Per elite kill |
-| Treasure Goblins | 1–6 Aberrant Cinders | — |
-| Fiend Rose / Screaming Hell Vein nodes | 3–4 Aberrant Cinders | — |
-| Event Chests (Local Events) | 3–6 Aberrant Cinders | Highest Cinder yield activity |
-| Tortured Gift of Protection (Torment) | Forgotten Soul, Legendary armor, Murmuring Obols, 1–2 Living Steel | Costs 75 Cinders |
-| Tortured Gift of Jewelry – Rings (Torment) | Forgotten Soul, Legendary/Unique Rings, Murmuring Obols, 1–2 Living Steel | Costs 75 Cinders |
-| Tortured Gift of Jewelry – Amulets (Torment) | Forgotten Soul, Legendary/Unique Amulets, Murmuring Obols, 1–2 Living Steel | Costs 125 Cinders |
-| Tortured Gift of Weaponry – Light (Torment) | Forgotten Soul, Legendary weapons, Murmuring Obols, 1–2 Living Steel | Costs 125 Cinders |
-| Tortured Gift of Weaponry – Heavy (Torment) | Forgotten Soul, Legendary weapons, Murmuring Obols, 1–2 Living Steel | Costs 150 Cinders |
-| Tortured Gift of Mysteries – Standard | Forgotten Soul, mixed loot | Costs 75 Cinders; 2 spawns/Helltide (3 in Kehjistan) |
-| Tortured Gift of Mysteries – Torment | Forgotten Soul, 14–16 Living Steel, Angelbreath, mixed loot | Costs 250 Cinders; 2 spawns/Helltide (3 in Kehjistan) |
-| Kixxarth (Helltide Assassin) | Aberrant Cinders, high chance Legendary items | Roaming boss; Torment only |
-| Hellborne | Rare/Legendary items, crafting materials, random Boss Lair Keys (Varshan, The Beast, Grigoire, Lord Zir, Urivar), Baneful Hearts | Spawns after Hell Marked state drains Threat Meter |
+| All difficulties | Aberrant Cinders, Murmuring Obols, Forgotten Souls, Baneful Hearts, Rare/Legendary items, Boss Lair Keys (Varshan, The Beast, Grigoire, Lord Zir, Urivar) | Boss Lair Keys drop from Hellborne |
+| Torment only | Living Steel (1–16 depending on Gift type), Exquisite Blood, Angelbreath, Mystery Gifts, roaming bosses, meteor showers | Tortured Gift of Mysteries (Torment) yields 14–16 Living Steel; Jewelry/Protection/Weaponry yield 1–2 |
+| Tortured Gift of Mysteries | Forgotten Soul, Legendary/Unique items, Angelbreath, 14–16 Living Steel (Torment) | Costs 250 Cinders (Torment); 75 (Standard). Spawns **2×** per Helltide, **3×** in Kehjistan |
+| Tortured Gift of Protection (Torment) | Forgotten Soul, armor items, Murmuring Obols, 1–2 Living Steel | Costs 75 Aberrant Cinders |
+| Tortured Gift of Jewelry — Rings (Torment) | Forgotten Soul, Legendary/Unique Rings, Murmuring Obols, 1–2 Living Steel | Costs 75 Aberrant Cinders |
+| Tortured Gift of Jewelry — Amulets (Torment) | Forgotten Soul, Legendary/Unique Amulets, Murmuring Obols, 1–2 Living Steel | Costs 125 Aberrant Cinders |
+| Tortured Gift of Weaponry — Light (Torment) | Forgotten Soul, Legendary weapons, Murmuring Obols, 1–2 Living Steel | Costs 125 Aberrant Cinders |
+| Tortured Gift of Weaponry — Heavy (Torment) | Forgotten Soul, Legendary weapons, Murmuring Obols, 1–2 Living Steel | Costs 150 Aberrant Cinders |
+| Blood Maiden (Accursed Ritual) | Rare/Legendary items, crafting materials (incl. Forgotten Souls), small random amount of Exquisite Blood | Contributing a Baneful Heart grants bonus loot |
+| Hellborne | Rare/Legendary items, crafting materials, Forgotten Souls, several random Boss Lair Keys | Drops keys for Varshan, The Beast, Grigoire, Lord Zir, Urivar |
+| Kixxarth (Helltide Assassin) | Aberrant Cinders, high chance of Legendary items | Roaming boss; Torment only |
 | Helltide Commander (Portal Invasion) | Aberrant Cinders, items, Murmuring Obols | Spawns after clearing Portal Invasion combatants |
-| Blood Maiden (Accursed Ritual) | Rare/Legendary items, crafting materials, Exquisite Blood (small random amount), Forgotten Souls | Requires 3 Baneful Hearts (2 in WT1/WT2) |
-| 75-Cinder Gifts (any type) | Forgotten Soul | Most efficient gift type for Forgotten Soul farming |
+
+**Cinder sources at a glance:**
+
+| Source | Cinders Dropped |
+|---|---|
+| Fiend Rose / Screaming Hell Vein node | 3–4 |
+| Elite enemy | 1 |
+| Treasure Goblin | 1–6 |
+| Event Chest (Local Event) | 3–6 (highest single-source yield) |
+| Kixxarth | Notable drop |
+| Helltide Commander | Notable drop |
+
+> Aberrant Cinders **do not carry over** between Helltides. Spend before the event ends.
 
 ---
 
 ## DPS / EHP checkpoints
 
-- **Standard difficulty:** Reduced monster density; no roaming bosses; no meteor showers. Lower gear requirement.
-- **Torment difficulty:** Full enemy density; roaming bosses (Kixxarth); meteor showers; access to all Tortured Gift types including Mysteries (250-Cinder). Recommended for meaningful rewards.
-- No specific numeric DPS/EHP thresholds are documented in source material — survive meteor showers and roaming bosses as the practical benchmark.
+| Difficulty | Requirement |
+|---|---|
+| Standard (Normal/Hard) | No roaming bosses; reduced monster density; no meteor showers. Any functional build clears. |
+| Torment | Roaming bosses (Kixxarth, Hellborne), meteor showers, and increased density active. Build must sustain fire damage from meteors and Blood Maiden's Flame Ring. |
+
+- Blood Maiden applies **Vulnerable** and **Fire damage** via her Flame Ring — bring Fire resistance or a movement skill to avoid the ring on entry.
+- Hellborne mirror one of the five player classes — expect class-specific mechanics (burst damage, CC, etc.) based on type encountered.
+- Hell Marked state spawns a Hellborne — ensure sufficient burst DPS to eliminate it quickly before it generates pressure.
 
 ---
 
 ## Strategy by tier
 
-1. **Standard:** Complete Local Events for Event Chest Cinders (3–6 each). Spend Cinders on 75-Cinder Gifts for Forgotten Souls. Skip Mysteries chest (no Torment bonus loot). Good for entry-level characters.
-2. **Torment (general loop):** Prioritize **Local Events** (highest Cinder density due to enemy density + event reward). Pick up Fiend Rose / Screaming Hell Vein nodes (3–4 Cinders each) while moving between events.
-3. **Threat Meter management:** Kill enemies and open Gifts to fill the Threat Meter through 3 tiers. Use **Hellspires** and **Ravenous Soulspires** to build Threat rapidly. Reaching full Threat triggers **Hell Marked** state — when it drains, a **Hellborne** spawns. Kill it for Boss Lair Keys and Baneful Hearts.
-4. **Hellworms:** Knock you off mounts and spawn demon waves. Engage or dodge; Threat increases with higher Threat level.
-5. **Baneful Hearts → Accursed Ritual:** Deposit 3 Baneful Hearts (from Gifts or Hellborne kills) into pedestals at a ritual site. Fight waves → Blood Maiden spawns → kill for Exquisite Blood + Forgotten Souls.
-6. **Portal Invasion Events:** Kill Occultists to trigger Invasion Portals; clear all combatants to spawn **Helltide Commander Boss** → Aberrant Cinders + Obols.
-7. **Mysteries chest priority (Torment):** Save 250 Cinders for Tortured Gift of Mysteries — yields 14–16 Living Steel + Angelbreath. Only 2 spawns per Helltide (3 in Kehjistan); plan routes accordingly.
-8. **Forgotten Soul efficiency:** 75-Cinder Gifts are the most efficient option for farming Forgotten Souls — every gift type at this cost drops one.
+1. **Standard (Normal / Hard):** Run Local Events for Event Chest Cinders (3–6 each). Collect Baneful Hearts from Gifts and Hellborne kills. Open 75-Cinder Gifts for efficient Forgotten Soul farming. No need to engage roaming bosses (none present).
+2. **Torment — Cinder efficiency:** Prioritize Local Events (highest Cinder yield). Also clear Fiend Rose / Screaming Hell Vein nodes (3–4 Cinders each) while pathing between events.
+3. **Torment — Threat / Hellborne loop:** Push the Threat Meter intentionally via Hellspires and Ravenous Soulspires — both generate Threat rapidly. Reaching Hell Marked and defeating the spawned Hellborne yields Boss Lair Keys and crafting materials. Threat Meter status **persists across Helltides**.
+4. **Torment — Accursed Ritual:** Collect 3 Baneful Hearts (from Gifts or Hellborne kills). Deposit into ritual pedestals to trigger enemy waves and spawn Blood Maiden. Contribute a heart for bonus loot. Blood Maiden drops Exquisite Blood plus Forgotten Souls.
+5. **Torment — Portal Invasion:** Kill Occultists to trigger Invasion Portals. Defeat all combatants to summon the Helltide Commander Boss. Boss drops Cinders, items, and Murmuring Obols.
+6. **Torment — Priority Gift spending:** Tortured Gift of Mysteries is the most valuable chest (14–16 Living Steel, Angelbreath, Forgotten Soul) but spawns only 2× per Helltide (3× in Kehjistan). Use remaining Cinders on 75-Cinder Gifts for Forgotten Souls. Spend **all Cinders before the 55-minute timer expires** — they do not carry over.
+7. **Torment — Kixxarth:** Engage on sight; grants Aberrant Cinders and a high chance of Legendary drops.
 
 ---
 
@@ -75,9 +88,8 @@ Farm Aberrant Cinders to open Tortured Gifts, collect Forgotten Souls (Occultist
 
 | Phase | Mechanic | Counter |
 |---|---|---|
-| Blood Maiden – Active | **Flame Ring** – fire circles placed every 0.5s until 4 placed, then explode in order; applies Fire damage and Vulnerable | Use a Movement Skill to dash through the ring rather than standing in it |
-| Blood Maiden – Breakpoints | Summons 4 **Hellborne Disciples** at health breakpoints | Burst down adds or kite; maintain pressure on Blood Maiden |
-| Blood Maiden – Activation | Requires 3 Baneful Hearts deposited into pedestals (2 in WT1/WT2) | Collect Baneful Hearts from Hellborne kills or Gifts before entering ritual site |
-| Hellborne | Fallen champion with abilities mirroring one of the 5 player classes | Treat as a mini-boss with class-specific mechanics; stay mobile |
-| Kixxarth (Helltide Assassin) | Roaming boss; spawns anywhere in active Helltide zones (Torment only) | Engage when encountered — rewards Aberrant Cinders and high Legendary drop chance |
-| Helltide Commander | Spawns after all Portal Invasion combatants are defeated | Clear portal waves quickly; rewards Cinders and Obols |
+| Blood Maiden — Active | **Flame Ring** — expanding fire ring; applies **Fire damage** and **Vulnerable** on contact | Use a movement skill to dash through the ring, or position outside its path |
+| Blood Maiden — Health breakpoints | Summons **4 Hellborne Disciples** at each breakpoint | Burst down Disciples quickly to reduce incoming damage and CC |
+| Hellborne (any) | Mirrors abilities of one of the five player classes (e.g., Barbarian leap/shout, Sorcerer burst, etc.) | Identify class archetype on spawn; respect CC and burst patterns specific to that class |
+| Portal Invasion — Helltide Commander | Standard elite-style boss spawning after all Portal Invasion combatants are cleared | Clear adds first; Commander drops Cinders, items, and Obols on death |
+| Kixxarth, Helltide Assassin | Roaming Torment-tier boss; no unique phase data in source | Engage with full cooldowns; prioritize for Cinder and Legendary drops |
