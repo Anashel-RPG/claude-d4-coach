@@ -1,54 +1,55 @@
 # Warlock
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-22 · Source: https://maxroll.gg/d4/getting-started/warlock-class-overview
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-23 · Source: https://maxroll.gg/d4/getting-started/warlock-class-overview
 
 ## Core identity
-The Warlock (introduced in Season 13, Patch 2.4.1 — *Lord of Hatred* expansion) is a demon-pact caster-brawler who commands lesser demons, shapeshifts into Demonform, and swaps between aggressive summoner, stealthy manipulator, and full demonic berserker playstyles via the Soul Shard mechanic. Class strengths: great mobility, stunning skill effects, deep build variety.
+Warlock is a demon-commanding class introduced in the Lord of Hatred expansion (Season 13, Patch 2.4.1) that binds, sacrifices, and unleashes demonic forces. Playstyle varies dramatically by Soul Shard selection—ranging from summoner-brawler to stealth assassin to Demonform melee combatant.
 
 ## Damage scaling buckets
-- **Multiplicative sources:** Demonform (Demonology Skill damage +1% per stack, up to 100% increased); Hellfire bonus while in Demonform (+30% Hellfire Demonology Skill damage); Mastermind Shard (Abyss Skills +30% damage while in Shadowform)
-- **Additive sources:** Intelligence (grants Resistances); Strength (grants Armor); Dexterity (minor Critical Strike Chance and Dodge Chance — noted as least valuable core stat)
-- **Critical / Vulnerable / Overpower hooks:** Profane Sentinel applies Vulnerable to enemies (enabling Vulnerable damage multiplier); Rampage has 5% chance to Eviscerate for 2560% damage; Fiend of Abbadon has 22% Lucky Hit Chance; Rampage has 30% Lucky Hit Chance; Terror Swarm has 1% Lucky Hit Chance; Tyrant's Grasp has 15% Lucky Hit Chance
+- **Multiplicative sources:** Demonform (Demonology Skill damage +1% per stack, up to 100%); Hellfire bonus while in Demonform (+30% Hellfire Demonology Skill damage); Mastermind Shard (Abyss Skills +30% damage while in Shadowform)
+- **Additive sources:** Intelligence (Resistances); Strength (Armor); Dexterity (minor Critical Strike Chance, minor Dodge Chance)
+- **Critical / Vulnerable / Overpower hooks:** Profane Sentinel applies Vulnerable to enemies (22% Lucky Hit Chance); Rampage has 5% chance to Eviscerate for 2560% damage; Hellion Sting's Demonic Swipe variant cleaves for 198% damage on fourth attack
 
 ## Skill tree priorities
 | Skill | Role | Applies | Generates / Consumes | Notes |
 |---|---|---|---|---|
-| Metamorphosis | Mobility / Transform | Demonform; grants Archfiend skill variants | 5-sec cooldown; enables Demonform stack generation | Melee basic attack in Demonform deals 137% damage |
-| Hellion Sting (Demonic Swipe variant) | Basic / Transform trigger | Demonform (on 4th attack) | — | Cleaves for 198% damage on transform hit |
-| Rampage | Summoner / Damage | Summons Rampaging Brute (10 sec) | 30% Lucky Hit Chance | 128% damage/hit; 5% chance to Eviscerate for 2560%; Vanguard Shard version: 123% damage/swipe |
-| Profane Sentinel | Summoner / Debuff | Vulnerable | 22% Lucky Hit Chance | Demonic eye for 15 sec; periodic blasts for 300% damage |
-| Command Fallen (Mega Lunatic variant) | Summoner / Burst | — | — | Mega Lunatic deals 136%; bursts into 3 Mini Lunatics each dealing 40% |
-| Wall of Agony | Defensive | — | — | Summons and fuses 5 frenzied demons for 8 sec; block and deal 30% damage/hit |
-| Tyrant's Grasp | Utility / CC | — | 15% Lucky Hit Chance | 100% damage; pulls enemies away from Warlock |
-| Doom | Damage | — | — | Warlock skill (see build guides) |
-| Bombardment | Damage | — | — | Warlock skill (see build guides) |
-| Apocalypse | Damage / Ultimate | — | — | Core to the Apocalypse-Warlock endgame build |
-| Fiend of Abbadon | Ultimate | — | 60-sec cooldown; 22% Lucky Hit Chance | Summons massive fiend for 15 sec; 250% damage/swipe |
-| Terror Swarm | Ultimate | — | 30-sec cooldown; 1% Lucky Hit Chance | 500% initial damage + 100% damage/bite for 15 sec |
+| Metamorphosis | Mobility / transformation | Demonform; Archfiend skill variants | 5-sec cooldown | Melee basic attack deals 137% damage while active |
+| Rampage | Damage / summon | — | — | 30% Lucky Hit; summons brute 10 sec, 128% per hit; 5% Eviscerate proc at 2560% |
+| Profane Sentinel | Damage / debuff | Vulnerable | — | 22% Lucky Hit; demonic eye 15 sec, 300% periodic blast |
+| Fiend of Abbadon | Ultimate damage | — | 60-sec cooldown | Summons massive fiend 15 sec, 250% per swipe; 22% Lucky Hit |
+| Terror Swarm | Ultimate damage | — | 30-sec cooldown | 500% initial + 100% per bite for 15 sec; 1% Lucky Hit |
+| Wall of Agony | Defensive / damage | — | — | Summons 5 demons 8 sec; block + 30% damage per hit |
+| Command Fallen (Mega Lunatic) | Damage / summon | — | — | Mega Lunatic 136%; bursts into 3 Mini Lunatics at 40% each |
+| Tyrant's Grasp | Utility / damage | Pull | — | 15% Lucky Hit; 100% damage; pulls enemies away |
+| Doom | Damage | — | — | Belongs to Warlock skill tree |
+| Bombardment | Damage | — | — | Belongs to Warlock skill tree |
+| Apocalypse | Damage | — | — | Belongs to Warlock skill tree |
+| Hellion Sting (Demonic Swipe) | Basic / transformation | Demonform | — | Fourth attack triggers Demonform and cleaves 198% |
 
 ## Key passives / class mechanic
 | Key Passive | Buffs (state/skill) | Effect | Best for |
 |---|---|---|---|
-| Soul Shards (class mechanic) | All playstyles | Select one Shard + one Fragment per loadout; fundamentally changes kit and rotation | All builds — required choice |
-| Legion Shard — Sacrificial Fragment | Unstoppable (Lesser Demons) | Warlock is Unstoppable while active Lesser Demons are present; when CC'd, one Lesser Demon is sacrificed to prevent the CC | Summoner / survivability |
-| Vanguard Shard | Demonform / Summoner | Transforms Warlock into a Demon via Metamorphosis; rides atop an Abodian into battle | Melee / Demonform brawler |
-| Vanguard Shard — Warden Fragment | Demonform / Greater Demons | Lose 1 Dominance/sec per Close Summoned Greater Demon while in Demonform; extends demon durations | Sustained Demonform summoner |
-| Mastermind Shard | Shadowform / Abyss Skills | Cloaks Warlock in Shadowform (Unhindered; movement grants Stealth, 1 stack consumed per activation, up to 10 stacks); Abyss Skills +30% damage in Shadowform; +5% movement speed per Shadowform stack | Stealth / CC / Abyss builds |
-| Ritualist Shard | (not covered in source) | (not covered in source) | (not covered in source) |
-| Demonform (state/passive) | Demonology Skills | +25% Maximum Life while active; +1% Demonology Skill damage per stack (up to 100%); Hellfire Demonology Skills gain additional +30% | Demonform / brawler builds |
+| Soul Shard: Legion — Sacrificial Fragment | Unstoppable (while active Lesser Demons) | Warlock gains Unstoppable while Lesser Demons are active; when CC'd, sacrifices one Lesser Demon to prevent CC | Summoner / minion-uptime builds |
+| Soul Shard: Vanguard | Demonform / Metamorphosis | Transforms Warlock into a Demon via Metamorphosis; rides an Abodian into battle; Rampage summons brute (123% per swipe, 10 sec) | Melee Demonform brawler |
+| Soul Shard: Vanguard — Warden Fragment | Demonform / Summoned Greater Demons | Lose 1 Dominance/sec per Close Summoned Greater Demon while in Demonform; extends demon durations | Greater Demon uptime builds |
+| Soul Shard: Mastermind | Shadowform / Abyss Skills | Cloaks Warlock in Shadowform (stealth, Unhindered, movement grants Stealth, up to 10 stacks consumed per activation); Abyss Skills +30% damage in Shadowform; +5% move speed per Shadowform stack | CC / stealth / Abyss skill builds |
+| Soul Shard: Ritualist | — | (not covered in source) | — |
+| Demonform (state) | Demonology Skills | +25% Maximum Life; +1% Demonology Skill damage per stack (up to 100%); Hellfire damage +30% | Any Vanguard / Metamorphosis build |
+
+> **Class mechanic:** Soul Shards. Select one of four Shards (Legion, Vanguard, Mastermind, Ritualist) and one Fragment from that Shard. Only one Shard + one Fragment active at a time.
 
 ## Aspects (legendary)
 | Aspect | Slot | Buffs (skill/state) | Effect | When to drop it |
 |---|---|---|---|---|
-| Warlock-X2 | (not covered in source) | Warlock skills | (not covered in source) | (not covered in source) |
-| Aspect of Dominance | (not covered in source) | Dominance / Demonform | (not covered in source) | (not covered in source) |
+| Aspect of Dominance | (not covered in source) | Dominance mechanic | (not covered in source) | (not covered in source) |
 | Aspect of Exorcism | (not covered in source) | (not covered in source) | (not covered in source) | (not covered in source) |
 | Aspect of Heavenly Strength | (not covered in source) | (not covered in source) | (not covered in source) | (not covered in source) |
+| Warlock-X2 Aspect | (not covered in source) | (not covered in source) | (not covered in source) | (not covered in source) |
 
 ## Uniques worth chasing
 | Unique | Slot | Buffs | Why | GA priority |
 |---|---|---|---|---|
-| Tortured Wretch's Punishing Bag (variant) | (not covered in source) | Max Life absorption | Redirects all damage to the demon (absorbs up to 100% of Max Life); on demon death deals 500% damage and Fortifies for 15% of absorbed damage | (not covered in source) |
+| Tortured Wretch (Punishing Bag variant) | (not covered in source) | Maximum Life / Fortify | Redirects all damage to demon (absorbs up to 100% of max Life); on demon death deals 500% damage and Fortifies for 15% of absorbed damage | High — sustain + burst |
 
 ## Tempering manuals
 - Weapon: (not covered in source)
@@ -58,13 +59,12 @@ The Warlock (introduced in Season 13, Patch 2.4.1 — *Lord of Hatred* expansion
 1. (not covered in source)
 
 ## Paragon priority
-- Starting board: Path through key nodes including X9–X13 rows (Y4–Y14 range) per the Apocalypse and Dread Claws endgame builds; multiple builds heavily invest the starting board before branching. Mrronit's Dread Claws build notably paths from Y2 at X11–X12 all the way down through Y14 on X11–X13, while also covering the X8–X10 columns (Y5–Y12). Apocalypse build prioritizes a tighter central cluster (X8–X14, Y4–Y8).
-- Glyph order to L15: Boards used across documented builds — **Pyrosis**, **Ritualism**, **Dominion**, **Greater Hex**, **Chaos**, **Demonic Spicules**. Apocalypse build runs Pyrosis + Ritualism + Chaos; Dread Claws builds run Dominion + Greater Hex + Ritualism + Demonic Spicules. Prioritize the board matching your Shard (Ritualism for Ritualist, Dominion for Vanguard/Legion).
+- Starting board: Multiple nodes confirmed across Starting Board (various XY coordinates used by endgame builds including Apocalypse Warlock and Dread Claws variants); prioritize pathing through core stat clusters toward board connectors.
+- Glyph order to L15: Boards referenced across endgame builds — **Pyrosis**, **Ritualism**, **Dominion**, **Greater Hex**, **Chaos**, **Demonic Spicules**. Prioritize Ritualism and Dominion first based on cross-build node density; Pyrosis and Greater Hex second; Chaos and Demonic Spicules for specialist builds.
 
 ## Common mistakes
-- Picking Dexterity as a primary stat investment — it provides only minor Crit Chance and Dodge; prioritize Intelligence (Resistances) and Strength (Armor) instead.
-- Forgetting you can only equip **one Soul Shard + one Fragment** — mixing mechanics from multiple shards is impossible and builds must commit fully.
-- Using Metamorphosis carelessly on its 5-second cooldown — losing Demonform early cuts off the stacking Demonology damage bonus (+1% per stack, up to 100%).
-- Neglecting Lesser Demons when running Legion Shard — the Unstoppable protection disappears when no Lesser Demons are active, leaving the Warlock vulnerable to CC.
-- Ignoring Shadowform stack management on Mastermind Shard — each movement consumes a stack (max 10), and losing all stacks strips the 30% Abyss Skill damage bonus and movement speed.
-- Slotting Terror Swarm in situations requiring sustained single-target Lucky Hit procs — its 1% Lucky Hit Chance is the lowest of all Ultimates; prefer Fiend of Abbadon (22%) for Lucky Hit–dependent builds.
+- Equipping Dexterity-heavy gear: it provides only minor Crit Chance and Dodge — stack Intelligence (Resistances) and Strength (Armor) instead.
+- Running two Ultimates: the Warlock has only one Ultimate slot; pick either Fiend of Abbadon (60-sec CD, sustained summon) or Terror Swarm (30-sec CD, DoT burst) based on the build.
+- Ignoring Soul Shard Fragment selection: choosing the wrong Fragment (e.g. Warden Fragment without Greater Demon uptime) wastes Dominance generation and demon duration extension.
+- Not maintaining Shadowform stacks on Mastermind builds: Shadowform caps at 10 stacks, each movement action grants Stealth and consumes a stack — pre-stack before engaging.
+- Assuming all Demonform damage bonuses are always active: the +1%/stack bonus only scales up to 100 stacks and requires active Demonform state from Metamorphosis (5-sec cooldown).

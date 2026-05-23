@@ -1,58 +1,53 @@
 # Spiritborn
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-22 · Source: https://maxroll.gg/d4/resources/spiritborn-class-overview
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-23 · Source: https://maxroll.gg/d4/resources/spiritborn-class-overview
 
 ## Core identity
-The Spiritborn channels four Spirit Guardians (Jaguar, Gorilla, Eagle, Centipede) through the Spirit Hall mechanic, spending Vigor to unleash elemental attacks tuned to offense, defense, or utility. It is a brand-new class introduced with the Vessel of Hatred expansion, with no Diablo franchise precedent.
+Brand-new class introduced with the Vessel of Hatred expansion (Season 13, Patch 2.4.1). The Spiritborn channels four animal Spirit Guardians—Jaguar, Gorilla, Eagle, and Centipede—spending Vigor to unleash elemental attacks, with playstyle defined by whichever Spirit combination is selected in the Spirit Hall.
 
 ## Damage scaling buckets
-- **Multiplicative sources:** Dexterity (multiplies all damage done); Spirit Hall Primary Spirit bonus; Adaptive Stances key passive (per-spirit empowerment)
-- **Additive sources:** Skill ranks (passives scale linearly across 3 ranks); elemental affinity bonuses per Guardian (Fire/Lightning/Physical/Poison)
-- **Critical / Vulnerable / Overpower hooks:** Vital Strikes key passive (synergizes with Vulnerable — enhanced damage, healing, and Vigor restore); The Seeker ultimate (applies Vulnerable to nearby foes); Counterattack passive (retaliation on each successful dodge)
+- **Multiplicative sources:** Dexterity (multiplies all damage done); Spirit Hall Primary Spirit bonus; each Spirit Guardian element (Jaguar = Fire, Eagle = Lightning, Gorilla = Physical, Centipede = Poison)
+- **Additive sources:** Passive skill ranks (3 ranks each, linear scaling); Ferocity stacks from Jaguar skills (e.g. Thrash, Rake)
+- **Critical / Vulnerable / Overpower hooks:** Vital Strikes key passive (synergizes with Vulnerable — enhances damage, provides healing, restores Vigor); The Seeker ultimate applies Vulnerable; Counterattack retaliation on dodge
 
 ## Skill tree priorities
 | Skill | Role | Applies | Generates / Consumes | Notes |
 |---|---|---|---|---|
-| Rock Splitter | Basic / Defensive | Thorns | Generates Vigor | Gorilla (Physical); provides defensive bonuses |
-| Thunderspike | Basic | Lightning damage | Generates Vigor | Eagle-aligned |
-| Thrash | Basic / Offensive | — | Generates Vigor; stacks Ferocity | Jaguar (Fire); dive into enemies; Ferocity enhances attack speed |
-| Withering Fist | Basic / Debuff | Poison, Weaken (enemy dmg reduction) | Generates Vigor | Centipede (Poison) |
-| Rake | Core / Offensive | — | Generates Ferocity / Consumes Vigor | Can spec to reduce skill cooldowns |
-| Crushing Hand | Core / AoE | — | Consumes Vigor | Two overlapping shockwaves; peak damage on elites/bosses kept between them |
-| Counterattack | Defensive / Passive | Retaliation damage | — | Grants dodge chance; activate to dodge all attacks briefly and retaliate each dodge |
-| Vortex | Skill | — | (not covered in source) | Belongs to Spiritborn kit |
-| Soar | Mobility/Skill | — | (not covered in source) | Belongs to Spiritborn kit |
-| Ravager | Skill | Ferocity (maximum stacks via Ravager-Ferocity-Maximum) | (not covered in source) | Belongs to Spiritborn kit |
-| Scourge | Skill | — | (not covered in source) | Belongs to Spiritborn kit |
-| The Devourer | Ultimate / Centipede | Poison (extended duration via The-Devourer-Poisoning-Duration); Spew Putrefaction | Heals player (The-Devourer-Healing) | Centipede ultimate |
-| The Hunter | Ultimate / Jaguar | — | — | Manifests Tiger Spirit; slashes foes; resets on kills during duration |
-| The Seeker | Ultimate / Eagle | Vulnerable, Knockdown | — | Manifests Eagle Spirit; knocks nearby foes down |
-| Armored Hide | Defensive | Barrier (Armored-Hide-Barrier) | — | Blocked damage reduction (Armored-Hide-Blocked-Damage-Reduction) |
+| Rock Splitter | Basic — Gorilla | Thorns buff, defensive bonuses | Generates Vigor | Physical element; defensive-leaning Basic |
+| Thunderspike | Basic — Eagle | (not covered in source) | Generates Vigor | Lightning element |
+| Thrash | Basic — Jaguar | Ferocity (attack speed) | Generates Vigor | Dive into enemies; Ferocity enhances attack speed |
+| Withering Fist | Basic — Centipede | Poison, Weaken (enemy damage reduction) | Generates Vigor | Poison spreader / debuffer |
+| Rake | Core — Jaguar | Ferocity | Generates Ferocity / Consumes Vigor | Can specialize to reduce skill cooldowns |
+| Crushing Hand | Core — Gorilla | — | Consumes Vigor | Two overlapping shockwaves; maximizes damage on elites/bosses held between them |
+| Counterattack | Defensive | Retaliation on each successful dodge | — | Grants dodge chance; activatable to dodge all incoming attacks for a short duration |
+| Soar | (not covered in source) | (not covered in source) | (not covered in source) | Eagle skill |
+| Vortex | (not covered in source) | (not covered in source) | (not covered in source) | Spiritborn skill |
+| Scourge | (not covered in source) | (not covered in source) | (not covered in source) | Spiritborn skill |
+| Ravager | (not covered in source) | Ferocity Maximum (Ravager-Ferocity-Maximum) | (not covered in source) | Spiritborn skill |
+| The Devourer | Ultimate — Centipede | Poison (Spew Putrefaction), Healing | Consumes Vigor | Extended poisoning duration; healing component |
+| The Hunter | Ultimate — Tiger | — | — | Tiger Spirit slashes foes; reset by kills during duration; only one Ultimate can be equipped |
+| The Seeker | Ultimate — Eagle | Vulnerable, Knockdown | — | Knocks nearby foes down and applies Vulnerable; only one Ultimate can be equipped |
 
 ## Key passives / class mechanic
 | Key Passive | Buffs (state/skill) | Effect | Best for |
 |---|---|---|---|
-| Vital Strikes | Vulnerable state | Enhances damage vs Vulnerable enemies; heals player; restores Vigor on hit | Builds that reliably apply Vulnerable (e.g. The Seeker) |
-| Adaptive Stances | Active Spirit / all skills | Empowers Spiritborn based on the Spirit currently invoked | Multi-spirit hybrid builds |
-| Spirit Hall (class mechanic) | All skills | At level 15 choose a Primary Spirit: all skills count as that Spirit's skills and grant a special bonus; at level 30 choose a Secondary Spirit for an additional bonus | Core to every build — Primary Spirit defines elemental identity |
+| Vital Strikes | Vulnerable state | Enhances damage, provides healing, and restores Vigor against Vulnerable enemies | Builds that reliably apply Vulnerable (e.g. The Seeker, Withering Fist) |
+| Adaptive Stances | Active Spirit skills | Empowers the Spiritborn based on the Spirit currently being invoked | Multi-Spirit hybrid builds |
+| Spirit Hall (class mechanic, L15) | All skills | Selecting a Primary Spirit makes every skill count as that Spirit's skill and unlocks a special bonus | Mono-Spirit focus builds |
+| Spirit Hall (Secondary Spirit, L30) | All skills | Adds a second Spirit's tag/bonus to the build | Dual-Spirit synergy builds |
 
 ## Aspects (legendary)
 | Aspect | Slot | Buffs (skill/state) | Effect | When to drop it |
 |---|---|---|---|---|
-| Aspect of Celestial Strife | (not covered in source) | Spiritborn | (not covered in source) | (not covered in source) |
-| Aspect of Proselytizing | (not covered in source) | Spiritborn | (not covered in source) | (not covered in source) |
-| Aspect of the Valintyr | (not covered in source) | Spiritborn | (not covered in source) | (not covered in source) |
-| Aspect of Lageras Sovereignty | (not covered in source) | Spiritborn | (not covered in source) | (not covered in source) |
-| Aspect of Swift Spirit | (not covered in source) | Spiritborn | (not covered in source) | (not covered in source) |
-| Aspect of Dominance | (not covered in source) | Spiritborn | (not covered in source) | (not covered in source) |
-| Aspect of Ascension | (not covered in source) | Spiritborn | (not covered in source) | (not covered in source) |
-| Aspect of the Disciple | (not covered in source) | Spiritborn | (not covered in source) | (not covered in source) |
-| Aspect of Firm Decree | (not covered in source) | Spiritborn | (not covered in source) | (not covered in source) |
-| Aspect of Dedication | (not covered in source) | Spiritborn | (not covered in source) | (not covered in source) |
-| Aspect of Contemplation | (not covered in source) | Spiritborn | (not covered in source) | (not covered in source) |
-| Aspect of Excellence | (not covered in source) | Spiritborn | (not covered in source) | (not covered in source) |
+| Aspect of Celestial Strife | (not covered in source) | (not covered in source) | (not covered in source) | (not covered in source) |
+| Aspect of Proselytizing | (not covered in source) | (not covered in source) | (not covered in source) | (not covered in source) |
+| Aspect of the Valintyr | (not covered in source) | (not covered in source) | (not covered in source) | (not covered in source) |
+| Aspect of Swift Spirit | (not covered in source) | (not covered in source) | (not covered in source) | (not covered in source) |
+| Aspect of Dominance | (not covered in source) | (not covered in source) | (not covered in source) | (not covered in source) |
+| Aspect of Militance | (not covered in source) | (not covered in source) | (not covered in source) | (not covered in source) |
+| Aspect of the Disciple | (not covered in source) | (not covered in source) | (not covered in source) | (not covered in source) |
 
-*Note: The structural data confirms ~50 Spiritborn-specific aspects exist. Per-aspect effects are not covered in source facts; consult a current build guide for slot and effect details.*
+> **Note:** All aspects listed in the structural data belong to Spiritborn but specific slot/effect data is not covered in source. Check current build guides for per-aspect values.
 
 ## Uniques worth chasing
 | Unique | Slot | Buffs | Why | GA priority |
@@ -67,14 +62,14 @@ The Spiritborn channels four Spirit Guardians (Jaguar, Gorilla, Eagle, Centipede
 1. (not covered in source)
 
 ## Paragon priority
-- Starting board: Prioritize nodes around the central cluster (X10/Y8–Y12, X13/Y7–Y10, X9/Y6 and Y12) for core stat density; used by both major documented builds.
-- Glyph order to L15: Boards confirmed in use — **Sapping**, **Convergence**, **Drive**, **Viscous Shield** (and **In-Fighter** for Rake/Fireborn variant). Prioritize the Sapping board's rare/glyph socket path (X13/Y16→X17/Y17 cluster) and the Convergence board's central damage spine (X11/Y8–Y11). Specific glyph priority order to L15 not covered in source.
+- Starting board: Path through core Dexterity nodes; the Mrronit's Rushing Claw build uses a dense cluster around coordinates X10/Y8–Y12 and X13/Y7–Y10 on the Starting Board — prioritize those stat nodes before branching.
+- Glyph order to L15: Boards referenced in known builds include **Sapping**, **Convergence**, **Drive**, and **Viscous Shield** — socket glyphs in that order and level to 15 before moving to the next board. Specific glyph names per socket are not covered in source.
 
 ## Common mistakes
-- Not selecting a Primary Spirit at level 15 in the Spirit Hall — it is the single largest damage multiplier and makes all skills count as the chosen Spirit type.
-- Forgetting to pick a Secondary Spirit at level 30, missing a second Spirit Hall bonus.
-- Ignoring Dexterity on gear; it multiplicatively scales all damage for Spiritborn.
-- Using only one Ultimate and not planning the two-step upgrade path before investing skill points elsewhere.
-- Misusing Crushing Hand: enemies must be kept between the two shockwave overlap points to receive maximum damage; poor positioning wastes the skill entirely.
-- Neglecting Vigor generation — Basic Skills are the primary Vigor source; skipping or under-investing them starves Core Skill uptime.
-- Equipping weapon types outside Glaive and Quarterstaff, which are the class-specific options and carry Spiritborn-tuned affixes.
+- Not selecting a Primary Spirit at level 15 — this is a massive damage loss since it makes all skills count as that Spirit type.
+- Forgetting the Secondary Spirit unlock at level 30 in the Spirit Hall.
+- Ignoring Dexterity on gear; it is a direct damage multiplier for the class, not just a stat-stick.
+- Slotting both Crushing Hand shockwaves without positioning enemies between them — the double-overlap on elites/bosses is the entire value of the skill.
+- Picking a second Ultimate instead of investing in a single Ultimate's two upgrade steps; only one Ultimate can be equipped and upgrades follow a two-step linear path.
+- Using Counterattack reactively rather than activating it preemptively against telegraphed boss attacks to trigger the full retaliation chain.
+- Running the class without the Vessel of Hatred expansion — Spiritborn is expansion-locked and will not appear without it.

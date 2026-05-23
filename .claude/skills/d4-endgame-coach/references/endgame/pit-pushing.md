@@ -1,65 +1,63 @@
 # Pit Pushing
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-22 · Source: https://maxroll.gg/d4/resources/pit-guide
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-23 · Source: https://maxroll.gg/d4/resources/pit-guide
 
 ## Goal
 
-Level Paragon Glyphs (max level 150) and push to higher tiers for scaling difficulty rewards. The Pit of Artificers is the **only** way to level glyphs.
+Level Paragon Glyphs (max level 150) and push to the highest Pit tier possible. Glyphs are leveled **exclusively** through Pit of Artificers clears.
 
 ---
 
 ## Unlock / access
 
-| Realm | Unlock Condition |
+| Realm | Requirement |
 |---|---|
 | Seasonal | Complete Capstone Dungeon **Hellish Descent** at Season Rank II |
 | Eternal | Reach **level 70** |
 
-- Accessed via an **obelisk in Cerrigar/Temis**.
-- As of Season 11 (December 2025), **no materials are required** to enter a run.
+- Entrance: interact with the obelisk in **Cerrigar, Scosglen**
+- As of Season 11 (Dec 2025), **no materials are required** to enter a run
+- Introduced in patch **1.4.0, Season 4**
 
 ---
 
 ## Rewards
 | Tier | Drops | Notes |
 |---|---|---|
-| Any (cleared) | 4 glyph upgrade attempts | Base reward for defeating the boss before timer expires |
-| Any (no death) | +1 glyph upgrade attempt | Bonus attempt for a deathless clear |
-| War Plans nodes | Up to +4 glyph upgrade attempts | Unlocked via the Pit Skill Tree using War Plans |
-| Any (cleared) | Glyph drops | Glyphs not yet found elsewhere can drop at run end |
-| Higher tiers | More tier unlocks | Additional tiers awarded based on time remaining after boss kill |
-
-- Defeating the boss unlocks the next tier(s); extra tiers scale with time remaining on the clock.
+| Any clear (boss dead before timer) | **4 glyph upgrade attempts** | Base reward for successful clear |
+| Any clear (no death) | **+1 glyph upgrade attempt** | Bonus for deathless run |
+| War Plans (Pit Skill Tree nodes) | **Up to +4 glyph upgrade attempts** | Unlocked via War Plans; stacks on top of base attempts |
+| Any clear | **Glyph drops** (new/unfound glyphs) | Glyphs not yet obtained can drop at run end |
+| Boss killed with time remaining | **Additional tier unlocks** | More time remaining = more tiers unlocked |
 
 ---
 
 ## DPS / EHP checkpoints
 
-| Checkpoint | Guidance |
-|---|---|
-| Gear readiness | Fully **Tempered** and **Masterworked** before entering |
-| Gems | Equip best available Gems from the Jeweler before entering |
-| Scaling | Monsters scale in HP and damage with each Tier increase |
-| Glyph upgrade odds | Success rate increases the greater the gap between Pit tier and glyph level |
-| Guaranteed bonus level | If Pit tier exceeds glyph level by **> 20**, the glyph receives a guaranteed extra level upgrade |
+- Monsters scale in health and damage **with each tier increase**
+- **Fully temper and masterwork all gear** before pushing the Pit
+- Equip best-in-slot gems (visit Jeweler) before entering
+- Glyph upgrade odds **increase** as the gap between Pit tier and glyph level widens
+  - Gap **> 20**: guaranteed extra glyph level on upgrade
+- Run lower tiers to level fresh glyphs quickly; run higher tiers for better upgrade odds and additional rewards
+- 15-minute timer is the hard DPS gate — boss must die before it expires
 
 ---
 
 ## Strategy by tier
 
-1. **Early glyph leveling** — Run lower tiers quickly to level fresh glyphs from scratch; prioritize volume of clears over tier height.
-2. **Efficiency routing** — Floors and monsters are randomized across all 5 floors (connected by portals); prioritize **Elite Monsters** as they provide the most boss-spawn progression.
-3. **Boss summon** — Fill the monster progression meter within the 15-minute timer; the boss spawns nearby once the threshold is met.
-4. **Boss kill** — Slay the boss before the timer expires to secure glyph upgrade attempts and tier unlocks.
-5. **Time banking** — The more time remaining when the boss dies, the more additional tiers you unlock; push for fast kills at your current ceiling.
-6. **Tier pushing** — Once glyphs are mid-leveled, run the highest tier you can reliably clear to maximize the glyph level–vs–tier gap and trigger the **guaranteed extra level** bonus (> 20 tier difference).
-7. **Deathless runs** — Avoid dying to preserve the +1 bonus glyph upgrade attempt.
+1. **Early tiers (leveling glyphs from 1):** Run the lowest comfortable tier. Clear speed matters more than tier level; exploit the >20-gap rule for guaranteed bonus levels.
+2. **Mid tiers:** Push tier high enough so your equipped glyph levels are always ≥20 below the tier being run. Prioritize killing **Elite monsters** — they provide the most boss-summoning progression.
+3. **High tiers:** Have gear fully masterworked and tempered before attempting. Navigate all **5 floors** (connected by portals) efficiently; layouts and monster spawns are randomized each run.
+4. **Boss phase:** Once enough monster progression is filled, the boss spawns nearby. Burn it down before the 15-minute timer expires. Time left after the kill determines how many additional tiers unlock.
+5. **Deathless runs:** Avoid dying — a clean run grants a free +1 glyph upgrade attempt.
 
 ---
 
 ## Boss mechanics (if applicable)
 | Phase | Mechanic | Counter |
 |---|---|---|
-| Spawn | Boss spawns near player after enough monster progression is filled | Clear Elites efficiently to summon with maximum time remaining |
-| All phases | Boss is randomized from the same pool used in **The Tower** | Familiarize yourself with Tower boss mechanics; each boss has unique abilities and varying HP |
-| Enrage / time limit | Run ends in failure if boss is not slain before the 15-minute timer expires | Ensure DPS is sufficient for your chosen tier before entering |
+| Summon | Boss spawns after monster progression bar is filled; location is nearby | Prioritize Elites to fill bar faster; know your position on floor 5 |
+| Execution | Randomized boss drawn from the same pool used in **The Tower** | Familiarity with The Tower boss pool directly transfers |
+| Timer | Must be slain before the **15-minute** run timer expires | Maintain kill pace on floors 1–5; do not over-explore dead ends |
+| Tier unlock | Additional tiers unlocked based on time remaining when boss dies | Faster kills = more tier skips |

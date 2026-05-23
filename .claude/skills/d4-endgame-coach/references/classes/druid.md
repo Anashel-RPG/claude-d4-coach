@@ -1,41 +1,47 @@
 # Druid
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-22 · Source: https://maxroll.gg/d4/resources/druid-class-overview
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-23 · Source: https://maxroll.gg/d4/resources/druid-class-overview
 
 ## Core identity
-Druid is a hybrid shapeshifter who seamlessly blends Werebear/Werewolf melee combat with nature magic, commanding companions and elemental forces. Strong shapeshifters are defensively durable; human-form casters are high damage but squishy and must position carefully.
+Druid is a hybrid shapeshifter/caster that shifts between Werewolf, Werebear, and human form to deal Physical, Lightning, and Poison damage. Shapeshifting forms provide strong defense; human-form nature spells hit hard but leave the Druid exposed.
 
 ## Damage scaling buckets
 - **Multiplicative sources:** (not covered in source)
-- **Additive sources:** Physical damage, Lightning damage, Poison damage; Strength (+200 Armor per 100 pts); Intelligence (+40 All Resistances, +3% Resource Generation per 100 pts); skill ranks (+10% of base value per rank, up to 5 ranks)
+- **Additive sources:** Skill ranks (+10% base value per rank, up to rank 5); Intelligence (+40 All Resistances, +3% Resource Generation per 100 pts); Strength (+200 Armor per 100 pts)
 - **Critical / Vulnerable / Overpower hooks:** (not covered in source)
 
 ## Skill tree priorities
 | Skill | Role | Applies | Generates / Consumes | Notes |
 |---|---|---|---|---|
-| Maul | Werebear basic melee | Werebear form | Generates Spirit | Basic skill; unlocks Enhancement + one of two specializations |
-| Claw | Werewolf basic melee | Werewolf form | Generates Spirit | Basic skill; unlocks Enhancement + one of two specializations |
-| Pulverize | Werebear core damage | Werebear form | Consumes Spirit | Top speedfarm build anchor (Z-tier); stronger hits with 2H weapon |
-| Shred | Werewolf core damage | Werewolf form | Consumes Spirit | Z-tier speedfarm; benefits from higher attack speed of 1H+Totem setup |
-| Grizzly Rage | Ultimate — Werebear burst window | Werebear form (locked) | Consumes Spirit | While active, only Werebear skills usable; Werebear skills must be on skill bar |
+| Claw | Basic | — | Generates Spirit | Werewolf basic skill |
+| Maul | Basic | — | Generates Spirit | Werebear basic skill |
+| Pulverize | Core damage | — | Consumes Spirit | Werebear slam; top-tier S13 build anchor (Mega-Bear-Punch) |
+| Shred | Core damage | — | Consumes Spirit | Werewolf AoE; Z-tier speedfarm S13 |
+| Grizzly Rage | Ultimate | Werebear form | Consumes Spirit | Locks bar to Werebear Skills only while active |
+| Lightning Storm | Core damage | — | Consumes Spirit | Z-tier speedfarm S13 |
+| Tornado | Core damage | — | Consumes Spirit | Z-tier speedfarm S13 |
+
+Each skill can be leveled 5 times (+10% base value per rank), then Enhanced + one of two upgrade specializations.
 
 ## Key passives / class mechanic
 | Key Passive | Buffs (state/skill) | Effect | Best for |
 |---|---|---|---|
-| One With Nature | Companion skills (passive) | All Companions passively attack at the Druid's side without being on skill bar; active Companion components still require a skill bar slot | Companion-heavy builds that want passive DPS without sacrificing bar slots |
-| *(others)* | — | Only one Key Passive can be chosen at a time | All builds |
+| One With Nature | All Companions | Calls all Companions to your side to passively attack even without them on the skill bar; active Companion components still require a skill bar slot | Companion-heavy builds |
+| *(others)* | — | (not covered in source) | — |
+
+> Only one Key Passive can be selected at a time.
 
 **Spirit Boons (class mechanic)**
-- Unlocked at Túr Dúlra via Druidic Spirit Offerings (drop from monsters at level 15+)
-- 16 total Boons across 4 Spirits; each costs 15 Offerings → **240 Offerings** to fully unlock all
-- Snake Boons exception: all 4 Snake Boons must be unlocked simultaneously (**60 Offerings at once**)
-- Default: choose 1 Boon per Spirit (4 active)
-- Fully unlocked bonus: bond with 1 Spirit to take **2 Boons** from it; 1 Boon each from the remaining 3
-- Boons can be swapped freely at any time, including mid-combat
+- 4 Spirits: Deer, Eagle, Snake, Wolf — each offers a selection of Boons.
+- 16 total Boons; each costs 15 Druidic Spirit Offerings to unlock (240 total).
+- Druidic Spirit Offerings drop from monsters at level 15+.
+- Snake Boons must all be unlocked simultaneously (60 Offerings at once).
+- Once all Boons are unlocked, bond with one Spirit to gain **2 Boons** from it; the other three Spirits each grant 1 Boon.
+- Boons can be swapped at any time, including mid-combat.
 
 | Spirit | Boon themes |
 |---|---|
-| Deer | Thorns; +max Spirit; Damage Reduction vs. Elites; Movement Speed + Impairment Reduction |
+| Deer | Thorns, bonus max Spirit, Damage Reduction vs. Elites, Movement Speed + Impairment Reduction |
 | Eagle | (not covered in source) |
 | Snake | (not covered in source) |
 | Wolf | (not covered in source) |
@@ -58,16 +64,16 @@ Druid is a hybrid shapeshifter who seamlessly blends Werebear/Werewolf melee com
 1. (not covered in source)
 
 ## Paragon priority
-- Starting board: Path through key nodes around the center cluster (X9–X14, Y2–Y14 range); prioritize nodes feeding into board connectors
-- Glyph order to L15: Earthen Devastation board → Survival Instincts board → Heightened Malice board → Sinister Tendrils board (based on Mega-Bear-Punch Pulverize build pathing)
+- Starting board: Path through damage/life nodes toward Earthen Devastation board socket (Mega-Bear-Punch build routes through Starting Board into Earthen Devastation, Survival Instincts, Heightened Malice, and Sinister Tendrils boards)
+- Glyph order to L15: (not covered in source — specific glyph names not provided in source)
 
-> **Note:** Exact glyph socket locations and glyph names per board are not specified in source — follow the Mega-Bear-Punch Pulverize build planner for precise node routing.
+> The Mega-Bear-Punch Pulverize build (905 community favorites, S13) uses all four secondary boards: **Earthen Devastation**, **Survival Instincts**, **Heightened Malice**, and **Sinister Tendrils**.
 
 ## Common mistakes
-- Casting nature spells in human form without defensive positioning — human form is significantly squishier than shapeshifted forms
-- Not banking 60 Druidic Spirit Offerings before attempting to unlock Snake Boons (all four must be purchased simultaneously)
-- Forgetting that Companion active effects still require a skill bar slot even when using One With Nature
-- Using a Two-Handed weapon on an attack-speed-sensitive build — 2H hits harder per swing but attacks slower; 1H+Totem is faster
-- Trying to use non-Werebear skills during Grizzly Rage — only Werebear skills on the bar function while the Ultimate is active
-- Not leveling to 15 before farming Druidic Spirit Offerings — they do not drop before that threshold
-- Forgetting to re-bond the preferred Spirit after unlocking all 16 Boons to gain the second Boon slot
+- Staying in human form while casting nature spells without accounting for the reduced survivability — position carefully or use defensive cooldowns.
+- Ignoring Spirit Boon unlocking early; Offerings drop from level 15 and all 16 Boons require 240 total — start farming them as soon as possible.
+- Forgetting that Snake Boons require all four to be unlocked at once (60 Offerings in one go); don't spend Offerings piecemeal if targeting Snake.
+- Slotting Companion skills on the bar without taking One With Nature — or vice versa, taking One With Nature and not realizing active Companion effects still need bar slots.
+- Picking Grizzly Rage then filling the bar with non-Werebear skills — the form locks you to Werebear Skills only.
+- Choosing a Two-Handed weapon for the stronger Aspect scaling without accounting for the reduced attack speed; One-Handed + Totem trades raw power for faster hits.
+- Trying to kite with mobility skills the Druid doesn't have — the class has few movement options, so pre-positioning is critical.
