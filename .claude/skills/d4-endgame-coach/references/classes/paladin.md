@@ -1,37 +1,37 @@
 # Paladin
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-23 · Source: https://maxroll.gg/d4/resources/paladin-class-overview
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-24 · Source: https://maxroll.gg/d4/resources/paladin-class-overview
 
 ## Core identity
-A holy warrior who chooses one of four Oath specializations (Zealot, Juggernaut, Judicator, Disciple) and combines melee combat with auras, keywords, and resource mechanics. Exceptionally fast and tanky with support utility, but locked to melee range and heavily cooldown-dependent.
+Melee holy warrior built around four Oath specializations (Zealot, Juggernaut, Judicator, Disciple). Excels at high-speed tanky combat using resource loops (Fervor, Resolve) and transformative states (Arbiter) to deal massive burst damage while staying nearly unkillable.
 
 ## Damage scaling buckets
-- **Multiplicative sources:** Oath specialization keyword buffs (Resolve damage buff on Juggernaut); Strength (+12.5% Skill Damage per 100 points)
-- **Additive sources:** Skill ranks (+10% base value per rank, up to rank 5); passive ranks (3 ranks, linear scaling); Strength (+20 Armor per 100 points, defensive contribution)
-- **Critical / Vulnerable / Overpower hooks:** Coat of Arms key passive scales damage from Armor and Block Chance; Judgement keyword marks enemies until they explode for damage (Judicator); Retribution keyword creates Thorns explosions around the player
+- **Multiplicative sources:** Resolve stack consumption (Juggernaut damage buff); Arbiter transformation bonuses (Disciple); Judgement explosion chains (Judicator); Strength — 12.5% Skill Damage per 100 points
+- **Additive sources:** Skill ranks (+10% base value per rank, up to rank 5); passive ranks (3 ranks, linear scaling); Intelligence — 2% All Resistances per 100 points; Willpower — 3.5% Healing Received per 100 points; Strength — 20 Armor per 100 points
+- **Critical / Vulnerable / Overpower hooks:** (not covered in source)
 
 ## Skill tree priorities
 | Skill | Role | Applies | Generates / Consumes | Notes |
 |---|---|---|---|---|
-| Advance | Basic (Zealot) | — | Generates Fervor, Resolve | Damage + resource building |
-| Brandish | Basic (Disciple) | — | — | Creates holy arc hitting enemies in patterns |
-| Blessed Hammer | Core (Judicator) | Judgement | — | Spiraling hammer hits enemies around you |
-| Falling Star | Valor (Disciple) | Arbiter transformation trigger | — | Can trigger Disciple → Arbiter form |
-| Defiance Aura | Aura (Juggernaut) | Resolve, Unstoppable, Thorns | — | Grants Unstoppable + Resolve + Thorns |
-| Condemn | — | — | — | Gather/AOE punish skill |
-| Consecration | — | — | — | Ground-effect skill |
-| Zenith | Ultimate (Zealot) | — | — | Gigantic sword slashes through hordes |
-| Fortress | Ultimate (Juggernaut) | Resolve | — | Creates arena, blocks enemy attacks |
-| Heaven's Fury | Ultimate (Judicator) | Judgement | — | Holy beams incinerate enemies |
-| Each active skill | Any | — | — | Can be ranked up to 5× (+10% base value or −5% cooldown per rank); 1 enhancement + 1 of 3 upgrades unlockable |
+| Advance | Basic (Zealot) | — | Generates Fervor, Resolve | Versatile opener; deals damage while building resources |
+| Brandish | Basic (Disciple) | — | — | Creates holy arc; damages enemies in multiple patterns |
+| Blessed Hammer | Core (Judicator) | Judgement (via Judicator synergy) | — | Spiraling hammer hits enemies around you |
+| Falling Star | Valor (Disciple) | Triggers Arbiter transformation | — | Use to enter Arbiter form |
+| Defiance Aura | Aura (Juggernaut) | Resolve, Thorns | Generates Resolve | Grants Unstoppable; key survivability button |
+| Condemn | Skill (Judicator) | — | — | Enhanced and Gather the Guilty upgrades available |
+| Consecration | Skill | — | — | Enhanced upgrade available |
+| Fortress | Ultimate (Juggernaut) | — | — | Creates arena protecting from enemy attacks |
+| Zenith | Ultimate (Zealot) | — | — | Summons gigantic sword; strong horde clear |
+| Heaven's Fury | Ultimate (Judicator) | Judgement | — | Holy beams incinerate enemies; Judicator capstone |
 
 ## Key passives / class mechanic
 | Key Passive | Buffs (state/skill) | Effect | Best for |
 |---|---|---|---|
-| Judgement Day | Judgement (Judicator) | Creates Judgement chain reactions between marked targets | AOE nuke / Judicator builds |
-| Coat of Arms | Armor, Block Chance stats | Scales damage based on Armor and Block Chance | Tanky Juggernaut / Judicator hybrids |
-| Exaltation | Arbiter form (Disciple) | Buffs the Paladin while transformed into Arbiter | Disciple / Arbiter builds |
-| (only one Key Passive can be chosen) | — | — | — |
+| Judgement Day | Judgement state | Creates Judgement chain reactions between marked targets | Judicator / AOE nuke builds |
+| Exaltation | Arbiter state | Buffs Paladin while transformed in Arbiter form | Disciple / Arbiter builds |
+| Coat of Arms | General (Armor/Block) | Scales damage based on Armor and Block Chance | Juggernaut / tanky builds |
+
+> Only one Key Passive can be chosen per build. Only one Ultimate Skill can be slotted.
 
 ## Aspects (legendary)
 | Aspect | Slot | Buffs (skill/state) | Effect | When to drop it |
@@ -44,22 +44,22 @@ A holy warrior who chooses one of four Oath specializations (Zealot, Juggernaut,
 | (not covered in source) | | | | |
 
 ## Tempering manuals
-- Weapon: (not covered in source)
+- Weapon: Two-Handed Axe and Two-Handed Sword (two-handed options); Flail (one-handed, Paladin-unique)
 - Armor: (not covered in source)
 
 ## Masterworking crit picks
 1. (not covered in source)
 
 ## Paragon priority
-- Starting board: Path through core cluster nodes — prioritize the column around X10–X13 / Y2–Y14, hitting the Y12–Y14 row nodes (used across all top builds) and the Y2 backbone for early power; pick up the X9–X10 side cluster (Y4–Y13) for secondary stats. The X12–X13 / Y5–Y12 block is universally pathed by Arbiter, Arbiter's Zeal, and Blessed Shield builds.
-- Glyph order to L15: Castle board (X20 row Y6–Y11 → X16–X18 cluster → X12–X13 trunk → X6–X8 / Y15–Y17 extension) used by Arbiter and Arbiter's Zeal builds; Relentless board (X8–X12 / Y2–Y18 spine → X4–X6 / Y5–Y9 extension → X12 / Y12–Y18 column) used by Arbiter build. Exact glyph names not covered in source.
+- Starting board: Multiple nodes along the X9–X13 / Y2–Y14 corridors featured across top builds (Arbiter-Paladin, Arbiter's Zeal, Charge Auradin, Blessed Shield); prioritize cluster around X12–X13 / Y12–Y14 for early board power, then extend toward X10 / Y2–Y6 column for mid-board stats.
+- Secondary boards: Castle board (Arbiter-Paladin and Arbiter's Zeal both path through it heavily — X6–X20 / Y3–Y19 range); Relentless board (Arbiter-Paladin paths X4–X14 / Y2–Y20).
+- Glyph order to L15: (not covered in source)
 
 ## Common mistakes
-- Slotting more than one Key Passive — only one is allowed
-- Slotting more than one Ultimate Skill — only one is allowed
-- Ignoring skill rank investment; each rank up to 5 adds +10% base value or −5% cooldown
-- Not choosing an enhancement and upgrade after unlocking a skill (two additional point investments available per skill)
-- Building for range — Paladin is primarily melee and lacks flexibility for ranged playstyles
-- Neglecting Strength as a stat; it provides both 12.5% Skill Damage and 20 Armor per 100 points
-- Ignoring Intelligence (2% All Resistances per 100 points) for survivability
-- Undervaluing Resolve stacks on Juggernaut builds — Resolve reduces incoming damage and triggers buffs
+- Choosing more than one Key Passive — only one is permitted per build.
+- Choosing more than one Ultimate Skill — only one slot is available.
+- Neglecting Resolve generation; Juggernaut's damage buff and damage reduction both require building and spending Resolve stacks.
+- Skipping Arbiter trigger skills in Disciple builds — Falling Star must be cast to enter Arbiter form and unlock Exaltation bonuses.
+- Treating the class as ranged — the Paladin is primarily melee and must engage at close range to proc most keywords.
+- Over-investing in Intelligence/Willpower for damage; Strength is the primary offensive stat (12.5% Skill Damage per 100 points).
+- Not upgrading skills past the base point — each additional rank adds +10% base value or reduces cooldown by 5%, which compounds significantly by rank 5.
