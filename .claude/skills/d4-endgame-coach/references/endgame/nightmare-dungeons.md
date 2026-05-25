@@ -1,24 +1,22 @@
 # Nightmare Dungeons
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-24 · Source: https://maxroll.gg/d4/resources/nightmare-dungeons
+> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-25 · Source: https://maxroll.gg/d4/resources/nightmare-dungeons
 
 ## Goal
 
-Farm Glyphs, Masterworking materials, Obducite, Distilled Fear, Legendary/Unique gear, and Escalation Sigils. The primary draw is the **Horadric Strongroom** found inside dungeons, which is the most efficient source of Obducite and Escalation Sigils.
+Farm Glyphs, Masterworking materials, Obducite, Legendaries/Uniques, Distilled Fear, and Escalation Sigils. The primary driver is the **Horadric Strongroom** inside each dungeon and, separately, completing **Escalating Nightmares** for their Astaroth rewards.
 
 ---
 
 ## Unlock / access
 
-| Step | Requirement | Notes |
-|---|---|---|
-| 1 | Complete 10 Whispers and turn in at the Tree of Whispers | Awards first Nightmare Sigil |
-| 2 | Craft additional Sigils at the Occultist | Costs 60 Sigil Powder + Gold per Sigil |
-| 3 | Salvage unwanted Sigils for Sigil Powder | Sigils cannot be re-rolled once created — tier, dungeon, and affixes are final |
-| 4 | Activate a Nightmare Sigil at the dungeon entrance | Opens the Nightmare Dungeon |
-| — | World Bosses / Whisper rewards | Alternative Sigil sources in Torment difficulties |
-
-> **Escalating Nightmares:** Requires an **Escalation Sigil** (drops from Horadric Strongrooms, Torment 1+). Consists of 3 Nightmare Dungeons back-to-back, ending in a fight against Exalted Astaroth.
+| Step | How |
+|---|---|
+| First Nightmare Sigil | Complete 10 Whispers in Nightmare Difficulty → turn in at Tree of Whispers |
+| Ongoing Sigil supply | Drop from Nightmare Dungeon runs; drop from World Bosses (Torment); salvage unwanted Sigils for Sigil Powder → craft at Occultist (60 Sigil Powder + Gold per Sigil) |
+| Sigil re-rolling | **Not possible.** Tier, dungeon, and afflictions are locked once created |
+| Escalation Sigil (for Escalating Nightmares) | Drops from Horadric Strongrooms (as early as Torment 1) |
+| Horadric Strongroom guarantee | Nightmare Sigil with the **Horadric Strongroom** positive affix |
 
 ---
 
@@ -26,56 +24,53 @@ Farm Glyphs, Masterworking materials, Obducite, Distilled Fear, Legendary/Unique
 
 | Tier | Drops | Notes |
 |---|---|---|
-| Any | Glyphs, Masterworking materials, Legendaries/Uniques, Nightmare Sigils, Distilled Fear | Completion guarantees at least 1 Legendary or Unique among 4 items |
-| Horadric Strongroom (scaled by Attunement) | Grand Horadric Cache — Obducite, Gem Fragments, Legendary gear, crafting materials | Tier 6 T4 yields ~2,350 Obducite, ~10,000 Gem Fragments, ~10 Legendaries |
-| Horadric Strongroom | Escalation Sigils | Available from Torment 1+ |
-| Dark Omen affix boss | 250 or 500 Obducite | Boss mob spawned by the Dark Omen negative affix |
-| Reserve Chest affix | 8 Horadric Chests throughout dungeon | Chest contents vary by specific affix variant |
-| Equipment Delve affix | Cache of Legendary gear | Scales with Horadric Artifacts found |
-| Escalating Nightmares — Riches of Materials (T4) | 3,200 Obducite | Astaroth positive affix |
-| Escalating Nightmares — Riches of Keys | Infernal Hordes Compass + Nightmare Sigil + random Tributes | Astaroth positive affix |
-| Any | Distilled Fear | Used to open Beast in the Ice's hoard |
-| Any | Boss Lair Keys | Used for Initiate boss encounters |
+| Any completion | Glyphs, Masterworking materials, Legendaries/Uniques, Distilled Fear, Nightmare Sigils | At least 1 Legendary/Unique guaranteed per run |
+| Dark Omen affix boss | 250 or 500 Obducite | Negative affix; boss spawns mid-dungeon |
+| Reserve Chest affix | 8 Horadric Chests (Gold, crafting mats, Bundled Herbs, Angelbreath, Veiled Crystals, Forgotten Souls) | Positive affix; material type depends on affix variant |
+| Forgotten Wisdom affix | 25% bonus monster XP for 1 hour (via XP well) | Positive affix |
+| Equipment Delve affix | Cache of Legendary gear scaled to Horadric Artifacts found | Positive affix |
+| Horadric Strongroom — Grand Horadric Cache | Obducite, Gem Fragments, Legendary gear; quantity scales with Attunement tier | Tier 6 / T4: ~2,350 Obducite, ~10,000 Gem Fragments, ~10 Legendary pieces |
+| Horadric Strongroom — Escalation Sigil | 1× Escalation Sigil | Drops from Strongroom reward; unlocks Escalating Nightmares |
+| Astaroth (Escalating Nightmares) — Riches of Materials | 3,200 Obducite (Torment 4) | Positive affix on Astaroth fight |
+| Astaroth — Riches of Keys | Infernal Hordes Compass + Nightmare Sigil + random Tributes | Positive affix on Astaroth fight |
+| Distilled Fear | 1× per run | Used to open Beast in the Ice's hoard |
 
 ---
 
 ## DPS / EHP checkpoints
 
-- Each Torment level adds extra penalties to Damage Reduction from Armor and elemental resistances — verify you hit resistance caps before increasing Torment.
-- **Vampiric Elites** affix: Elite monsters always have Vampiric and deal **+20% damage** — demands higher sustain/EHP.
-- **Berserkers** affix: monsters deal **+50% damage** but take **+20% more damage** — glass-cannon builds benefit; low-EHP builds should avoid or clear faster.
-- **Profane Aegis** affix: all monsters gain **50% of Max Life as Barrier** — requires sufficient barrier-break DPS to avoid stalling.
-- **Lesser Aegis** affix: some monsters gain **50% of Max Life as Barrier** — less severe than Profane Aegis.
-- **Hunters** affix: monsters move and attack **+33% faster** — punishes slow or kite-dependent builds.
-- Escalating Nightmares: each subsequent dungeon in the chain increases monster Life and Damage on top of inherited affixes — plan for a noticeable spike by dungeon 3.
+- Each Torment level adds cumulative penalties to Damage Reduction from Armor and all elemental resistances — cap both before pushing higher tiers.
+- Escalating Nightmares scales monster Life and Damage between consecutive dungeons on top of inherited affixes; EHP requirements increase with each leg.
+- **Berserkers** affix: monsters deal **+50% damage** and take **+20% damage** — high burst risk even with capped defenses.
+- **Profane Aegis** affix: all monsters gain **50% Max Life as Barrier** — requires sustained DPS to burn through efficiently.
+- **Hunters** affix: monsters move and attack **33% faster** — mobility and CC are more important than raw DPS.
 
 ---
 
 ## Strategy by tier
 
-1. **Early Torment (T1–T2):** Focus on dungeons with the **Horadric Strongroom** positive affix to guarantee a Strongroom. Follow purple wisps of energy — they lead to the Horadric Gateway inside the dungeon. Avoid Profane Aegis and Hunters affixes until DPS is comfortable.
-2. **Mid Torment (T2–T3):** Prioritize Sigils with **Reserve Chest** or **Equipment Delve** positive affixes for bonus loot. Salvage excess Sigils for Sigil Powder to maintain crafting stock. Begin farming Escalation Sigils from Strongrooms to run Escalating Nightmares.
-3. **High Torment (T3–T4):** Target Strongroom-guaranteed Sigils in T4 for maximum Obducite yield (Tier 6 Strongroom). Escalating Nightmares become the priority loop — 3 dungeons back-to-back with Astaroth rewards scale sharply at T4 (3,200 Obducite + Infernal Hordes Compass from positive affixes). Avoid **Obducite Mine** Escalating Nightmares positive affix — it is currently bugged and does not work (Patch 2.4.1).
-4. **Horadric Strongroom optimization:** Normal monsters grant **+4 Base Attunement** per kill. Use Pillar Rituals (15-second activities) to boost Attunement gain. Manage test-specific mechanics — e.g., do not use potions during **Doom** test (Idol drops on potion use); do not evade during **Weight** test.
-5. **Escalating Nightmares affix awareness:** Dungeon 1 has 1 positive / 1 negative affix. Dungeon 2 adds 1 more of each. Dungeon 3 has 3 positive / 3 negative affixes — plan resistances accordingly. Strike affixes (Bleeding, Burning, Corrupting, Frostbiting, Poisoning, Sparking) each add **+30% of Physical damage** as the respective type over 3 seconds; Cold Strikes adds **+20% as Cold** (flat, no DoT).
+1. **Early Torment (T1–T2):** Prioritize Sigils with the **Horadric Strongroom** positive affix. Use the purple wisp trail to locate the Horadric Gateway quickly. Kill every monster during the 100-second timer for base 4 Attunement per kill; complete Pillar Rituals for +2 Attunement/kill for 10 seconds afterward.
+2. **Mid Torment (T2–T3):** Begin farming Escalation Sigils from Strongroom caches. Stack **Ghosts** (+75 Attunement for guiding apparitions to Pillars) and **Lure** (+40 Attunement) tests over lower-value tests like **Tethering** (+4/kill) when possible.
+3. **Higher Torment (T3–T4):** Stack defensive stats to counter Torment DR penalties before pushing. Avoid Sigils rolling **Profane Aegis** + **Berserkers** together unless your DPS can clear barriers quickly. Dark Omen is a net positive — the boss drops 250–500 Obducite.
+4. **Escalating Nightmares:** Consume an Escalation Sigil to start. Each dungeon leg adds 1 positive + 1 negative affix (Dungeon 1: 1/1 → Dungeon 3: 3/3). Affixes and the full roster are hidden until the third dungeon is complete. Brace for stacking damage-type conversions (see Negative Affixes table). After Dungeon 3, a pillar transports you to the Astaroth fight.
+5. **Obducite Mine affix:** Currently bugged — does not function (Season 13, Patch 2.4.1). Do not factor it into planning.
 
 ---
 
 ## Boss mechanics (if applicable)
 
-**Astaroth — Escalating Nightmares finale (Exalted version, unlocked after 3rd dungeon)**
+**Astaroth — Escalating Nightmares finale (3-phase fight)**
 
 | Phase | Mechanic | Counter |
 |---|---|---|
-| Phase 1 | Astaroth rides the Amalgam of Rage; both act as a combined target | Focus damage on the Amalgam to break the mount |
-| Phase 2 | Astaroth fights alone while the Amalgam recovers | Burst Astaroth; watch for affixes revealed at dungeon 3 completion (up to 3 positive + 3 negative) |
-| Phase 3 | Astaroth and Amalgam of Rage attack independently | Split attention; prioritize whichever has more dangerous affixes active — Rage of the Pack affix causes Amalgam to summon elite werewolves |
-| All phases | Leaping Amalgam (negative affix) | Amalgam continues pounce attacks after Astaroth dismounts — stay mobile |
-| All phases | Armageddon affix | Meteors rain constantly — keep moving, avoid clustering |
-
-**Horadric Strongroom — random boss (spawns after 100-second timer expires)**
-
-| Phase | Mechanic | Counter |
-|---|---|---|
-| Final encounter | Random dungeon boss spawns | Boss scales with current Torment level; defeat it to spawn the Grand Horadric Cache |
-| — | Cache loot scales to Attunement collected during the 100-second phase | Maximize Attunement via Pillar Rituals and test-specific objectives before timer ends |
+| Phase 1 | Astaroth rides the Amalgam of Rage; both fight together | Split focus or prioritize one target; expect high incoming damage |
+| Phase 2 | Astaroth dismounts and fights alone; Amalgam of Rage recovers off-field | Burn Astaroth while Amalgam is absent; reposition to avoid recovery reentry |
+| Phase 3 | Both Astaroth and Amalgam of Rage move and attack independently | Stay mobile; avoid overlapping AoEs from two separate sources |
+| Affix — Leaping Amalgam (negative) | Amalgam continues pounce attacks after Astaroth dismounts (Phase 2+) | Maintain distance; do not stand still after Phase 1 ends |
+| Affix — Rage of the Pack (negative) | Amalgam of Rage summons elite werewolves | Clear adds quickly before focusing boss; werewolves increase damage pressure |
+| Affix — Armageddon (negative) | Meteors rain continuously from the sky | Keep moving; do not channel or stand in meteor impact zones |
+| Affix — Cold Strikes (negative) | Monsters deal +20% of Physical damage as Cold damage | Cap Cold resistance before the run |
+| Affix — Bleeding/Burning/Corrupting/Frostbiting/Poisoning/Sparking Strikes (negative) | Each adds +30% of Physical damage as the respective type over 3 seconds | Prioritize the resistance matching the rolled affix; stacks are dangerous |
+| Affix — Riches of Materials (positive) | Rewards 3,200 Obducite (T4) on kill | Target runs with this affix for Masterworking material efficiency |
+| Affix — Riches of Keys (positive) | Rewards Infernal Hordes Compass + Nightmare Sigil + random Tributes | Best sigil-neutral run reward; sustains both activity loops |
+| Affix reveal timing | All 3 positive and 3 negative affixes are hidden until after Dungeon 3 is completed | Plan defensively — assume worst-case damage types until affixes are revealed |
