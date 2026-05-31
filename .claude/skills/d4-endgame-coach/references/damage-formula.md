@@ -1,6 +1,6 @@
 # Damage Formula — Bucket Model
 
-> Stable across seasons. Bucket *contents* change; the bucket model does not.
+> Season: 13 · Patch: 2.4 · Last refreshed: 2026-05-29 · Stable across seasons — bucket *contents* change; the bucket model does not.
 
 ## The model
 
@@ -31,6 +31,8 @@ Additive (one shared bucket — diminishing returns):
 2. If it lives in a bucket the build already has filled → multiply your current bucket's value.
 3. If it lives in a bucket the build has nothing in → it's a new multiplier (huge).
 4. Always prefer filling an empty bucket over over-stacking a filled one.
+
+Use `bucket_compare` to quantify two upgrades under this model, and `compute_dps` to estimate final DPS from your buckets.
 
 ## Example
 

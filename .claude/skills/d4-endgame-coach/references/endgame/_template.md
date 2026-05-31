@@ -1,6 +1,6 @@
 # <Activity>
 
-> Season: <N> · Patch: <X.Y.Z> · Last refreshed: <YYYY-MM-DD> · Source: <url(s)>
+> Season: <N> · Patch: <X.Y.Z> · Last refreshed: <YYYY-MM-DD> · Coaching synthesis over d4-mcp graph data
 
 ## Goal
 

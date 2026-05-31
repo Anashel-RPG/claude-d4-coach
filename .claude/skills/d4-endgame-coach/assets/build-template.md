@@ -1,6 +1,6 @@
 # Build Submission Template
 
-When a user wants to share a build for review, ask them to fill this in (or paste a Maxroll/Mobalytics/Icyveins URL and the coach will adapt).
+When a user wants to share a build for review, ask them to fill this in (or paste any build-guide URL and the coach will adapt).
 
 ## Identity
 - Class:

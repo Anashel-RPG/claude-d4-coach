@@ -1,65 +1,60 @@
 # Warlock
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-25 · Source: https://maxroll.gg/d4/getting-started/warlock-class-overview
+> Season: 13 · Patch: 2.4 · Last refreshed: 2026-05-29 · Coaching synthesis over d4-mcp graph data
 
 ## Core identity
-The Warlock is a demon-commanding class introduced in the *Lord of Hatred* expansion (Season 13, Patch 2.4.1) that summons and transforms alongside lesser and greater demons. Playstyle varies widely by Soul Shard choice—ranging from summoner horde control to full demon transformation to stealth/crowd-control.
+Season 13 demonic caster-summoner — channels Shadow and Fire (Hellfire) through clawed shadow swarms, fallen minions, demonic Sigils, and transformation. Core skills spend the Warlock's resource; the class layers its signature **Soul Shards** mechanic on top. Plays as a pet/DoT bruiser (Dread Claws + Command Fallen) or a Fire-AoE nuker (Apocalypse / Hell Fracture). The runaway top build is the Dread Claws summoner; Apocalypse is the #2 Fire-AoE push build, with Eviscerate and Hell Fracture as distinct endgame archetypes.
 
 ## Damage scaling buckets
-- **Multiplicative sources:** Demonform (+1% Demonology Skill damage per stack, up to 100%); Hellfire Demonology Skill damage in Demonform (+30%); Demonform Maximum Life bonus (+25%)
-- **Additive sources:** Intelligence (grants Resistances); Strength (grants Armor); Skill damage values (Rampage 128%, Command Fallen Mega Lunatic 136%, Fiend of Abbadon 250% per swipe, Terror Swarm 500% initial + 100% per bite)
-- **Critical / Vulnerable / Overpower hooks:** Rampage has 5% chance to Eviscerate for 2560% damage; Rampage Lucky Hit Chance 30%; Fiend of Abbadon Lucky Hit Chance 22%; Terror Swarm Lucky Hit Chance 1%; Tyrant's Grasp Lucky Hit Chance 15%
+- **Multiplicative sources:** legendary Aspects (crit-ramp, Shadow/demonic payoffs, resource-spend multipliers); the Soul Shards payoff; Mythic unique effects. Critical, Vulnerable, and Overpower are their own separate buckets.
+- **Additive sources:** Intelligence (Warlock's main offensive attribute — skill damage); Core, Shadow, and Fire skill-damage tempers; additive damage paragon rares; minion/summon damage bonuses.
+- **Critical / Vulnerable / Overpower hooks:** Dexterity feeds Crit Chance; CC skills apply Weaken/slow; Sigils layer demonic debuffs and Hellfire; Shadow builds stack DoT, Fire builds stack burn/Hellfire detonations. Overpower is generally skipped — Intelligence, not Willpower, is the priority.
 
 ## Skill tree priorities
-| Skill | Role | Applies | Generates / Consumes | Notes |
-|---|---|---|---|---|
-| Metamorphosis | Mobility / transformation | Demonform, Archfiend skill variants | — | 5-sec cooldown; melee basic attack deals 137% damage while active |
-| Rampage | Summon / DPS | — | Summons brute (10 sec, 128% per hit) | 30% Lucky Hit; 5% chance Eviscerate (2560%); Vanguard Shard variant: 123% per swipe |
-| Command Fallen | Summon / DPS | — | Summons Mega Lunatic (136%) → 3 Mini Lunatics (40% each) | Mega Lunatic variant |
-| Wall of Agony | Defensive / zone | — | Summons 5 frenzied demons (8 sec) | Demons block and deal 30% damage per hit |
-| Tyrant's Grasp | Crowd control | Pull | — | 100% damage; 15% Lucky Hit; pulls enemies away from Warlock |
-| Fiend of Abbadon | Ultimate / DPS | — | Summons fiend (15 sec, 250% per swipe) | 60-sec cooldown; 22% Lucky Hit |
-| Terror Swarm | Ultimate / DPS | — | 500% initial + 100% per bite for 15 sec | 30-sec cooldown; 1% Lucky Hit |
-| Doom | Damage | — | (not covered in source) | Belongs to Warlock skill tree |
-| Bombardment | Damage | — | (not covered in source) | Belongs to Warlock skill tree |
-| Apocalypse | Damage | — | (not covered in source) | Belongs to Warlock skill tree |
+| Skill | Role | Notes |
+|---|---|---|
+| Dread Claws | Core — summon | Top endgame core; summons clawed shadow swarms; carries the #1 build |
+| Command Fallen | Minion / Core | Summons fallen minions; the pet-army layer |
+| Apocalypse | Core / Fire AoE | Big Fire AoE; the #2 build's engine |
+| Eviscerate / Hell Fracture | Core — archetype | Distinct endgame push builds |
+| Umbral Chains | CC / utility | Captures + damages; the setup button |
+| Dark Prison | CC / defense | Crowd control + Weaken / Fortify / Chain Aura |
+| Nether Step | Mobility / evade | The Warlock dash |
+| Rampage | Buff / killstreak | Killstreak damage ramp |
+| Profane Sentinel | Sentry / turret | Stationary DPS |
+| Sigil of Summons / Chaos / Subversion | Sigil category | Demonic sigils — persistent demonic damage conditions |
+| Metamorphosis | Ultimate — transformation | Transform into a Terror Demon |
+| Apocalypse (Annihilation) | Ultimate — Fire AoE | Screen-wide Fire detonation; the alternative ultimate pick |
 
 ## Key passives / class mechanic
-| Key Passive | Buffs (state/skill) | Effect | Best for |
-|---|---|---|---|
-| Soul Shards (class mechanic) | All — selects one Shard + one Fragment | Choose one of four Shards; each defines a distinct playstyle | All builds |
-| Legion Shard – Sacrificial Fragment | Lesser Demon summons / Unstoppable | Warlock is Unstoppable while active Lesser Demons exist; when CC'd, one Lesser Demon is sacrificed to prevent the effect | Summoner/horde builds |
-| Vanguard Shard – Warden Fragment | Demonform / Greater Demons | Lose 1 Dominance per second per Close Summoned Greater Demon while in Demonform, extending demon durations | Vanguard/Demonform builds |
-| Mastermind Shard | Shadowform | Cloaks Warlock in Shadowform; grants Unhindered, movement grants Stealth (consumes 1 stack per activation, max 10 stacks) | Stealth/CC builds |
-| Ritualist Shard | (not covered in source) | (not covered in source) | (not covered in source) |
+**Soul Shards (class mechanic):** the Warlock's signature mechanic — a stacking resource/State the class generates and consumes to empower its demonic skills and transformation. Exact generation/spend rules are build-specific; confirm the active interaction with `graph_build` or a live lookup.
 
-## Aspects (legendary)
-| Aspect | Slot | Buffs (skill/state) | Effect | When to drop it |
-|---|---|---|---|---|
-| Aspect of Dominance | (not covered in source) | Dominance / Demonform | Buffs Warlock Dominance/Demonform interactions | When Dominance uptime is irrelevant to build |
-| Aspect of Exorcism | (not covered in source) | (not covered in source) | (not covered in source) | (not covered in source) |
-| Aspect of Heavenly Strength | (not covered in source) | (not covered in source) | (not covered in source) | (not covered in source) |
-| Warlock-X2 | (not covered in source) | (not covered in source) | (not covered in source) | (not covered in source) |
+**Sigils (signature skill category):** a family of demonic sigil skills. Treat them like Necromancer Curses or Sorcerer Conjurations — persistent demonic effects that buff the build's damage condition.
 
-## Uniques worth chasing
-| Unique | Slot | Buffs | Why | GA priority |
-|---|---|---|---|---|
-| Tortured Wretch (Punishing Bag variant) | (not covered in source) | Warlock Max Life / demon summon | Redirects up to 100% of Max Life damage to demon; on demon death deals 500% damage and Fortifies for 15% of absorbed damage | High — defensive and offensive payoff |
+**Key passive / archetype:** the Warlock's endgame builds organize around four archetypes — **Dread Claws** (summon/DoT bruiser), **Apocalypse** (Fire-AoE nuker), **Eviscerate**, and **Hell Fracture** (Fire) — and each selects the key passive that matches its damage condition. Pull the exact key passive for a given build with `graph_build("<build-name>")` rather than guessing.
 
-## Tempering manuals
-- Weapon: (not covered in source)
-- Armor: (not covered in source)
+> **Loadout = live data.** This build's exact gear (with variants), paragon boards, charms/seal, glyphs, and effect text come from the knowledge graph — the coach pulls them with `graph_build("dread-claws")` + `lookup_*` at runtime and presents the variants. The notes here are coaching judgment, not a loadout list.
 
-## Masterworking crit picks
-1. (not covered in source)
+## Stat and scaling priority (prose)
+Intelligence is the primary offensive attribute for nearly every Warlock build — prioritize it on gear upgrades across the board. Skill-damage tempers (Core or Shadow/Fire depending on archetype) are the dominant additive layer. Cooldown Reduction matters for Metamorphosis and Sigil uptime. Defensively, Max Life and total armor are the main levers, with resist capping as a floor requirement. Willpower and Overpower are generally wasted on this class — skip both unless a specific build variant explicitly calls for them.
 
-## Paragon priority
-- Starting board: Prioritize nodes along the core spine (X9–X13, Y4–Y14) connecting to Intelligence/damage clusters; branch to X8-Y5, X14-Y6/Y7 for secondary stats. Referenced boards include Starting Board, Pyrosis, Ritualism, Dominion, Greater Hex, Chaos, and Demonic Spicules.
-- Glyph order to L15: Pyrosis board and Ritualism board glyphs appear in both major endgame builds (Apocalypse and Dread Claws); socket Pyrosis and Ritualism glyphs first, then Dominion, then Greater Hex.
+For tempering: match the damage tag to your archetype. Summon/minion bonuses matter for Dread Claws and Command Fallen builds; Fire damage matters for Apocalypse and Hell Fracture. Consult `lookup_aspect` for exact roll ranges before committing to a tempering line.
+
+## Masterworking priority (prose)
+Prioritize your primary skill-damage type first (Core, Shadow, or Fire), then Critical Strike Damage or Vulnerable Damage as a second pick, then Intelligence or Cooldown Reduction. The exact item to masterwork first should be determined by which slot provides the largest per-tier damage gain — use `compute_dps` or `bucket_compare` to quantify before spending materials.
+
+## Mercenary pairing
+- **Hire:** Raheir — taunt + Fortify + armor; smooths the Warlock's frame while the pets/Sigils ramp up.
+- **Reinforce:** Subo — pull + Vulnerable groups packs for Dread Claws / Apocalypse AoE and feeds the Vulnerable damage bucket.
+
+## Season 13 Charms + Seal
+Warlock fills 6 Charm slots and 1 Seal slot with seasonal items. The Charm and Seal assignments are the season's defining multiplier layer for this class — missing or unoptimized charm slots is a common reason endgame damage plateaus. For the exact charm names and seal for each build, call `graph_build("dread-claws")` (or the relevant build slug). See `references/systems/seasonal-charms.md` for the charm system mechanics.
 
 ## Common mistakes
-- Skipping Metamorphosis uptime — Demonform's damage stack (up to 100% increased Demonology Skill damage) requires staying transformed as long as possible.
-- Investing in Dexterity — it provides only minor Critical Strike Chance and Dodge Chance bonuses and is the least valuable core stat for the Warlock.
-- Selecting an Ultimate and forgetting the class only allows **one** Ultimate Skill equipped at a time; swap situationally between Fiend of Abbadon and Terror Swarm depending on content.
-- Ignoring Shadowform stack management on Mastermind Shard — each movement consumes a stack (max 10), so burning stacks carelessly removes Stealth access.
-- Running Legion Shard without maintaining active Lesser Demons — losing all demons removes the Unstoppable buff entirely, leaving the Warlock vulnerable to crowd control.
+- Running a Dread Claws / Command Fallen pet build without the summons on the bar — the pets are the damage and won't carry passively.
+- Stacking the wrong attribute — Intelligence is the offensive attribute for nearly every Warlock build; Overpower/Willpower is wasted.
+- Ignoring the Soul Shards mechanic — it's the class's signature multiplier layer; build around generating and spending it.
+- Forgetting only one Ultimate (Metamorphosis or Apocalypse) and one key passive can be equipped at a time.
+- Wasting Nether Step charges for damage instead of holding one as a CC-escape.
+- Mismatching the build's key passive/damage type (Dread Claws = Shadow/summon, Apocalypse & Hell Fracture = Fire) — pull the exact key passive with `graph_build` rather than guessing.
+- Leaving the Season 13 Charm/Seal slots empty or unoptimized.

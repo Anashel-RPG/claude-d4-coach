@@ -1,79 +1,58 @@
 # Sorcerer
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-25 · Source: https://maxroll.gg/d4/resources/sorcerer-class-overview
+> Season: 13 · Patch: 2.4 · Last refreshed: 2026-05-29 · Coaching synthesis over d4-mcp graph data
 
 ## Core identity
-Sorcerer is a ranged elemental caster dealing Cold, Fire, and Lightning damage with screen-wide AoE, strong crowd control, and high mobility. The class is Mana-dependent and fragile in melee, trading survivability for burst output and on-the-move DPS.
+Ranged elemental caster channeling Cold, Lightning, and Fire for AoE and crowd control. Resource is Mana; Enchantment Slots passively extend skill effects without using bar space. Squishy by default — survival comes from Barriers (Ice Armor / Flame Shield), Teleport, and damage-reduction passives, so uptime and positioning gate the high ceiling.
 
 ## Damage scaling buckets
-- **Multiplicative sources:** Intelligence (12.5% Skill Damage per 100 pts); Enchantment slot passive bonuses; Key Passive multipliers (e.g., Combustion, Esu's Ferocity, Vyr's Mastery)
-- **Additive sources:** Willpower (25% Overpower Damage per 100 pts); Dexterity (2% Critical Strike Chance per 100 pts); Strength (+200 Armor per 100 pts — defensive only)
-- **Critical / Vulnerable / Overpower hooks:** Dexterity feeds Crit Chance; Willpower feeds Overpower Damage; Esu's Ferocity key passive interacts with Crit; Meteor-Overpower and Hydra-Overpower skill upgrades; Aspect of Burning affects Overpower (usable by Sorcerer)
+- **Multiplicative sources:** Key Passives (element-matched); legendary aspects that multiply a specific skill or mechanic; resource-spend ring effects; stacking elemental-rotation bonuses. Critical and Vulnerable are their own separate buckets.
+- **Additive sources:** Intelligence (skill damage), skill-damage tempers matched to your element, additive paragon rares, passive bonuses tied to your element or trigger condition.
+- **Critical / Vulnerable / Overpower hooks:** Dexterity → Crit Chance; certain skill upgrades (e.g. Weaken) apply Vulnerable; Cold builds chain Frozen into Shatter; Lightning builds stack Crackling Energy with crit; Overpower is niche and generally skipped.
 
 ## Skill tree priorities
-| Skill | Role | Applies | Generates / Consumes | Notes |
-|---|---|---|---|---|
-| Spark | Basic / Mana gen | — | Generates Mana | Entry-level Lightning basic skill |
-| Charged Bolts | Core damage | — | Consumes Mana | Upgrade: Weaken, Cast Speed |
-| Chain Lightning | Core damage | — | Consumes Mana | Upgrades: Crit Chance, Additional Chains, Chain of Cold |
-| Ball Lightning | Core damage | — | Consumes Mana | Upgrades: Orbital, Ferocity |
-| Blizzard | AoE / Chill | 9% Chill per tick (2 ticks/sec) | Consumes Mana | Upgrades: Static Field, Damage Bonus, Seek & Duration |
-| Firewall | DoT / Fire | — | Consumes Mana | Core fire damage layer |
-| Meteor | Burst / Fire | — | Consumes Mana | Upgrades: Overpower, Shooting Star |
-| Hydra | Summon / Fire | — | Consumes Mana | Upgrades: CDR, Frigid Hydra, Overpower |
-| Familiar | Summon / utility | — | — | Upgrades: Prismatic, Healing Flames, Duration, Charge |
-| Teleport | Mobility / defensive | — | — | Traverses cliffs and walls; Upgrades: Wormhole, Weaken, Crackling Energy, Blaze |
-| Ice Armor | Defensive barrier | — | — | Upgrades: CDR, Permafrost, Duration & Barrier bonus |
-| Lightning Spear | Damage / Lightning | — | Consumes Mana | Upgrades: Projectile Speed, Reverse Polarity |
-| Unstable Currents | Ultimate / Lightning | — | — | Upgrades: CDR, Boundless, Damage Bonus |
+| Skill | Role | Notes |
+|---|---|---|
+| Charged Bolts | Core — Lightning | Top S13 engine with pierce/seek aspects; pairs with Ball Lightning |
+| Frozen Orb | Core — Cold | Iconic clear; auto-casts from Frost Nova via a key amulet unique |
+| Chain Lightning | Core — Lightning | Bouncing AoE, high Lucky Hit; amplified by split/Crackling aspects |
+| Ice Shards | Core — Cold | Enchantment fires at Frozen enemies; single-target heavy |
+| Fireball / Incinerate | Core — Fire | Fireball = burst AoE, Incinerate = channeled DoT (Conflagration variant) |
+| Ball Lightning | Mastery — Lightning | Orbital DPS; the damage core of the top Lightning build |
+| Blizzard | Mastery — Cold | Static Field / damage-bonus upgrades; great pack control |
+| Firewall / Meteor | Mastery — Fire | Firewall DoT (snapshot-aware), Meteor for Overpower variants |
+| Teleport | Mobility / Defense | Universal; Enchantment grants free repositioning |
+| Frost Nova | CC / Vulnerable | Mystical = Vulnerable; the Cold-build setup button |
+| Flame Shield / Ice Armor | Defense / Barrier | Mid-action survival; Barriers refresh (do not stack) |
+| Hydra / Lightning Spear / Familiar | Conjuration | Summon DPS layer; Familiar is a strong S13 Lightning pet |
+| Unstable Currents / Deep Freeze / Inferno | Ultimate | One pick; Unstable Currents for Lightning, Deep Freeze for Cold |
 
 ## Key passives / class mechanic
-| Key Passive | Buffs (state/skill) | Effect | Best for |
-|---|---|---|---|
-| Avalanche | Cold skills | (not covered in source) | Cold / Frozen-Orb builds |
-| Shatter | Frozen enemies | (not covered in source) | Freeze-burst builds |
-| Combustion | Burning state / Fire skills | (not covered in source) | Fire / Firewall / Incinerate builds |
-| Esu's Ferocity | Crit synergy | (not covered in source) | Crit-focused builds |
-| Overflowing Energy | Crackling Energy / Mana | (not covered in source) | Lightning / Ball Lightning builds |
-| Vyr's Mastery | Close-range Lightning | (not covered in source) | Shockwave / melee-range Lightning |
-| Enlightenment | Attack Speed (capped by Cap 1: gear, paragon, elixir) | Attack Speed bonus; capped by gear/paragon/elixir cap | Attack-speed-scaling builds |
+**Key Passives (choose one):** Avalanche (Cold), Shatter (Frozen explode on death), Combustion (Fire), Esu's Ferocity (Fire/Cold), Overflowing Energy (Lightning/Mana), Vyr's Mastery (Lightning melee), Enlightenment (attack speed + additive).
 
-**Class mechanic — Enchantment Slots:**
-- Slot 1 unlocks at level 15 (triggers Priority Quest "Legacy of the Magi")
-- Slot 2 unlocks at level 30
-- Any skill placed in a slot grants a passive effect; the same skill can be on the action bar and in a slot simultaneously
-- Slots can be swapped at any time
+The most important coaching call here is element-matching: Lightning builds want Overflowing Energy or Vyr's Mastery; Cold builds want Avalanche or Shatter; Fire builds want Combustion or Esu's Ferocity. Mismatching the Key Passive to your element is a common reason a build underperforms — verify this first when a player reports low damage.
 
-## Aspects (legendary)
-| Aspect | Slot | Buffs (skill/state) | Effect | When to drop it |
-|---|---|---|---|---|
-| Aspect of Dominance | Sorcerer-only | (not covered in source) | (not covered in source) | (not covered in source) |
-| Aspect of Exorcism | Sorcerer-only | (not covered in source) | (not covered in source) | (not covered in source) |
-| Aspect of Heavenly Strength | Sorcerer-only | (not covered in source) | (not covered in source) | (not covered in source) |
-| Aspect of Burning | Sorcerer / Barbarian | Overpower | Affects Overpower damage | When Overpower is not part of the build |
-| Aspect of Cold (X2) | Sorcerer / Rogue / Necromancer | Cold skills | (effect not covered in source) | When off-element |
+**Enchantment Slots (class mechanic):**
+- Slot 1 unlocks around mid-teens leveling, slot 2 shortly after.
+- Any skill with at least one point can be enchanted; a skill can be on the bar AND in an Enchantment Slot simultaneously. Enhancement and Upgrade choices carry into the slot's passive proc — review them whenever you swap a skill in or out. Ultimates cannot be enchanted. Swap freely anytime outside combat.
 
-## Uniques worth chasing
-| Unique | Slot | Buffs | Why | GA priority |
-|---|---|---|---|---|
-| (not covered in source) | — | — | — | — |
+**Season 13 Charms + Seal:** Sorcerer fills 6 Charm slots and 1 Seal slot with seasonal items. These are the season's defining multiplier layer; missing or unoptimized charms is the most common reason endgame damage stalls. For exact charm/seal assignments for a specific build, the coach pulls them from the knowledge graph at runtime. (See `references/systems/seasonal-charms.md` for the system.)
 
-## Tempering manuals
-- Weapon: (not covered in source)
-- Armor: (not covered in source)
+> **Loadout = live data.** This build's exact gear (with variants), paragon boards, charms/seal, glyphs, and effect text come from the knowledge graph — the coach pulls them with `graph_build("ball-lightning")` + `lookup_*` at runtime and presents the variants. The notes here are coaching judgment, not a loadout list.
 
-## Masterworking crit picks
-1. (not covered in source)
+## Tempering and masterworking guidance (prose)
+Tempering on weapons prioritizes skill damage matched to your element (Lightning, Cold, or Fire) plus Mana-cost reduction or Lucky Hit depending on your build's trigger economy. Armor tempering focuses on survivability — Max Life, Barrier generation, total armor — before offensive secondaries.
 
-## Paragon priority
-- **Starting board:** Path through Intelligence/damage nodes toward board connectors; Shockuna build routes heavily through X13 column (Y14→Y7) and X12 column for stat density, then branches toward X9–X10 for additional nodes.
-- **Secondary boards (Shockuna — Mekuna's Static Field build):** Static Surge → Enchantment Master → Frigid Fate → Ceaseless Conduit
-- **Glyph order to L15:** (specific glyph leveling order not covered in source — prioritize glyphs socketed in the boards listed above)
+Masterworking crit picks follow a consistent priority: first, the stat that most directly multiplies your primary damage type (usually a skill-damage or element-specific mod); second, Critical Strike Damage or Vulnerable Damage; third, a utility stat like Cooldown Reduction if Ultimate uptime is a bottleneck. Verify the exact slots against `graph_build` output for the specific build.
+
+## Mercenary pairing
+- Hire: **Raheir** — taunt, Fortify, and armor smooths the Sorcerer's thin effective HP.
+- Reinforce: **Subo** — pull and Vulnerable procs group packs for AoE and feed the Vulnerable bucket.
 
 ## Common mistakes
-- Equipping a Staff instead of 1H weapon + Focus: loses one Legendary Aspect slot and the Focus's Cooldown Reduction implicit
-- Ignoring Intelligence: it is the primary damage-multiplying stat (12.5% Skill Damage per 100 pts) and also grants +40 All Resistances per 100 pts
-- Hitting Attack Speed cap on Enlightenment without checking the gear/paragon/elixir combined cap (Cap 1)
-- Skipping Teleport upgrades: Teleport can traverse cliffs and walls, making it significantly stronger than basic use suggests
-- Running out of Mana mid-fight: Sorcerer is entirely Mana-dependent with no alternative resource fallback — Willpower's 3% Resource Generation per 100 pts is undervalued
-- Swapping Enchantment Slot choices carelessly: while slots can be swapped freely, doing so mid-build without rechecking passive interactions breaks damage assumptions
+- Spamming Core skills with no Mana plan (Basic skill, aspect support, or Enchantment sustain) and bottoming out.
+- Ignoring Enchantment Enhancement/Upgrade choices — they carry through and change the passive effect significantly.
+- Taking a Staff for stats while losing the Offhand's extra Aspect slot and cooldown-reduction bonus.
+- Assuming Barriers stack — extra casts only refresh duration, not magnitude.
+- Leaving Season 13 Charm/Seal slots empty or unoptimized — the missing multiplier when damage stalls.
+- Mismatching Key Passive to element.

@@ -1,89 +1,60 @@
 # Tempering
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-25 · Source: https://maxroll.gg/d4/resources/tempering-guide
+> Season: 13 · Patch: 2.4 · Last refreshed: 2026-05-29 · Coaching synthesis over d4-mcp graph data
 
 ## What it is
-
-Tempering adds **one extra deterministic affix** to a Rare, Legendary, Unique, or Mythic Unique item. Performed at the **Blacksmith**, it lets you pick the affix category in advance — only the rolled value is random. Introduced in its current single-affix form as of Season 11 (December 9, 2025) and unchanged through Season 13 Patch 2.4.1.
-
----
+A crafting system that adds one extra deterministic affix to Rare, Legendary, Unique, and Mythic Unique equipment via learned Tempering Recipes. Accessed at the Blacksmith.
 
 ## Mechanics
-1. Take a piece of equipment to the Blacksmith.
-2. Select a learned **Tempering Recipe** from the appropriate category for that slot.
-3. Supply the required materials (type and quantity scale with Item Power).
-4. The affix is applied with a random value; you receive **3 reroll charges** by default.
-5. Each reroll costs materials and randomizes the value again — **previous roll is not retained**.
-6. Rerolling can also upgrade the affix into a **Greater Affix** (grants a +50% bonus to that affix).
-7. Once all charges are spent, a **Scroll of Restoration** resets them for additional attempts.
-
----
+1. Find a Tempering Manual (drops from most content) to permanently learn its Recipe.
+2. Each Recipe contains 3–5 possible Tempering Affixes; the affix type is chosen in advance, only its value is random.
+3. Apply one Tempering Affix to an eligible item at the Blacksmith by supplying materials.
+4. Items have 3 base Tempering charges; each Greater Affix (GA) on the item adds 1 additional charge (max 7 with four GAs).
+5. Reroll the affix value using a charge; each reroll has a small chance to make the affix a Greater Affix (+50% bonus).
+6. Rerolling does not preserve the previous result — a worse value is possible.
+7. Spend all charges, then use a Scroll of Restoration to reset charges for more attempts.
+8. Tempering Manuals and their affixes are class-bound; cross-class tempering renders the affix inactive on other classes.
 
 ## Costs / requirements
 
-**Material by item type (Ancestral Legendary cost = 25 units + 25 Forgotten Souls):**
+| Item type | Material 1 (qty) | Material 2 (qty) |
+|---|---|---|
+| Ancestral Legendary Armor | Coiling Wards ×25 | Forgotten Soul ×25 |
+| Ancestral Legendary Jewelry | Abstruse Sigils ×25 | Forgotten Soul ×25 |
+| Ancestral Legendary Weapon/Off-hand | Baleful Fragments ×25 | Forgotten Soul ×25 |
 
-| Item Type | Material |
-|---|---|
-| Weapons / Off-hand | Abstruse Sigils |
-| Armor | Baleful Fragments |
-| Jewelry (Amulets / Rings) | Coiling Wards |
-
-- Cost scales with **Item Power** — higher IP = more materials required.
-- Cost is identical across equipment types of the same Item Power; only the material type differs.
-- A learned **Tempering Recipe** (from a Tempering Manual) is required before you can apply that affix category.
-
----
+Cost scales with Item Power; exact material type depends on equipment category (Armor / Jewelry / Weapon).
 
 ## Recipes / breakpoints / interactions
 
-**Six recipe categories and their valid slots:**
-
-| Category | Valid Slots |
+| Equipment slot | Compatible recipe categories |
 |---|---|
-| Weapons | Weapon, Off-hand |
-| Offensive | Weapon, Off-hand, Amulet, Ring, Gloves |
-| Defensive | Helm, Chest Armor, Pants, Amulet, Shield |
-| Utility | Helm, Chest Armor, Gloves, Pants, Boots, Amulet, Shield |
-| Mobility | Boots, Amulet |
-| Resource | Ring, Amulet |
+| Helm | Defensive, Utility |
+| Chest | Defensive, Utility |
+| Gloves | Offensive, Utility |
+| Pants | Defensive, Utility |
+| Boots | Mobility, Utility |
+| Amulet | Defensive, Utility, Offensive, Mobility, Resource |
+| Ring | Offensive, Resource |
+| Weapon | Offensive, Weapon |
+| Off-hand | Offensive, Weapon |
+| Shield | Defensive, Utility |
 
-**Tempering Manual drops (recipes are learned permanently on use):**
+**Manual quality by difficulty:**
+- Standard Difficulties → Magic quality Manuals
+- Torment Difficulties → Rare and Legendary quality Manuals
 
-| Manual Quality | Where It Drops |
-|---|---|
-| Magic | Standard Difficulties |
-| Rare | Torment Difficulties |
-| Legendary | Torment Difficulties |
-
-- Manuals drop from: **Helltide**, **World Bosses**, **Nightmare Dungeons**, **Pit of Artificers**, and general world drops.
-
-**Greater Affix interaction:**
-
-- Tempering affixes have a small chance to roll as a Greater Affix (+50% bonus).
-- Each existing Greater Affix on the item grants **+1 Tempering reroll charge** beyond the base 3.
-
-**Scroll of Restoration:**
-
-- Resets all spent Tempering charges on an item.
-- Obtainable from: **Dark Citadel**, **Infernal Hordes** (run completion), **World Bosses**.
-
----
+**Scroll of Restoration sources:** Dark Citadel, end of Infernal Hordes, World Bosses. Can only be used when all charges are spent.
 
 ## Strategy
-1. **Learn your recipes before farming gear** — identify which Manual categories your build needs and target Helltides or World Bosses for fast Manual acquisition.
-2. **Hold charges for high-value bases** — don't waste rerolls on items you'll replace; save Scrolls of Restoration for BiS pieces.
-3. **Target Greater Affix bases first** — each Greater Affix on the item gives +1 reroll charge, giving more attempts to hit the desired value.
-4. **Rings and Amulets offer the most flexibility** — Amulets accept five categories (Offensive, Defensive, Utility, Mobility, Resource); Rings accept two (Offensive, Resource).
-5. **Stock Forgotten Souls before Ancestral pushes** — Ancestral Legendary tempering costs 25 Forgotten Souls per attempt on top of the primary material.
-6. **Use Scrolls of Restoration on Pit-level gear only** — they are limited; don't spend them on pre-Torment items.
-
----
+1. Prioritize finding Rare and Legendary Tempering Manuals in Torment difficulty content for the best recipe pools.
+2. Identify which recipe category applies to your target slot before tempering.
+3. Temper high GA-count items first — more GAs means more reroll charges available.
+4. Stop rerolling when you have an acceptable value unless you have Scrolls of Restoration to recover charges.
+5. Reserve Scrolls of Restoration for BiS items where a Greater Affix on the temper is impactful.
 
 ## Pitfalls
-- **Rerolls are destructive** — a good value is permanently overwritten the moment you reroll. Stop when you hit an acceptable roll.
-- **Wrong category selected** — applying a recipe from the wrong category is irreversible; double-check slot compatibility before confirming.
-- **Charges are finite** — base 3 charges per item; once gone you need a Scroll of Restoration or the item is locked.
-- **Material mismatch** — Baleful Fragments, Coiling Wards, and Abstruse Sigils are not interchangeable; stocking the wrong type wastes farming time.
-- **Manual quality matters** — Magic-quality Manuals (Standard difficulty drops) may offer fewer or lower-tier affix options than Legendary-quality Manuals from Torment.
-- **Tempering is not free on Ancestral items** — the Forgotten Soul cost (25 per attempt) adds up quickly if you are chasing a Greater Affix roll.
+- Rerolling a good affix value risks losing it; there is no undo.
+- Using a Scroll of Restoration is only possible after all charges are exhausted, not mid-use.
+- Cross-class tempering is possible but the affix becomes inactive when playing the wrong class — avoid this.
+- Magic quality Manuals (Standard difficulty) have a smaller recipe pool than Rare/Legendary quality Manuals.

@@ -1,65 +1,45 @@
 # Pit Pushing
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-25 · Source: https://maxroll.gg/d4/resources/pit-guide
+> Season: 13 · Patch: 2.4 · Last refreshed: 2026-05-29 · Coaching synthesis over d4-mcp graph data
 
 ## Goal
-
-Push the highest Pit tier possible to maximize Glyph upgrade success rates, unlock new tiers, and level Glyphs to 150 for their Legendary affixes.
-
----
+Clear enough monsters within 15 minutes to spawn and kill a final boss, earning glyph upgrades and unlocking higher tiers.
 
 ## Unlock / access
-
-| Realm | Condition |
-|---|---|
-| Seasonal | Complete Capstone Dungeon **Hellish Descent** at Season Rank II |
-| Eternal | Reach **level 70** |
-
-- Entrance: interact with the obelisk in **Cerrigar, Scosglen**
-- No materials required to enter (as of Season 11 / December 2025)
-- Introduced in patch **1.4.0** (Season 4)
-
----
+- **Seasonal:** Complete Capstone Dungeon "Hellish Descent" (Season Rank II reward)
+- **Eternal:** Reach level 70
+- Interact with the obelisk in Cerrigar/Temis to enter
 
 ## Rewards
-| Tier | Drops | Notes |
-|---|---|---|
-| Any (clear) | 4 Glyph upgrade attempts | Base reward for defeating boss before timer expires |
-| Any (no death) | +1 bonus Glyph upgrade attempt | Awarded for deathless clear |
-| Any (via War Plans) | Up to +4 additional Glyph upgrade attempts | Unlocked through Pit Skill Tree nodes |
-| Any (end of run) | Glyphs not yet obtained elsewhere | Can drop after completing the run |
-| Higher tiers | Additional tier unlocks | Extra tiers granted based on time remaining when boss dies |
+| Outcome | Reward |
+|---|---|
+| Boss killed before timer | 4 glyph upgrade attempts |
+| No deaths during run | +1 glyph upgrade attempt |
+| War Plans Pit Skill Tree nodes | Up to +4 glyph upgrade attempts |
+| Pit level > glyph level by 20+ | Guaranteed additional glyph level |
+| Boss killed | Next tier(s) unlocked (more unlocks = more time remaining) |
+| End of run | Undiscovered glyphs can drop |
 
----
+**Glyph cap:** Level 150. Radius increases at fixed level breakpoints — see `references/systems/paragon-glyphs.md` for the exact radius breakpoints (single source of truth). Legendary upgrade at level 51 (new affix unlocked).
 
 ## DPS / EHP checkpoints
-
-- **Timer:** 15 minutes to kill enough monsters and summon the final boss; boss must also die before expiry
-- **Glyph upgrade odds** increase as the gap between Pit tier and Glyph level grows
-- **Guaranteed extra Glyph level:** Pit tier − Glyph level **> 20** → guaranteed additional upgrade on top of normal odds
-- **Glyph max level:** 150 (Legendary affix unlocks at level 51; radius increases at levels 25 and 50)
-- **Tier scaling:** difficulty scales up to **Tier 150**
-- Gear prep: fully Temper and Masterwork all gear slots; socket best available Gems before entering
-
----
+The Pit has no published per-tier DPS/EHP numbers — clear speed is the real gate. You need enough damage to fill the progression bar and kill the boss inside 15 minutes, and enough survivability to avoid deaths (each death forfeits the no-death glyph bonus). To pressure-test a build before pushing a tier:
+- `compute_dps` to estimate damage; `bucket_compare` to find which upgrade adds the most effective damage (empty buckets win).
+- `armor_breakpoint` to confirm your armor target, and hold the resistance / defensive caps in `references/stat-priorities.md`.
+- Rule of thumb: if you comfortably clear a Pit tier ~10 levels below your glyph level you have headroom to push; if you die or time out, fix the limiting bucket (damage vs. EHP) before going higher.
 
 ## Strategy by tier
-
-1. **Early glyph leveling (low tiers):** Run the lowest tier you can one-shot for fast clears; Glyphs at level 1 benefit most from a large tier gap (>20) for guaranteed extra levels.
-2. **Prioritise Elites:** Elite monsters contribute the most progress toward summoning the boss — skip white trash when time is tight.
-3. **Floor routing:** Five finite floors connected by portals; layout and monsters are randomised each run — adapt pathing on the fly.
-4. **Mid progression:** Once key Glyphs approach level 25 or 50 (radius breakpoints), push high enough to keep the tier gap positive.
-5. **Approaching level 51:** Target a Pit tier at least 20 above a Glyph's current level to guarantee the level-up that crosses into Legendary affix territory.
-6. **Late pushing:** At high Glyph levels the tier gap narrows; push tier as high as survivability allows to maintain upgrade odds.
-7. **Deathless runs:** Avoid dying — a clean clear adds 1 free upgrade attempt on top of the base 4.
-8. **War Plans investment:** Spend War Plans on Pit Skill Tree nodes for up to 4 extra upgrade attempts per run; prioritise early.
-9. **Tier unlock farming:** Kill the boss with time to spare — more time remaining = more tiers unlocked simultaneously.
-
----
+1. Unlock Pit by completing Hellish Descent Capstone dungeon.
+2. Fully temper and masterwork all gear; socket best gems before entering.
+3. Navigate five randomized floors connected by portals; prioritize Elite monsters for maximum progression bar fill.
+4. Kill small monsters in transit to avoid backtracking.
+5. Fill progression bar before timer expires to spawn the boss.
+6. Kill the boss before the 15-minute timer expires.
+7. Use lower tiers to level fresh glyphs quickly; use higher tiers for better upgrade odds and rewards.
 
 ## Boss mechanics (if applicable)
 | Phase | Mechanic | Counter |
 |---|---|---|
-| Summon | Boss spawns after enough monsters (prioritising Elites) are slain within the 15-min timer | Focus Elites first; do not let timer expire before summon |
-| Fight | Boss is randomised from the same pool used in **The Tower** | Familiarity with Tower boss patterns directly transfers |
-| Enrage / fail state | Timer expires before boss is killed — run fails, no rewards | Maintain kill pace; sacrifice optional exploration if timer is low |
+| Boss spawn | Triggered after progression bar filled | Ensure bar filled with sufficient time remaining |
+| Boss pool | Randomized from same list as The Tower; variable HP and mechanics per boss | Learn each boss's attack patterns; dodge abilities on cooldown-aware timing |
+| General | Some bosses have significantly more HP or disruptive mechanics | Identify which bosses suit your build; adjust pacing accordingly |

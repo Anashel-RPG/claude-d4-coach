@@ -1,8 +1,11 @@
 {
   "mcpServers": {
-    "d4-calc": {
+    "d4-mcp": {
       "type": "http",
-      "url": "https://mcp-d4.anashel.com/"
+      "url": "https://mcp-d4.anashel.com/mcp",
+      "headers": {
+        "X-D4-Public-Key": "d4_public_c41da3e1e0e34957c9ded36315af0ffc"
+      }
     }
   }
 }

@@ -1,73 +1,78 @@
 # Necromancer
 
-> Season: 13 · Patch: 2.4.1 · Last refreshed: 2026-05-25 · Source: https://maxroll.gg/d4/resources/necromancer-class-overview
+> Season: 13 · Patch: 2.4 · Last refreshed: 2026-05-29 · Coaching synthesis over d4-mcp graph data
 
 ## Core identity
-The Necromancer is a master of death magic who deals damage through Shadow, Blood, Bone, Corpses, and Curses while commanding customizable undead minions via the Book of the Dead. The class rewards layered play — managing corpse generation, minion sacrifices, and multiple damage types simultaneously — but punishes poor setup and corpse starvation.
+Commands a minion army (Skeletal Warriors, Mages, Golem) or sacrifices it for self-buffs, dealing damage through Blood, Bone, Shadow, Corpses, and Curses. Corpse generation/consumption is the central loop alongside Essence. Builds split into Blood (Overpower/sustain), Bone (Crit/Essence), Shadow (DoT/Shadowblight), and Summoner (minion/sacrifice) archetypes.
 
 ## Damage scaling buckets
-- **Multiplicative sources:** Intelligence (+12.5% Skill Damage per 100 pts); each skill rank (+10% of base value per rank); Book of the Dead sacrifice bonuses (damage variants); minion-type specialization buffs
-- **Additive sources:** Passive cluster ranks (Bone / Blood / Darkness — 12 ranks each); Corpse and Macabre cluster passives (Serration, Compound Fracture, Evulsion, Tides of Blood, Drain Vitality, etc.)
-- **Critical / Vulnerable / Overpower hooks:** Bone skills interact with Serration / Compound Fracture / Evulsion; Blood skills interact with Tides of Blood / Drain Vitality / Transfusion; Shadow/Darkness skills interact with Shadowblight key passive; Ossified Essence key passive scales with Essence stacks
+- **Multiplicative sources:** Legendary Aspects are the primary multipliers across all archetypes; Key Passives each define a separate multiplier layer; skill-type passives layer on top. Critical, Vulnerable, and Overpower are their own separate buckets.
+- **Additive sources:** Intelligence (skill damage — minions inherit a share), +skill ranks (large base bump per rank), archetype-specific damage tempers, additive paragon rares.
+- **Critical / Vulnerable / Overpower hooks:** Bone builds stack Crit (Ossified Essence + Compound Fracture); Blood builds stack Overpower (Tides of Blood + Rathma's Vigor); Shadow builds stack Shadowblight detonations. Vulnerable is applied by Decrepify, basic skills, and select Macabre skills.
 
 ## Skill tree priorities
-| Skill | Role | Applies | Generates / Consumes | Notes |
-|---|---|---|---|---|
-| Bone Splinters | Basic | — | Generates Essence | Basic skill; ramps Ossified Essence stacks |
-| Hemorrhage | Basic | — | Generates Essence / Blood Orbs | Blood Orb generation source |
-| Reap | Basic | — | Generates Essence | Shadow-flavored basic option |
-| Decompose | Basic | Corpse | Generates Essence | Creates corpses passively |
-| Blood Surge | Core | — | Consumes Essence | Featured in Omega-Blood-Surge (8141 favorites); pair with Blood Surge Enhanced + Paranormal |
-| Bone Spear | Core | — | Consumes Essence | Featured in Shadow-Bone-Spear; pair with Bone Spear Enhanced + Supernatural |
-| Blight | Core | Shadow DoT | Consumes Essence | Core to Shadowblight / Soulrift builds |
-| Blood Lance | Core | — | Consumes Essence | Blood damage option |
-| Sever | Core | Shadow | Consumes Essence | Shadow burst option |
-| Corpse Explosion (Enhanced / Blighted) | Macabre | Shadow AoE | Consumes Corpse | Must-have for most builds; Blighted variant adds shadow DoT |
-| Blood Mist | Defensive | — | — | Must-have survivability tool for any build |
-| Bone Prison | Macabre / CC | Immobilize | — | AoE crowd-control; Corpse and Macabre cluster |
-| Decrepify | Curse | Slow / Vulnerable | — | Utility curse; debuffs enemies |
-| Bone Storm | Ultimate | — | — | Bone damage ultimate; upgrade path: Prime → Supreme (two-step linear, no branching) |
-| Soulrift | Ultimate | Shadow | — | Featured in Ultimate-Shadowblight-Soulrift (2222 favorites) |
-| Imperfectly Balanced | Passive | — | — | Bone damage support passive |
-| Serration | Passive | — | — | Boosts Bone Crit; Corpse and Macabre cluster |
-| Compound Fracture | Passive | — | — | Bone damage scaling; Corpse and Macabre cluster |
-| Evulsion | Passive | — | — | Bone critical scaling; Corpse and Macabre cluster |
-| Tides of Blood | Passive | — | — | Blood overpower scaling; Corpse and Macabre cluster |
-| Drain Vitality | Passive | — | — | Fortify on Blood skill use; Corpse and Macabre cluster |
-| Stand Alone | Passive | — | — | Survivability when not running minions |
-| Memento Mori | Passive | — | — | Sacrifice synergy passive |
+| Skill | Role | Notes |
+|---|---|---|
+| Bone Splinters / Reap / Hemorrhage / Decompose | Basic — Essence + Corpse gen | Also apply Vulnerable; Decompose channels for Essence on Blood/Bone setups |
+| Blood Surge | Core — Blood AoE | Overpower + healing engine, scales with Tides of Blood |
+| Bone Spear | Core — Bone ST/AoE | Highest Crit-burst core; pairs with Ossified Essence |
+| Blight / Sever / Blood Lance | Core — alt | DoT, projectile, and lance variants for Shadow/Blood hybrids |
+| Corpse Explosion | Corpse — AoE nuke | Near-universal; Blighted or Plagued upgrade |
+| Blood Mist | Corpse — survival | Defensive staple; immunity + cleanse |
+| Corpse Tendrils | Macabre — CC | Best class CC; Blighted = Vulnerable |
+| Bone Spirit | Macabre — ST nuke | Strongest single-target burst option |
+| Decrepify / Iron Maiden | Corruption — Curses | Decrepify = DR + cooldown/Vulnerable support; damage amp |
+| Blood Wave / Bone Storm / Army of the Dead / Soulrift | Ultimate | One pick; Soulrift is top Blood/Shadow; Bone Storm for Bone |
 
 ## Key passives / class mechanic
-| Key Passive | Buffs (state/skill) | Effect | Best for |
-|---|---|---|---|
-| Ossified Essence | Bone skills | Bone skill damage scales with current Essence (exact scalar not in source) | Bone Spear builds focused on high Essence before spending |
-| Shadowblight | Shadow / Darkness skills | Enemies periodically take bonus Shadow damage when you deal Shadow damage; synergizes with Soulrift | Shadowblight-Soulrift, Blight, Sever builds |
-| Rathma's Vigor | Blood skills | Grants empowered bonus after maintaining full Life for a duration | Blood Surge / Blood Lance builds |
-| Kalan's Edict | Minion / summoner builds | Minions gain bonus Attack Speed when you haven't taken damage recently | Summoner / Army builds |
-| Affliction | Curse / DoT skills | Increases damage dealt to Cursed or Crowd-Controlled enemies | Decrepify + AoE Curse builds |
-| **Book of the Dead** (class mechanic) | Skeletal Warriors, Skeletal Mages, Golem | Specialize or sacrifice each minion type for stacking bonuses — sacrifice Mages for damage + resource management, sacrifice Golem for tankiness + DPS; Golem unlocked via class quest at level 25 | All builds; minion-free builds stack sacrifice bonuses |
+**Book of the Dead** — Necromancer-exclusive minion customization (unlocked ~L5):
+- **Skeletal Warriors:** 3 variants (DPS / Tank / heavy-damage); can sacrifice for an offensive bonus.
+- **Skeletal Mages:** 3 variants (Shadow / Cold-CC / heavy-damage); sacrifice for damage + resource bonuses.
+- **Golem:** 3 variants (ultra-tank / AoE damage / AoE CC), unlocked via the ~L25 class quest; sacrifice for tankiness or DPS.
+- Minions inherit a share of player stats. Raise Skeleton and Golem must be on the bar to summon. **Sacrifice builds** give up the army for a permanent multiplier — the aspect loadout changes significantly; confirm with `lookup_aspect` + `graph_build`.
 
-## Aspects (legendary)
-(not covered in source)
+**Key Passives (choose one per build):**
+- **Rathma's Vigor** — Blood enabler; Overpower + Fortify ramp. Backbone of Blood Surge builds.
+- **Shadowblight** — Shadow enabler; stacking shadow detonations.
+- **Ossified Essence** — Bone enabler; Crit/Essence-scaled Bone damage.
+- **Kalan's Edict** — minion/attack-speed enabler for summoner builds.
+- **Affliction** — curse/minion hybrid scaling.
 
-## Uniques worth chasing
-(not covered in source)
+The coaching principle: always confirm which key passive a build runs before evaluating gear choices — the key passive defines which damage buckets are available, and aspects that don't feed that bucket are dead weight.
 
-## Tempering manuals
-- Weapon: (not covered in source)
-- Armor: (not covered in source)
+> **Loadout = live data.** This build's exact gear (with variants), paragon boards, charms/seal, glyphs, and effect text come from the knowledge graph — the coach pulls them with `graph_build("full-minion-army")` + `lookup_*` at runtime and presents the variants. The notes here are coaching judgment, not a loadout list.
 
-## Masterworking crit picks
-(not covered in source)
+## Aspect / unique coaching judgment
+Exact slot assignments, effect text, and roll ranges come from the graph. The coaching judgment below is about *when* to prioritize each category — not about which slot it occupies.
 
-## Paragon priority
-- Starting board: Path through central Intelligence/damage nodes; all three top builds (Omega-Blood-Surge, Ultimate-Shadowblight-Soulrift, Shadow-Bone-Spear) route through the starting board — priority cluster around X9–X13 / Y7–Y14 nodes, with a shared exit at X11-Y2 / X12-Y2 to connect secondary boards
-- Glyph order to L15: Omega-Blood-Surge → Bloodbath board (exits starting board via bottom); Ultimate-Shadowblight-Soulrift → Scent of Death + Flesh Eater boards; Shadow-Bone-Spear → Bloodbath + Flesh Eater boards; specific glyph names and level-up order not detailed in source beyond board destinations
+- **Summoner builds** need aspects that either multiply minion damage or sustain the army's survivability. The amulet slot is the highest-value slot for summoner payoff aspects — prioritize filling it.
+- **Sacrifice builds** need a completely different aspect set and should not mix summoner and sacrifice aspects; the multiplier is lost if any minion is alive when a sacrifice aspect expects none.
+- **Blood builds** want aspects that feed the Overpower bucket and the Blood Orb sustain loop. Corpus Explosion stays relevant as a corpse spender even in Blood builds.
+- **Bone builds** want Crit-scaling aspects and aspects that convert Bone Spear into a repeating or echoing tool. Essence management is tighter here than in other archetypes.
+- **Shadow builds** stack Shadowblight detonation triggers and DoT overlap; area-coverage and grouping tools (Corpse Tendrils) are especially high value.
+
+For mythic uniques: confirm applicability to the specific build archetype before farming — a mythic slot that doesn't feed the build's primary damage bucket is a wasted opportunity. Use `lookup_item` to check effect text before committing.
+
+## Tempering and masterworking priorities (coaching frame)
+Tempering: match the damage tag to your archetype (Blood / Bone / Darkness). Don't temper for a tag your key passive and aspects don't feed — it's additive in a bucket you're not multiplying. Overpower tempers serve Blood; Crit tempers serve Bone; DoT tempers serve Shadow.
+
+Masterworking: prioritize the stat that sits at the intersection of your largest multiplicative bucket and the stat your key passive scales from. For summoner builds, minion damage stats critting on masterwork are the highest-ceiling rolls. Use `compute_dps` to validate before spending materials.
+
+## Paragon priority (coaching frame)
+Board order and glyph selection are build-specific and version-sensitive — confirm exact sequences with `graph_build`. The general frame:
+- Rush the primary damage legendary node on whichever board feeds your archetype first.
+- Level the glyph that amplifies your primary damage tag to 15 before branching.
+- Survival glyphs after offense is online, not before.
+- Summoner builds have a different board sequence than Blood/Bone/Shadow builds — do not cross-apply board advice between archetypes.
+
+## Mercenary pairing
+- **Hire:** Raheir — taunt + Fortify + armor uptime; smooths squishier setups, especially pre-endgame-gear.
+- **Reinforce:** Subo — pull + Vulnerable utility that stacks with Corpse Tendrils for grouping.
 
 ## Common mistakes
-- Skipping Blood Mist — the class is initially squishy and Blood Mist is a mandatory survivability button
-- Neglecting corpse generation — Corpse Explosion and corpse-consuming skills brick entirely without a reliable corpse supply; take Decompose or a corpse-generation passive early
-- Over-investing in the skill bar — Ability Bloat is a known weakness; trim to core damage skill + Corpse Explosion + Blood Mist + curse + Ultimate
-- Ignoring Book of the Dead sacrifice bonuses on non-summoner builds — sacrificing all three minion types provides significant passive bonuses that are often left unclaimed
-- Slow-rolling Intelligence investment — 100 Intelligence = 12.5% Skill Damage and +40 All Elemental Resistances; it directly addresses both DPS and the class's early squishiness
-- Choosing a Key Passive that mismatches the skill cluster — only one Key Passive is active at a time; confirm it matches Bone, Blood, or Shadow focus before locking the build
+- Neglecting Corpse generation — many skills and aspects need corpses on the ground to function. If Corpse Explosion isn't firing, the generation loop is broken.
+- Skipping Blood Mist — near-universal defensive requirement across all archetypes.
+- Running a minion build without Raise Skeleton and Golem on the bar (minions won't summon), or mixing sacrifice aspects with a living army (the multiplier requires no minions alive).
+- Not finishing the ~L25 class quest before trying to slot the Golem.
+- Mismatching the Key Passive to the skill type — Blood needs Rathma's Vigor, Bone needs Ossified Essence, Shadow needs Shadowblight. Running the wrong key passive is the single largest source of underperformance in this class.
+- Stacking additive damage tempers in a bucket with no multipliers (tempers should amplify an existing multiply chain, not exist in isolation).

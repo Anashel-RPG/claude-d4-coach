@@ -10,5 +10,6 @@ __pycache__/
 
 # Personal memory written by the skill during use
 .claude/skills/d4-endgame-coach/memory/character_main.md
+.claude/skills/d4-endgame-coach/memory/character_alts.md
 .claude/skills/d4-endgame-coach/memory/character_draft.md
 .claude/skills/d4-endgame-coach/memory/feedback_*.md
